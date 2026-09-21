@@ -111,6 +111,7 @@ ul.dishes li::before {
 .foot { margin-top: 2.5rem; font-size: .78rem; color: var(--muted); }
 .foot p { margin: .3rem 0; }
 .muted { color: var(--muted); }
+.warn-text { color: var(--warn); font-weight: 600; }
 
 @media (max-width: 560px) {
   .days button .full { display: none; }

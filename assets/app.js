@@ -95,13 +95,28 @@
     });
   }
 
+  const mondayOf = d => {
+    const x = new Date(d);
+    x.setHours(0, 0, 0, 0);
+    x.setDate(x.getDate() - ((x.getDay() + 6) % 7));
+    return x;
+  };
+
   function stamp(data) {
     const t = new Date(data.generatedAt);
-    const hrs = (Date.now() - t) / 36e5;
-    const when = t.toLocaleString("fi-FI", { weekday: "short", hour: "2-digit", minute: "2-digit" });
+    const when = t.toLocaleString("fi-FI", {
+      weekday: "short", day: "numeric", month: "numeric",
+      hour: "2-digit", minute: "2-digit",
+    });
     const p = document.getElementById("updated");
-    p.textContent = `Päivitetty ${when}.`;
-    if (hrs > 30) p.textContent += " Tiedot voivat olla vanhentuneita.";
+    p.textContent = `Listat muuttuivat viimeksi ${when}.`;
+
+    // Staleness is a question about the week, not the clock. Menus sit
+    // unchanged for days quite legitimately; what actually means trouble is
+    // a weekStart from a week that has already been and gone.
+    if (new Date(data.weekStart + "T00:00:00") < mondayOf(new Date())) {
+      p.appendChild(el("strong", "warn-text", " Tämä on edellisen viikon lista."));
+    }
   }
 
   async function init() {

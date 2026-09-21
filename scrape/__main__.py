@@ -13,6 +13,8 @@ import pathlib
 import sys
 import time
 
+from dataclasses import asdict
+
 from .core import Day, Result, dump, extract_week, fetch
 from .restaurants import RESTAURANTS
 
@@ -20,12 +22,12 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "menus.json"
 
 
-def load_previous() -> dict[str, dict]:
-    """Last run's menus, keyed by restaurant id, for fallback on failure."""
+def load_previous_payload() -> dict:
+    """Last run's menus.json, or {} if it is missing or unreadable."""
     try:
         with open(OUT, encoding="utf-8") as fh:
-            return {r["id"]: r for r in json.load(fh).get("restaurants", [])}
-    except (OSError, ValueError, KeyError):
+            return json.load(fh)
+    except (OSError, ValueError):
         return {}
 
 
@@ -60,7 +62,8 @@ def main(argv: list[str] | None = None) -> int:
             print(f"no restaurant matches {args.only}", file=sys.stderr)
             return 2
 
-    previous = load_previous()
+    prev_payload = load_previous_payload()
+    previous = {r["id"]: r for r in prev_payload.get("restaurants", [])}
     results: list[Result] = []
 
     for i, spec in enumerate(specs):
@@ -110,8 +113,16 @@ def main(argv: list[str] | None = None) -> int:
         elif spec["id"] in previous:
             merged.append(result_from_dict(previous[spec["id"]]))
 
+    # Only move the timestamp when the menus themselves moved. Otherwise the
+    # file would differ on every run and produce a commit that says nothing.
+    body = [asdict(r) for r in merged]
+    unchanged = prev_payload.get("restaurants") == body
+    keep = prev_payload.get("generatedAt") if unchanged else None
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    payload = dump(merged, OUT)
+    payload = dump(merged, OUT, generated_at=keep)
+    if unchanged:
+        print("  = menus unchanged since last run")
 
     print(f"\n{ok}/{len(results)} ok -> {OUT.relative_to(ROOT)} "
           f"(week of {payload['weekStart']})")

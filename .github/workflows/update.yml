@@ -2,10 +2,12 @@ name: Update lunch menus
 
 on:
   schedule:
-    # 06:10 and 09:10 Helsinki time (summer). GitHub cron is UTC and runs
-    # are often a few minutes late under load, which is fine here.
+    # 06:10 and 10:00 Helsinki time while Finland is on EEST. GitHub cron is
+    # UTC with no timezone support, so from the end of October these land an
+    # hour earlier in local terms (05:10 and 09:00) until spring. Both are
+    # still well before lunch. Runs also tend to lag a few minutes under load.
     - cron: "10 3 * * 1-5"
-    - cron: "10 6 * * 1-5"
+    - cron: "0 7 * * 1-5"
   workflow_dispatch:
   push:
     branches: [main]

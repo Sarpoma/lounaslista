@@ -71,6 +71,20 @@ Scrapers rot; sites get redesigned. Two things limit the damage:
 - Each run writes a summary to the Actions run page listing every restaurant
   and its status, so a break is visible without reading logs.
 
+## Commits, and what "stale" means
+
+A run only commits when the **menus** change. `generatedAt` is deliberately
+carried over from the previous run when the scraped content is identical, so
+the file stays byte-identical and produces no commit — otherwise the moving
+timestamp alone would mean two empty commits a day, every day.
+
+That makes the timestamp mean "when the food last changed" rather than "when
+we last looked", so the page does not use it to judge staleness. It compares
+`weekStart` against the current week instead: menus sitting unchanged for days
+is normal, whereas a `weekStart` from a week already gone means this week's
+list was never collected. That is the case worth warning about, and the page
+says so.
+
 To investigate, save the page and iterate offline:
 
 ```bash
@@ -86,8 +100,17 @@ python3 -m scrape --offline saved/ --only bufferi
 3. **Settings → Actions → General → Workflow permissions**: *Read and write*,
    so the scheduled run can commit `data/menus.json`.
 
-The workflow runs at 06:10 and 09:10 Helsinki time on weekdays, and can be run
+The workflow runs at 06:10 and 10:00 Helsinki time on weekdays, and can be run
 by hand from the Actions tab.
+
+GitHub cron is UTC only, so those times drift an hour when Finland leaves
+EEST at the end of October — 05:10 and 09:00 local through the winter. Both
+are still comfortably before lunch, so the schedule is left alone rather than
+chasing daylight saving.
+
+Note that the workflow does **not** need the repository's "Workflow
+permissions" set to read/write: `update.yml` declares `permissions: contents:
+write` for itself, which takes precedence over the repo-wide default.
 
 Two things worth knowing about scheduled Actions: GitHub **disables cron
 workflows in repos with no pushes for 60 days** (it emails first — any commit

@@ -242,10 +242,12 @@ def monday_of(day: date) -> date:
     return day - timedelta(days=day.weekday())
 
 
-def dump(results: list[Result], path: str) -> dict:
+def dump(results: list[Result], path: str, generated_at: str | None = None) -> dict:
+    """Write menus.json. `generated_at` keeps an earlier stamp when nothing
+    changed, so the file stays byte-identical and no commit is produced."""
     today = date.today()
     payload = {
-        "generatedAt": datetime.now().astimezone().isoformat(timespec="seconds"),
+        "generatedAt": generated_at or datetime.now().astimezone().isoformat(timespec="seconds"),
         "weekStart": monday_of(today).isoformat(),
         "restaurants": [asdict(r) for r in results],
     }
