@@ -1,0 +1,424 @@
+{
+ "generatedAt": "2026-09-21T20:00:46+03:00",
+ "weekStart": "2026-09-21",
+ "restaurants": [
+  {
+   "id": "linkosuo",
+   "name": "Linkosuo Linnakallio",
+   "url": "https://linkosuo.fi/toimipaikka/linkosuo-linnakallio/",
+   "area": "Linnakallio",
+   "hours": "ma-pe 10:30-13:30",
+   "status": "ok",
+   "error": null,
+   "days": [
+    {
+     "weekday": 0,
+     "label": "Maanantai",
+     "date": "2026-09-21",
+     "items": [
+      "Kanan sisäfilettä sitruuna-timjamikastikkeessa L, G, MU",
+      "Lihapullia italialaisittain L, G",
+      "Maissipihvejä V, G ja paholaisenhilloa V, G",
+      "Pestopastaa M (pähkinätön)",
+      "Yrttiriisiä V, G",
+      "Satokauden kasviksia V, G",
+      "Jälkiruokakeksiä"
+     ]
+    },
+    {
+     "weekday": 1,
+     "label": "Tiistai",
+     "date": "2026-09-22",
+     "items": [
+      "Paistettua lohta ja sitruunasmetanaa L, G, MU",
+      "Yön yli haudutettua lempeän pippurista possua L, G, MU",
+      "Tofua ja kasviksia sweet & sour V, G",
+      "Maalaisperunamuusia – vuolukermalla höystettynä L, G",
+      "Persilja-valkosipuliperunoita V, G",
+      "Paahdettua parsakaalia V, G",
+      "Biscoff-moussea L"
+     ]
+    },
+    {
+     "weekday": 2,
+     "label": "Keskiviikko",
+     "date": "2026-09-23",
+     "items": [
+      "Paahdettua kanaa ja kasviksia yrttituorejuustokastikkeessa L, G, MU",
+      "Makkaramix, karamellisoitua sipulia ja dijon cremeä L, G",
+      "Kikherne-kukkakaalicurryä V, G",
+      "Sitruunariisiä V, G",
+      "Ranskalaisia V, G",
+      "Hunajaporkkanaa M, G, MU",
+      "Jälkiruokakeksiä"
+     ]
+    },
+    {
+     "weekday": 3,
+     "label": "Torstai",
+     "date": "2026-09-24",
+     "items": [
+      "Perinteistä jauhelihalasagnea L",
+      "BBQ paahdettuja kanan koipinuijia M, G, MU sekä ranch-dippiä L, G",
+      "Pinaatti-ricotta canneloneja ja parmesankermaa",
+      "Kermaperunaa L, G, MU",
+      "Villiriisiä V, G",
+      "Kauden kasviksia paahdettuna V, G",
+      "Pannukakkua ja hilloa L"
+     ]
+    },
+    {
+     "weekday": 4,
+     "label": "Perjantai",
+     "date": "2026-09-25",
+     "items": [
+      "Paholaisen kanaa vuohenjuustolla VL, G, MU",
+      "Kebabia, pitaleipiä, marinoitua punasipulia sekä aiolia ja tsatsikia L",
+      "Falafelpyöryköitä V, G",
+      "Ranskalaisia V, G sekä riisiä V, G",
+      "Yrttipaahdettuja juureksia V, G",
+      "Jälkiruokakeksiä"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tiina",
+   "name": "Tiinan Kotiruoka",
+   "url": "https://tiinankotiruoka.fi/lounas-linnakallio/",
+   "area": "Linnakallio",
+   "hours": "ma-pe 10:30-14:00",
+   "status": "ok",
+   "error": null,
+   "days": [
+    {
+     "weekday": 0,
+     "label": "Maanantai",
+     "date": null,
+     "items": [
+      "Paahdettua broileria Marry Me-kastikkeessa & tomaattiriisiä parmesanilla höystettynä G, L",
+      "Pekoninen uunimakkara Koskenlaskijan tapaan G, L",
+      "Kinkku-herkkusienipasta pienellä kermalla & isolla maulla L",
+      "Lihapullat kastikkeessa & perunamuusi G, L",
+      "Paahdetut uunijuurekset hunajalla talon tapaan G, L",
+      "Kermaisempi oikeen lohen lohikeitto nokareella voita G, L"
+     ]
+    },
+    {
+     "weekday": 1,
+     "label": "Tiistai",
+     "date": null,
+     "items": [
+      "Uuniin unohdettua kassleria valkosipulipersilja kastikkeessa G, L",
+      "Paneroitu & paistettu puna-ahvenen palanen & tartar-ruohosipulidippi L",
+      "Köökin palvi-ananas-aurajuusto pizza L",
+      "Lihapullat kastikkeessa & perunamuusi G, L",
+      "Mitään sanomattomat ”Kauden kasvikset” G, L",
+      "Samettinen bataattikookossosekeitto & siemensekoitus G, M"
+     ]
+    },
+    {
+     "weekday": 2,
+     "label": "Keskiviikko",
+     "date": null,
+     "items": [
+      "Vasemman käden tuhti jauhelihapihvi MontereyJack-viipaleella + kermakastike G, L",
+      "Sweet Chilissä & yrteissä pyöriteltyjä kanannuijjapäitä ja mangoraja- dippi G, L",
+      "Köökinkin salami-tonnikala pizza L",
+      "Lihapullat kastikkeessa & perunamuusi G, L",
+      "Perinteisen kermainen kasvisgratiini G, L",
+      "Kermaisen sienestäjän metsäsienisoppa G, L"
+     ]
+    },
+    {
+     "weekday": 3,
+     "label": "Torstai",
+     "date": null,
+     "items": [
+      "Kuumemman pannun peruslehtipihvi maustevoikastikkeessa & paistetut perunat G, L",
+      "Mausteisemman mausteäijjän Massaman-Currya paahdetun broilerin kera G, L",
+      "Maalaistyylinen jauhelihakastike & spagetti L",
+      "Lihapullat kastikkeessa & perunamuusi G, L",
+      "Höyrytettyä kukkakaalia & herneitä keventäjän suolalla G, M",
+      "Hernekeitto G, M (saa kasvis)",
+      "Oman leipurin pannukakku & marjahillo L, saa glut."
+     ]
+    },
+    {
+     "weekday": 4,
+     "label": "Perjantai",
+     "date": null,
+     "items": [
+      "Paneroitua & paistettua broilerin leikettä ananas-salsan kerakans + chilinen dippi L",
+      "Mamman Chipotle Glace marinoitua & grillattua porsaan ribsejä G, M",
+      "Broilerin siivet Siipiweikkojen soosseilla, auradippi & ranskikset G, L",
+      "Lihapullat kastikkeessa & perunamuusi G, L",
+      "Cheddarilla kuorrutettua kasvis-nacho peltiä L",
+      "Smetanalla aateloitua juuressosekeittoa G, L"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nina",
+   "name": "Ninan Keittiö",
+   "url": "https://www.ninankeittio.fi/pirkkala-linnakallio-veho/",
+   "area": "Linnakallio / Veho",
+   "hours": "ma-pe 10:30-14:00",
+   "status": "ok",
+   "error": null,
+   "days": [
+    {
+     "weekday": 0,
+     "label": "Maanantai",
+     "date": null,
+     "items": [
+      "Lihapullia yrtti-tomaattikastikkeessa L,G 12,50€",
+      "Rapeita kanaleikkeitä ja mangomajoneesia M,G 12,50€",
+      "Perunoita M,G ja Rosmariiniriisiä M,G"
+     ]
+    },
+    {
+     "weekday": 1,
+     "label": "Tiistai",
+     "date": null,
+     "items": [
+      "Grillattua broileria Cyros M,G 12,50€",
+      "Hartaasti haudutettua Bolognesekastiketta ja Rummopastaa L 12,50€",
+      "Kermaista lohikeittoa L,G 9,40€",
+      "Höyrytettyä riisiä M,G"
+     ]
+    },
+    {
+     "weekday": 2,
+     "label": "Keskiviikko",
+     "date": null,
+     "items": [
+      "Talon herkullista jauhelihamureketta pippurikermakastikkeessa L,G 12,50€",
+      "Maukasta sticky seesami kananpoikaa M,G 12,50€",
+      "Perunamuusia L,G"
+     ]
+    },
+    {
+     "weekday": 3,
+     "label": "Torstai",
+     "date": null,
+     "items": [
+      "Hernekeittoa M,G 9,40€",
+      "Pannukakkua kera mansikkahillon ja kermavaahdon",
+      "Ylikypsää possua Whiskey-bbqkastikkeessa L,G 12,50€",
+      "Paahdettua kanaa parmesan-tomaattikastikkeessa L,G 12,50€",
+      "Paistettuja timjami-perunoita M,G"
+     ]
+    },
+    {
+     "weekday": 4,
+     "label": "Perjantai",
+     "date": null,
+     "items": [
+      "Paneroituja porsaanleikkeitä ja sweet chili-majoneesia M 12,50",
+      "Bearnaisekastikkeessa haudutettua kanaa L,G 12,50€",
+      "Perunoita L,G ja limeriisiä M,G"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stahlberg",
+   "name": "Ståhlberg Jasperintie",
+   "url": "https://stahlbergkahvilat.fi/lounasravintolat/jasperintie/",
+   "area": "Jasperintie",
+   "hours": "ma-pe 10:30-14:00",
+   "status": "ok",
+   "error": null,
+   "days": [
+    {
+     "weekday": 0,
+     "label": "Maanantai",
+     "date": "2026-09-21",
+     "items": [
+      "Broileri & cheddar-jalapenokastiketta L,G,MU",
+      "Tempura leivitetty Turska L ja limekermaviili L, G, MU",
+      "Lihapyörykät pippurikermakastike ja muusi L,G,MU",
+      "Päivän kasvisruoka keittiöstä: Kasviskroketit VE, G & cheddar-jalapenokastiketta L, G, MU"
+     ]
+    },
+    {
+     "weekday": 1,
+     "label": "Tiistai",
+     "date": "2026-09-22",
+     "items": [
+      "Paneroitu lohipihvit MU & jogurttikastike L, G, MU",
+      "Aura-Broilerkiusaus L, G, MU",
+      "Lihapyörykät pippurikermakastike ja muusi L, G, MU",
+      "Päivän kasvisruoka keittiöstä: Kasviskiusaus L, G, MU"
+     ]
+    },
+    {
+     "weekday": 2,
+     "label": "Keskiviikko",
+     "date": "2026-09-23",
+     "items": [
+      "Kebab-kastikkeessa L, G, MU",
+      "Kana-Pekonipasta L, MU",
+      "Lihapyörykät pippurikermakastike ja muusi L, G, MU",
+      "Päivän kasvisruoka keittiöstä: Vebab kastikkeessa L, G, MU"
+     ]
+    },
+    {
+     "weekday": 3,
+     "label": "Torstai",
+     "date": "2026-09-24",
+     "items": [
+      "Teriyaki Kanavartaat L, G, MU",
+      "Juustoinen Uunimakkara L, G ,MU",
+      "Lihapyörykät pippurikermakastike ja muusi L, G, MU",
+      "Pannukakku ja Hillo L",
+      "Hernekeitto M, G, MU",
+      "Päivän kasvisruoka keittiöstä: Teriyaki Nochicken soijapalat L, G, MU"
+     ]
+    },
+    {
+     "weekday": 4,
+     "label": "Perjantai",
+     "date": "2026-09-25",
+     "items": [
+      "Siivet Texas Pete L,G,MU ja Auradippi L, G, MU",
+      "Ranskalaisia ja sipulirenkaita",
+      "Ylikypsää Porsaanniska viherpippurikastikkeella L, G, MU",
+      "Lihapullat pippurikermakastike ja muusi L, G, MU",
+      "Päivittäin vaihtuva jälkiruoka",
+      "Päivän kasvisannos keittiöstä: Kukkakaaliwingsit VE,G ja Auradippi L,G,MU"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rasavil",
+   "name": "Ra-Sa-Vil",
+   "url": "https://www.ra-sa-vil.fi/tampere",
+   "area": "Tampere",
+   "hours": "ma-pe",
+   "status": "ok",
+   "error": null,
+   "days": [
+    {
+     "weekday": 0,
+     "label": "Maanantai",
+     "date": null,
+     "items": [
+      "Kanaa mausteisessä maapähkinäkastikkeessa & paistettua kasvisriisiä L, G",
+      "Täytettyä uunimakkaraa L, G",
+      "Jauheliha-mac & cheese L",
+      "Jälkiruoka & kahvi"
+     ]
+    },
+    {
+     "weekday": 1,
+     "label": "Tiistai",
+     "date": null,
+     "items": [
+      "Possun lankkupihvejä & paahdettuja parmesanperunoita L, G",
+      "Kalaa talon tapaan & kylmää jugurttikastiketta L",
+      "Sticky chicken -nuijia & sriracha-majoneesia L, G",
+      "Jälkiruoka & kahvi"
+     ]
+    },
+    {
+     "weekday": 2,
+     "label": "Keskiviikko",
+     "date": null,
+     "items": [
+      "Tomaattista lihapullavuokaa L, G",
+      "Rapeaa kanaa & currykastiketta L",
+      "Omenaista savuporokiusausta L, G",
+      "Jälkiruoka & kahvi"
+     ]
+    },
+    {
+     "weekday": 3,
+     "label": "Torstai",
+     "date": null,
+     "items": [
+      "Cola-BBQ-grillikylkeä & valkosipulikermaperunoita L, G",
+      "Lindströminpihvejä & karamellisoitua sipulikastiketta L, G",
+      "Täytettyjä feta-pinaattilettuja L",
+      "Pannukakkua hillolla ja kermavaahdolla & kahvi"
+     ]
+    },
+    {
+     "weekday": 4,
+     "label": "Perjantai",
+     "date": null,
+     "items": [
+      "Hampurilaisbuffet",
+      "jauheliha- ja kanapihvejä, nyhtöpossua, ranskalaisia, broilerin siipiä, sipulirenkaita, dippejä",
+      "Jälkiruoka & kahvi"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bufferi",
+   "name": "Ravintola Bufferi",
+   "url": "https://bufferi.com/pirkkala/",
+   "area": "Pirkkala",
+   "hours": "ma-pe 10:30-14:00",
+   "status": "ok",
+   "error": null,
+   "days": [
+    {
+     "weekday": 0,
+     "label": "Maanantai",
+     "date": "2026-09-21",
+     "items": [
+      "Sitruunainen kanapasta & Fritattua lehtikaalia L",
+      "Tomaattista kasvispaistosta L,G",
+      "Vichyssoice = Kuohkea peruna-purjososekeitto L,G & Ruischips L",
+      "Marjarahka L,G"
+     ]
+    },
+    {
+     "weekday": 1,
+     "label": "Tiistai",
+     "date": "2026-09-22",
+     "items": [
+      "Possua Korean Barbecue, Seesamiriiriä & Gochujangmajo L,G",
+      "Wokattua kaalia & kasviksia L,G",
+      "Pinaattikeitto & Kananmuna L,G"
+     ]
+    },
+    {
+     "weekday": 2,
+     "label": "Keskiviikko",
+     "date": "2026-09-23",
+     "items": [
+      "Kana Gyros = Vuolukanaa, Pilklattua kaalia & Punasipulia, Fetaa, Minttujogurttia & Lohkoperunaa L,G",
+      "Zucchinikeittoa L,G & Krutonkia L",
+      "Lime-valkosuklaamousse L,G"
+     ]
+    },
+    {
+     "weekday": 3,
+     "label": "Torstai",
+     "date": "2026-09-24",
+     "items": [
+      "Lasagnea, Rucolaa & Parmesaania L",
+      "Uunikasviksia Pistou L,G",
+      "Tomaattikeittoa, Mozzarellaa & Basilikaa L,G"
+     ]
+    },
+    {
+     "weekday": 4,
+     "label": "Perjantai",
+     "date": "2026-09-25",
+     "items": [
+      "Timjamikermassa haudutettua savuporovuokaa, Sokeroitua puolukkaa & Pikkelöityä kurkkua L,G",
+      "Paahdettua punajuurta L,G",
+      "Lapinukon juustokeittoa L,G & Perunarieskaa L"
+     ]
+    }
+   ]
+  }
+ ]
+}

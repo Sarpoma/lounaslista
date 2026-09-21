@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lounaslista — Linnakallio & Pirkkala</title>
+<meta name="description" content="Lähiravintoloiden lounaslistat yhdellä sivulla.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>Lounaslista</h1>
+    <p class="sub">Linnakallio &middot; Pirkkala &middot; Tampere</p>
+    <nav class="days" id="days" aria-label="Viikonpäivä"></nav>
+  </div>
+</header>
+
+<main class="wrap" id="main">
+  <p class="loading" id="loading">Ladataan listoja…</p>
+  <div class="grid" id="grid" hidden></div>
+</main>
+
+<footer class="wrap foot">
+  <p id="updated"></p>
+  <p class="muted">Listat haetaan ravintoloiden omilta sivuilta. Virheiden varalta tarkista alkuperäinen sivu.</p>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
