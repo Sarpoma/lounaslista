@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-23T11:29:26+03:00",
+ "generatedAt": "2026-09-23T15:27:26+03:00",
  "weekStart": "2026-09-21",
  "restaurants": [
   {
@@ -88,8 +88,8 @@
    "url": "https://tiinankotiruoka.fi/lounas-linnakallio/",
    "area": "Linnakallio",
    "hours": "ma-pe 10:30-14:00",
-   "status": "ok",
-   "error": null,
+   "status": "stale",
+   "error": "could not re-read the site; showing the last menu we got",
    "days": [
     {
      "weekday": 0,
