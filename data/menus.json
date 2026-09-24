@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-23T15:27:26+03:00",
+ "generatedAt": "2026-09-24T11:22:22+03:00",
  "weekStart": "2026-09-21",
  "restaurants": [
   {
@@ -270,12 +270,12 @@
      "label": "Torstai",
      "date": "2026-09-24",
      "items": [
-      "Teriyaki Kanavartaat L, G, MU",
-      "Juustoinen Uunimakkara L, G ,MU",
+      "Teriyaki Kanavartaat L, MU",
+      "Juustoinen Uunimakkara G ,MU (laktoositon keittiöltä)",
       "Lihapyörykät pippurikermakastike ja muusi L, G, MU",
       "Pannukakku ja Hillo L",
       "Hernekeitto M, G, MU",
-      "Päivän kasvisruoka keittiöstä: Teriyaki Nochicken soijapalat L, G, MU"
+      "Päivän kasvisruoka keittiöstä: Teriyaki Nochicken soijapalat L, MU"
      ]
     },
     {
