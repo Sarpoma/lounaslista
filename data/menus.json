@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-24T11:22:22+03:00",
+ "generatedAt": "2026-09-25T11:44:26+03:00",
  "weekStart": "2026-09-21",
  "restaurants": [
   {
@@ -88,8 +88,8 @@
    "url": "https://tiinankotiruoka.fi/lounas-linnakallio/",
    "area": "Linnakallio",
    "hours": "ma-pe 10:30-14:00",
-   "status": "stale",
-   "error": "could not re-read the site; showing the last menu we got",
+   "status": "ok",
+   "error": null,
    "days": [
     {
      "weekday": 0,
@@ -151,9 +151,9 @@
      "items": [
       "Paneroitua & paistettua broilerin leikettä ananas-salsan kerakans + chilinen dippi L",
       "Mamman Chipotle Glace marinoitua & grillattua porsaan ribsejä G, M",
+      "Juustolla kuorrutettua jauheliha-nachopeltiä G, L",
       "Broilerin siivet Siipiweikkojen soosseilla, auradippi & ranskikset G, L",
       "Lihapullat kastikkeessa & perunamuusi G, L",
-      "Cheddarilla kuorrutettua kasvis-nacho peltiä L",
       "Smetanalla aateloitua juuressosekeittoa G, L"
      ]
     }
@@ -285,7 +285,7 @@
      "items": [
       "Siivet Texas Pete L,G,MU ja Auradippi L, G, MU",
       "Ranskalaisia ja sipulirenkaita",
-      "Ylikypsää Porsaanniska viherpippurikastikkeella L, G, MU",
+      "Ylikypsää Porsaanniska rosepippurikastikkeella L, G, MU",
       "Lihapullat pippurikermakastike ja muusi L, G, MU",
       "Päivittäin vaihtuva jälkiruoka",
       "Päivän kasvisannos keittiöstä: Kukkakaaliwingsit VE,G ja Auradippi L,G,MU"
