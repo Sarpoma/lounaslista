@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-02T12:38:42+03:00",
+ "generatedAt": "2026-10-02T16:23:02+03:00",
  "weekStart": "2026-09-28",
  "restaurants": [
   {
@@ -240,11 +240,11 @@
      "label": "Maanantai",
      "date": "2026-09-28",
      "items": [
-      "Riistakäristys, Puolukkahillo M, G, MU",
-      "Cheddar-kuorrutettu kalagratiini MU & Tzatsiki L, G, MU",
-      "Lihapullat pippurikermakastike ja muusi L, G, MU",
+      "Bearnaisebroileria L, G, MU",
+      "Makkarapannu M,MU",
+      "Lihapyörykät pippurikermakastike ja muusi L,G,MU",
       "Päivittäin vaihtuva jälkiruoka",
-      "Päivän kasvisruoka keittiöstä: Mexican Kasvispihvi VE, G & Tzatsiki L, G, MU"
+      "Päivän kasvisruoka keittiöstä: Kasvispihvit ja Bearnaisekastike G"
      ]
     },
     {
@@ -252,11 +252,11 @@
      "label": "Tiistai",
      "date": "2026-09-29",
      "items": [
-      "Kermainen härkäruukku L, G, MU",
-      "Paholaisen kana vuohenjuustolla VL, G, MU",
-      "Lihapullat pippurikermakastike ja muusi L, G, MU",
+      "Ylikypsää possua Sienikastikkeella L,G,MU",
+      "Silakkapihvi ja lime-valkosipulikermaviili L, MU",
+      "Lihapyörykät pippurikermakastike ja muusi L,G,MU",
       "Päivittäin vaihtuva jälkiruoka",
-      "Päivän kasvisruoka keittiöstä: Paholaisen NoChicken Soijapalat L, G, MU"
+      "Päivän kasvisruoka keittiöstä: Soijapalat ja Sienikastike L,G,MU"
      ]
     },
     {
@@ -264,11 +264,11 @@
      "label": "Keskiviikko",
      "date": "2026-09-30",
      "items": [
-      "Fish & Chips L ja Remoulade L, G",
-      "Koskenlaskija Broileri L, G, MU",
-      "Lihapullat pippurikermakastike ja muusi L, G, MU",
+      "Lasagne (saa myös glut) L.",
+      "Kievin kana, Mango-currymajoneesi",
+      "Lihapyörykät, pippurikermakastike ja muusi L,G,MU",
       "Päivittäin vaihtuva jälkiruoka",
-      "Päivän kasvisruoka keittiöstä: Kasvispihvit ja Remoulade L, G"
+      "Päivän kasvisruoka keittiöstä: Kasvislasagne L"
      ]
     },
     {
@@ -276,12 +276,12 @@
      "label": "Torstai",
      "date": "2026-10-01",
      "items": [
-      "Broilerin sisäfilettä vihreässä currykastikkeessa L,G,MU",
-      "Ylikypsää possua omena-sinappikastikkeessa L,G,MU",
-      "Lihapullat, pippurikermakastike ja muusi L, G, MU",
-      "Pannari, Hillo ja kermavaahto L (Gluteeniton pyydettäessä)",
-      "Hernekeitto M, G, MU",
-      "Päivän kasvisruoka keittiöstä: Tofua vihreässä currykastikkeessa L, G, MU"
+      "Kermainen Broileri Pekoni-sipulikastikkeella L,G,MU",
+      "Uunilohta ja Tilli-sitruunajogurtti L,G,MU",
+      "Lihapyörykät pippurikermakastike ja muusi L,G,MU",
+      "Pannukakku, hillo ja Kermavaahto L",
+      "Hernekeitto M,G,MU",
+      "Päivän kasvisruoka keittiöstä: pasta pesto kastikkeessa L,G,MU"
      ]
     },
     {
@@ -289,11 +289,11 @@
      "label": "Perjantai",
      "date": "2026-10-02",
      "items": [
-      "Pulled Pork- lihaa, BBQ-kastikkeessa M, G, MU",
-      "Pitaleipiä L ja valkosipulikermaviilikastiketta L, G, MU",
-      "Broileri valkoviini-sitruunakastikkeessa VL, G, MU",
-      "Lihapyörykät pippurikermakastike ja muusi L, G, MU",
-      "Pitaleipiin saatavilla soijapalat BBQ-kastikkeella M, G, MU"
+      "Tacobuffet, kokoa mieleisesi taco-annos L,MU",
+      "Burgundinhärkäpata M,G,MU",
+      "Lihapyörykät pippurikermakastike ja muusi L,G,MU",
+      "Päivittäin vaihtuva jälkiruoka",
+      "Tacoihin saatavilla kasvistäyte keittiöstä"
      ]
     }
    ]
