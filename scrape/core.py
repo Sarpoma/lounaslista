@@ -20,7 +20,9 @@ WEEKDAY_LABEL = ["Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai",
 
 # A line is a day heading when it *starts* with a weekday name. Trailing junk
 # ("Maanantai 21.9.", "MAANANTAI 10:30-14:00") is expected and ignored.
-_HEADING = re.compile(r"^(%s)\b" % "|".join(WEEKDAYS), re.IGNORECASE)
+# Aggregators write the partitive ("Maanantaina 5.10."), restaurants mostly
+# write the nominative ("Maanantai 5.10."). Accept either.
+_HEADING = re.compile(r"^(%s)(?:na)?\b" % "|".join(WEEKDAYS), re.IGNORECASE)
 _DATE = re.compile(r"(\d{1,2})\s*\.\s*(\d{1,2})\s*\.\s*(\d{4})?")
 
 # Lines that are never food.
@@ -29,6 +31,8 @@ _NOISE = re.compile(
     r"seuraa meitä|facebook|instagram|lue lisää|katso lisää|siirry|"
     r"varaa pöytä|tilaa uutiskirje|hyväksy|asetukset|valikko|etusivu|"
     r"^\s*(ma|ti|ke|to|pe)\s*$|^\s*lounas\s*$|^\s*€?\s*[\d,.\s]+€?\s*$|"
+    r"katso p\u00e4iv\u00e4n lounaslista|lounaslista puuttuu|^~?\s*sis\.|"
+    r"^\s*sis\u00e4lt\u00e4\u00e4 |salaattip\u00f6yd\u00e4n, juomat|"
     r"^\s*(avoinna|aukiolo)",
     re.IGNORECASE,
 )
@@ -47,7 +51,7 @@ _STOP = re.compile(
 )
 
 # A dish split across markup lines: "Kuohkea peruna-purjososekeitto L,G &"
-_CONTINUES = re.compile(r"[&=+,/]\s*$|^\s*[&=]")
+_CONTINUES = re.compile(r"[&=+,/(]\s*$|^\s*[&=]|^\s*[A-Z]{1,2}(\s*,\s*[A-Z]{1,2})*\s*\)")
 
 _BULLET = re.compile(r"^[\s •·*\-–—•\t]+")
 _WS = re.compile(r"[\s ]+")
@@ -108,15 +112,47 @@ def _headings(lines: list[str]) -> list[tuple[int, int]]:
     return found
 
 
-def _best_run(found: list[tuple[int, int]]) -> list[tuple[int, int]]:
-    """Pick the Mon->Fri sequence that looks like the real menu.
+# "Menu 5.-9.10.2026" above a block of weekdays - the week those days belong
+# to, when the days themselves carry no dates.
+# Two shapes in the wild, and they must be tried in this order: the fuller
+# one first, or "05.10.-09.10.2026" matches the shorter pattern at the wrong
+# offset and reads the 10th as the week start.
+_WEEK_RANGES = (
+    # 05.10.-09.10.2026  - day and month on both sides
+    re.compile(r"(\d{1,2})\s*\.\s*(\d{1,2})\s*\.\s*[-\u2013\u2014]\s*"
+               r"\d{1,2}\s*\.\s*\d{1,2}\s*\.\s*(\d{4})"),
+    # 5.-9.10.2026       - month only on the end
+    re.compile(r"(\d{1,2})\s*\.\s*[-\u2013\u2014]\s*\d{1,2}\s*\.\s*"
+               r"(\d{1,2})\s*\.\s*(\d{4})"),
+)
 
-    Pages often name weekdays more than once (navigation, opening hours,
-    a second week). Split the headings wherever the weekday stops advancing,
-    then keep the longest resulting run.
+
+def _run_week(lines: list[str], start: int) -> date | None:
+    """The week heading immediately above a run of weekdays, if there is one."""
+    for i in range(max(0, start - 4), start):
+        for pattern in _WEEK_RANGES:
+            m = pattern.search(lines[i])
+            if m:
+                d, mo, y = (int(g) for g in m.groups())
+                try:
+                    return date(y, mo, d)
+                except ValueError:
+                    break
+    return None
+
+
+def _choose_run(lines: list[str],
+                found: list[tuple[int, int]]) -> tuple[list[tuple[int, int]], date | None]:
+    """Pick the Mon->Fri sequence that is actually this week's menu.
+
+    Pages name weekdays more than once - navigation, opening hours, and
+    sometimes a whole stale menu left above the current one. Split the
+    headings wherever the weekday stops advancing, then choose between the
+    runs: a dated week heading beats everything, because length alone once
+    picked a nine-month-old menu that happened to come first in the markup.
     """
     if not found:
-        return []
+        return [], None
     runs, current = [], [found[0]]
     for prev, item in zip(found, found[1:]):
         if item[1] > prev[1]:
@@ -125,7 +161,12 @@ def _best_run(found: list[tuple[int, int]]) -> list[tuple[int, int]]:
             runs.append(current)
             current = [item]
     runs.append(current)
-    return max(runs, key=len)
+
+    dated = [(r, w) for r in runs if (w := _run_week(lines, r[0][0]))]
+    if dated:
+        today = date.today()
+        return min(dated, key=lambda rw: abs((rw[1] - today).days))
+    return max(runs, key=len), None
 
 
 @dataclass
@@ -154,11 +195,13 @@ class Result:
     id: str
     name: str
     url: str
+    location: str = ""
     area: str = ""
     hours: str = ""
     status: str = "ok"           # ok | empty | error
     error: str | None = None
     week: str | None = None      # Monday the scraped dates say; None if undated
+    image: str | None = None     # a menu published only as a picture
     days: list[Day] = field(default_factory=list)
 
 
@@ -207,7 +250,7 @@ def extract_week(
     prints "Maanantai" above Monday's food.
     """
     lines = html_to_lines(markup)
-    run = _best_run(_headings(lines))
+    run, run_week = _choose_run(lines, _headings(lines))
     if not run:
         return []
 
@@ -246,6 +289,9 @@ def extract_week(
                 if best:
                     day.date = best.isoformat()
 
+        if day.date is None and run_week is not None:
+            day.date = (run_week + timedelta(days=weekday)).isoformat()
+
         day.items = _clean_items(tail, max_items, max_len)
         days.append(day)
 
@@ -266,13 +312,35 @@ def _trim_last(days: list[Day]) -> list[Day]:
     return days
 
 
-def dump(results: list[Result], path: str, generated_at: str | None = None) -> dict:
+def week_start(results: list[Result], today: date) -> str:
+    """The week this file is about.
+
+    Prefer what the restaurants themselves print: most of them date their
+    menus now, and that is better evidence than the runner's clock, which
+    says nothing about whether the food is current.
+
+    The clock is only the fallback, and on a weekend it points at the week
+    about to start. Without that, a Sunday run would stamp next week's menus
+    with the dates of the week just finished - nobody opens a lunch list on
+    Sunday evening to read about last Friday.
+    """
+    weeks = [r.week for r in results if r.week]
+    if weeks:
+        return max(set(weeks), key=weeks.count)
+    if today.weekday() >= 5:
+        return (today + timedelta(days=7 - today.weekday())).isoformat()
+    return monday_of(today).isoformat()
+
+
+def dump(results: list[Result], path: str, generated_at: str | None = None,
+         locations: list[dict] | None = None) -> dict:
     """Write menus.json. `generated_at` keeps an earlier stamp when nothing
     changed, so the file stays byte-identical and no commit is produced."""
     today = date.today()
     payload = {
         "generatedAt": generated_at or datetime.now().astimezone().isoformat(timespec="seconds"),
-        "weekStart": monday_of(today).isoformat(),
+        "weekStart": week_start(results, today),
+        "locations": locations or [],
         "restaurants": [asdict(r) for r in results],
     }
     with open(path, "w", encoding="utf-8") as fh:

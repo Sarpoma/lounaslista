@@ -16,6 +16,14 @@ on:
     - cron: "0 22 * * 0-4"   # evening before -> lands ~06:00-09:00 Helsinki
     - cron: "0 1 * * 1-5"    #              -> lands ~09:00-12:00 Helsinki
     - cron: "0 4 * * 1-5"    # backstop, about where the old schedule landed
+    #
+    # Sundays, to catch next week's lists as soon as they go up. These only
+    # take effect if the restaurants have actually published: weekStart is
+    # taken from the dates they print, so a Sunday run that finds nothing new
+    # changes nothing and commits nothing.
+    - cron: "0 4 * * 0"      # -> lands ~12:00-14:30 Helsinki, Sunday
+    - cron: "0 9 * * 0"      # -> lands ~17:00-19:30 Helsinki, Sunday
+    - cron: "0 14 * * 0"     # -> lands ~22:00-00:30 Helsinki, Sunday
   workflow_dispatch:
   push:
     branches: [main]
