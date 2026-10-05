@@ -312,6 +312,26 @@ def _trim_last(days: list[Day]) -> list[Day]:
     return days
 
 
+def week_start(results: list[Result], today: date) -> str:
+    """The week this file is about.
+
+    Prefer what the restaurants themselves print: most of them date their
+    menus now, and that is better evidence than the runner's clock, which
+    says nothing about whether the food is current.
+
+    The clock is only the fallback, and on a weekend it points at the week
+    about to start. Without that, a Sunday run would stamp next week's menus
+    with the dates of the week just finished - nobody opens a lunch list on
+    Sunday evening to read about last Friday.
+    """
+    weeks = [r.week for r in results if r.week]
+    if weeks:
+        return max(set(weeks), key=weeks.count)
+    if today.weekday() >= 5:
+        return (today + timedelta(days=7 - today.weekday())).isoformat()
+    return monday_of(today).isoformat()
+
+
 def dump(results: list[Result], path: str, generated_at: str | None = None,
          locations: list[dict] | None = None) -> dict:
     """Write menus.json. `generated_at` keeps an earlier stamp when nothing
@@ -319,7 +339,7 @@ def dump(results: list[Result], path: str, generated_at: str | None = None,
     today = date.today()
     payload = {
         "generatedAt": generated_at or datetime.now().astimezone().isoformat(timespec="seconds"),
-        "weekStart": monday_of(today).isoformat(),
+        "weekStart": week_start(results, today),
         "locations": locations or [],
         "restaurants": [asdict(r) for r in results],
     }

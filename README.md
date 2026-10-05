@@ -82,8 +82,10 @@ That makes the timestamp mean "when the food last changed" rather than "when
 we last looked", so the page does not use it to judge staleness. Two narrower
 signals do that instead, and they catch different failures.
 
-**`weekStart` — has anything run this week?** It is the Monday of the day the
-scraper ran. If the page sees a `weekStart` from a week already gone, no run
+**`weekStart` — has anything run this week?** It is taken from the dates the
+restaurants print, by majority, because that is evidence about the food
+rather than about the clock. The clock is only the fallback when nothing is
+dated, and on a weekend it points at the week about to start. If the page sees a `weekStart` from a week already gone, no run
 has written the file this week and *everything* on display is old. The page
 says so in a banner.
 
@@ -117,8 +119,9 @@ python3 -m scrape --offline saved/ --only bufferi
 3. **Settings → Actions → General → Workflow permissions**: *Read and write*,
    so the scheduled run can commit `data/menus.json`.
 
-The workflow runs three times per weekday, and can be run by hand from the
-Actions tab.
+The workflow runs three times per weekday, plus three times on Sunday to pick
+up next week's lists as soon as they appear. It can also be run by hand from
+the Actions tab.
 
 The cron times look absurdly early on purpose. **GitHub does not run scheduled
 workflows on time.** Measured over three weeks on this repo, runs started
