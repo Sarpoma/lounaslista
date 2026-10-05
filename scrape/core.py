@@ -20,7 +20,9 @@ WEEKDAY_LABEL = ["Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai",
 
 # A line is a day heading when it *starts* with a weekday name. Trailing junk
 # ("Maanantai 21.9.", "MAANANTAI 10:30-14:00") is expected and ignored.
-_HEADING = re.compile(r"^(%s)\b" % "|".join(WEEKDAYS), re.IGNORECASE)
+# Aggregators write the partitive ("Maanantaina 5.10."), restaurants mostly
+# write the nominative ("Maanantai 5.10."). Accept either.
+_HEADING = re.compile(r"^(%s)(?:na)?\b" % "|".join(WEEKDAYS), re.IGNORECASE)
 _DATE = re.compile(r"(\d{1,2})\s*\.\s*(\d{1,2})\s*\.\s*(\d{4})?")
 
 # Lines that are never food.
@@ -29,6 +31,8 @@ _NOISE = re.compile(
     r"seuraa meitä|facebook|instagram|lue lisää|katso lisää|siirry|"
     r"varaa pöytä|tilaa uutiskirje|hyväksy|asetukset|valikko|etusivu|"
     r"^\s*(ma|ti|ke|to|pe)\s*$|^\s*lounas\s*$|^\s*€?\s*[\d,.\s]+€?\s*$|"
+    r"katso p\u00e4iv\u00e4n lounaslista|lounaslista puuttuu|^~?\s*sis\.|"
+    r"^\s*sis\u00e4lt\u00e4\u00e4 |salaattip\u00f6yd\u00e4n, juomat|"
     r"^\s*(avoinna|aukiolo)",
     re.IGNORECASE,
 )
@@ -47,7 +51,7 @@ _STOP = re.compile(
 )
 
 # A dish split across markup lines: "Kuohkea peruna-purjososekeitto L,G &"
-_CONTINUES = re.compile(r"[&=+,/]\s*$|^\s*[&=]")
+_CONTINUES = re.compile(r"[&=+,/(]\s*$|^\s*[&=]|^\s*[A-Z]{1,2}(\s*,\s*[A-Z]{1,2})*\s*\)")
 
 _BULLET = re.compile(r"^[\s •·*\-–—•\t]+")
 _WS = re.compile(r"[\s ]+")
