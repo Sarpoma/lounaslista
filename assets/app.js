@@ -9,6 +9,18 @@
   const TAGS = /(?:^|[\s(])((?:VL|VE|MU|LL|[LGMVA])(?:\s*[,/]\s*(?:VL|VE|MU|LL|[LGMVA]))*)\s*$/;
   const PRICE = /(\d{1,2}[,.]\d{2})\s*€?\s*$/;
 
+  const STORE = "lounaslista.location";
+
+  // localStorage throws in private browsing and can come back empty after a
+  // site-data clear, so every read and write is guarded and the page works
+  // without it - it just forgets the choice.
+  const remembered = () => {
+    try { return localStorage.getItem(STORE); } catch { return null; }
+  };
+  const remember = id => {
+    try { localStorage.setItem(STORE, id); } catch { /* not fatal */ }
+  };
+
   const el = (tag, cls, text) => {
     const n = document.createElement(tag);
     if (cls) n.className = cls;
@@ -60,6 +72,30 @@
     else if (r.status === "stale") c.appendChild(el("span", "badge stale", "Vanha tieto"));
     if (r.status === "error" || r.status === "empty") c.appendChild(el("span", "badge error", "Ei saatavilla"));
 
+    // Some restaurants only publish a picture of the week; show it rather
+    // than pretend we have no menu.
+    if (r.image) {
+      const fig = el("figure", "menu-image");
+      const img = el("img");
+      img.src = r.image;
+      img.alt = `${r.name} — lounaslista kuvana`;
+      img.loading = "lazy";
+      img.addEventListener("click", () => openLightbox(img.src, img.alt));
+      fig.appendChild(img);
+      fig.appendChild(el("figcaption", null, "Koko viikko kuvana — napauta suurentaaksesi."));
+      c.appendChild(fig);
+      return c;
+    }
+
+    // Menus we cannot read at all are a link, not an empty promise.
+    if (r.status === "link") {
+      c.appendChild(el("p", "note", "Lista aukeaa vain ravintolan omilla sivuilla."));
+      const a = el("a", "linkout", "Avaa lounaslista →");
+      a.href = r.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+      c.appendChild(a);
+      return c;
+    }
+
     const day = (r.days || []).find(d => d.weekday === weekday);
     if (day && day.items && day.items.length) {
       const ul = el("ul", "dishes");
@@ -72,12 +108,44 @@
     return c;
   }
 
-  function render(data, weekday) {
+  function openLightbox(src, alt) {
+    const box = document.getElementById("lightbox");
+    const img = document.getElementById("lightbox-img");
+    img.src = src; img.alt = alt;
+    box.hidden = false;
+  }
+
+  function closeLightbox() {
+    const box = document.getElementById("lightbox");
+    box.hidden = true;
+    document.getElementById("lightbox-img").src = "";
+  }
+
+  const atPlace = (data, place) => data.restaurants.filter(r => r.location === place);
+
+  function render(data, weekday, place) {
     const grid = document.getElementById("grid");
     grid.textContent = "";
-    data.restaurants.forEach(r => grid.appendChild(card(r, weekday, data.weekStart)));
+    const here = atPlace(data, place);
+    if (!here.length) {
+      grid.appendChild(el("p", "note", "Tälle toimipisteelle ei ole vielä lisätty ravintoloita."));
+    } else {
+      here.forEach(r => grid.appendChild(card(r, weekday, data.weekStart)));
+    }
     grid.hidden = false;
     document.getElementById("loading").hidden = true;
+  }
+
+  function buildPlaces(data, active, onPick) {
+    const nav = document.getElementById("places");
+    nav.textContent = "";
+    (data.locations || []).forEach(loc => {
+      const b = el("button", null, loc.name);
+      b.type = "button";
+      b.setAttribute("aria-current", String(loc.id === active));
+      b.addEventListener("click", () => onPick(loc.id));
+      nav.appendChild(b);
+    });
   }
 
   function buildTabs(data, active, onPick) {
@@ -124,7 +192,7 @@
   };
 
   /** Two different failures, in order of how badly they mislead. */
-  function banner(data) {
+  function banner(data, place) {
     const box = document.getElementById("banner");
     box.textContent = "";
 
@@ -138,7 +206,7 @@
     }
 
     // 2. The page is current, but a restaurant is still serving an old week.
-    const old = data.restaurants.filter(r => behind(r, data.weekStart));
+    const old = atPlace(data, place).filter(r => behind(r, data.weekStart));
     if (old.length) {
       box.appendChild(el("strong", null,
         old.length === 1 ? "Yksi lista on vanha. " : "Osa listoista on vanhoja. "));
@@ -167,10 +235,28 @@
     const wd = new Date().getDay();
     let active = wd === 0 || wd === 6 ? 0 : wd - 1;
 
-    const show = i => { active = i; buildTabs(data, active, show); render(data, active); };
-    show(active);
+    const places = data.locations || [];
+    const saved = remembered();
+    let place = places.some(l => l.id === saved) ? saved : (places[0] || {}).id;
+
+    const draw = () => {
+      buildTabs(data, active, d => { active = d; draw(); });
+      buildPlaces(data, place, p => {
+        if (p === place) return;
+        place = p; remember(p); draw();
+      });
+      render(data, active, place);
+      banner(data, place);
+      const name = (places.find(l => l.id === place) || {}).name;
+      document.title = name ? `Lounaslista — ${name}` : "Lounaslista";
+    };
+    draw();
     stamp(data);
-    banner(data);
+
+    document.getElementById("lightbox").addEventListener("click", closeLightbox);
+    document.addEventListener("keydown", e => {
+      if (e.key === "Escape") closeLightbox();
+    });
   }
 
   init();

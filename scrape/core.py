@@ -114,20 +114,30 @@ def _headings(lines: list[str]) -> list[tuple[int, int]]:
 
 # "Menu 5.-9.10.2026" above a block of weekdays - the week those days belong
 # to, when the days themselves carry no dates.
-_WEEK_RANGE = re.compile(
-    r"(\d{1,2})\s*\.\s*[-\u2013\u2014]\s*\d{1,2}\s*\.\s*(\d{1,2})\s*\.\s*(\d{4})")
+# Two shapes in the wild, and they must be tried in this order: the fuller
+# one first, or "05.10.-09.10.2026" matches the shorter pattern at the wrong
+# offset and reads the 10th as the week start.
+_WEEK_RANGES = (
+    # 05.10.-09.10.2026  - day and month on both sides
+    re.compile(r"(\d{1,2})\s*\.\s*(\d{1,2})\s*\.\s*[-\u2013\u2014]\s*"
+               r"\d{1,2}\s*\.\s*\d{1,2}\s*\.\s*(\d{4})"),
+    # 5.-9.10.2026       - month only on the end
+    re.compile(r"(\d{1,2})\s*\.\s*[-\u2013\u2014]\s*\d{1,2}\s*\.\s*"
+               r"(\d{1,2})\s*\.\s*(\d{4})"),
+)
 
 
 def _run_week(lines: list[str], start: int) -> date | None:
     """The week heading immediately above a run of weekdays, if there is one."""
     for i in range(max(0, start - 4), start):
-        m = _WEEK_RANGE.search(lines[i])
-        if m:
-            d, mo, y = (int(g) for g in m.groups())
-            try:
-                return date(y, mo, d)
-            except ValueError:
-                pass
+        for pattern in _WEEK_RANGES:
+            m = pattern.search(lines[i])
+            if m:
+                d, mo, y = (int(g) for g in m.groups())
+                try:
+                    return date(y, mo, d)
+                except ValueError:
+                    break
     return None
 
 
@@ -185,11 +195,13 @@ class Result:
     id: str
     name: str
     url: str
+    location: str = ""
     area: str = ""
     hours: str = ""
     status: str = "ok"           # ok | empty | error
     error: str | None = None
     week: str | None = None      # Monday the scraped dates say; None if undated
+    image: str | None = None     # a menu published only as a picture
     days: list[Day] = field(default_factory=list)
 
 
@@ -300,13 +312,15 @@ def _trim_last(days: list[Day]) -> list[Day]:
     return days
 
 
-def dump(results: list[Result], path: str, generated_at: str | None = None) -> dict:
+def dump(results: list[Result], path: str, generated_at: str | None = None,
+         locations: list[dict] | None = None) -> dict:
     """Write menus.json. `generated_at` keeps an earlier stamp when nothing
     changed, so the file stays byte-identical and no commit is produced."""
     today = date.today()
     payload = {
         "generatedAt": generated_at or datetime.now().astimezone().isoformat(timespec="seconds"),
         "weekStart": monday_of(today).isoformat(),
+        "locations": locations or [],
         "restaurants": [asdict(r) for r in results],
     }
     with open(path, "w", encoding="utf-8") as fh:

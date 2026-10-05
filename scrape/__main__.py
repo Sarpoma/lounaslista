@@ -16,7 +16,8 @@ import time
 from dataclasses import asdict
 
 from .core import Day, Result, dump, extract_week, fetch, week_of
-from .restaurants import RESTAURANTS
+from .handlers import HANDLERS
+from .restaurants import LOCATIONS, RESTAURANTS
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "menus.json"
@@ -36,11 +37,16 @@ def result_from_dict(d: dict) -> Result:
     return Result(**{k: v for k, v in d.items() if k != "days"}, days=days)
 
 
-def scrape_one(spec: dict, markup: str) -> Result:
-    result = Result(
+def _blank(spec: dict) -> Result:
+    return Result(
         id=spec["id"], name=spec["name"], url=spec["url"],
-        area=spec.get("area", ""), hours=spec.get("hours", ""),
+        location=spec.get("location", ""), area=spec.get("area", ""),
+        hours=spec.get("hours", ""),
     )
+
+
+def scrape_one(spec: dict, markup: str) -> Result:
+    result = _blank(spec)
     result.days = extract_week(markup, **spec.get("opts", {}))
     if not any(d.items for d in result.days):
         result.status = "empty"
@@ -67,6 +73,39 @@ def main(argv: list[str] | None = None) -> int:
     results: list[Result] = []
 
     for i, spec in enumerate(specs):
+        handler = HANDLERS.get(spec.get("handler", ""))
+        if handler and not args.offline:
+            if i and spec.get("handler") != "link_only":
+                time.sleep(args.delay)
+            result = _blank(spec)
+            try:
+                out = handler(spec)
+                result.days = out.get("days", [])
+                result.image = out.get("image")
+                result.status = out.get("status", "ok")
+                result.error = out.get("error")
+                if out.get("week"):
+                    result.week = out["week"]
+                if result.status == "ok" and not result.days and not result.image:
+                    result.status, result.error = "empty", "handler returned nothing"
+            except Exception as exc:              # noqa: BLE001
+                result.status, result.error = "error", str(exc)[:200]
+                print(f"  ! {spec['name']}: {exc}", file=sys.stderr)
+            if result.week is None:
+                result.week = week_of(result.days)
+            if result.status not in ("ok", "link") and spec["id"] in previous:
+                stale = previous[spec["id"]]
+                if any(d.get("items") for d in stale.get("days", [])):
+                    result.days = [Day(**d) for d in stale["days"]]
+                    result.status = "stale"
+                    result.error = "could not re-read the site; showing the last menu we got"
+            results.append(result)
+            mark = {"ok": "✓", "link": "→", "stale": "~", "empty": "!", "error": "✗"}[result.status]
+            extra = "image" if result.image else ("link only" if result.status == "link"
+                                                  else f"{sum(len(d.items) for d in result.days)} items")
+            print(f"  {mark} {result.name}: {extra}")
+            continue
+
         if args.offline:
             markup = (pathlib.Path(args.offline) / f"{spec['id']}.html").read_text(
                 encoding="utf-8", errors="replace")
@@ -100,10 +139,10 @@ def main(argv: list[str] | None = None) -> int:
         result.week = week_of(result.days)
         results.append(result)
         count = sum(len(d.items) for d in result.days)
-        mark = {"ok": "✓", "stale": "~", "empty": "!", "error": "✗"}[result.status]
+        mark = {"ok": "✓", "link": "→", "stale": "~", "empty": "!", "error": "✗"}[result.status]
         print(f"  {mark} {result.name}: {len(result.days)} days, {count} items")
 
-    ok = sum(r.status == "ok" for r in results)
+    ok = sum(r.status in ("ok", "link") for r in results)
     scraped = {r.id: r for r in results}
 
     # Keep the untouched restaurants (--only) rather than writing them away.
@@ -121,7 +160,7 @@ def main(argv: list[str] | None = None) -> int:
     keep = prev_payload.get("generatedAt") if unchanged else None
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    payload = dump(merged, OUT, generated_at=keep)
+    payload = dump(merged, OUT, generated_at=keep, locations=LOCATIONS)
     if unchanged:
         print("  = menus unchanged since last run")
 
