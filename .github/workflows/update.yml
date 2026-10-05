@@ -2,12 +2,20 @@ name: Update lunch menus
 
 on:
   schedule:
-    # 06:10 and 10:00 Helsinki time while Finland is on EEST. GitHub cron is
-    # UTC with no timezone support, so from the end of October these land an
-    # hour earlier in local terms (05:10 and 09:00) until spring. Both are
-    # still well before lunch. Runs also tend to lag a few minutes under load.
-    - cron: "10 3 * * 1-5"
-    - cron: "0 7 * * 1-5"
+    # These times are deliberately far earlier than the hours we actually
+    # want. Measured over three weeks on this repo, GitHub starts scheduled
+    # runs 5 to 7.5 hours after the requested time, and the lag has been
+    # growing - a 03:10 UTC request was landing around 09:40 UTC. Asking for
+    # lunch-time is therefore useless; we ask for the small hours and let the
+    # queue deliver it before lunch.
+    #
+    # Firing several times is the hedge. A run that finds nothing new takes
+    # about 30 seconds, commits nothing, and costs nothing on a public repo,
+    # so the only thing extra runs buy is a better chance that one of them
+    # lands early. All times UTC; add 3h for EEST, 2h for EET.
+    - cron: "0 22 * * 0-4"   # evening before -> lands ~06:00-09:00 Helsinki
+    - cron: "0 1 * * 1-5"    #              -> lands ~09:00-12:00 Helsinki
+    - cron: "0 4 * * 1-5"    # backstop, about where the old schedule landed
   workflow_dispatch:
   push:
     branches: [main]

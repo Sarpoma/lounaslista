@@ -100,13 +100,27 @@ python3 -m scrape --offline saved/ --only bufferi
 3. **Settings → Actions → General → Workflow permissions**: *Read and write*,
    so the scheduled run can commit `data/menus.json`.
 
-The workflow runs at 06:10 and 10:00 Helsinki time on weekdays, and can be run
-by hand from the Actions tab.
+The workflow runs three times per weekday, and can be run by hand from the
+Actions tab.
 
-GitHub cron is UTC only, so those times drift an hour when Finland leaves
-EEST at the end of October — 05:10 and 09:00 local through the winter. Both
-are still comfortably before lunch, so the schedule is left alone rather than
-chasing daylight saving.
+The cron times look absurdly early on purpose. **GitHub does not run scheduled
+workflows on time.** Measured over three weeks on this repo, runs started
+**5 to 7.5 hours** after the requested time, and the lag grew week on week:
+
+| requested (UTC) | actually started (UTC) |
+|---|---|
+| 03:10 | 08:21 – 10:01 |
+| 07:00 | 12:13 – 14:43 |
+
+A schedule asking for 06:10 and 10:00 Helsinki was therefore delivering menus
+at roughly 11:30 and 15:00 — during and after lunch. The fix is to ask for the
+small hours and let the queue deliver before lunch, and to ask several times,
+since a run that finds nothing new takes ~30s, commits nothing, and costs
+nothing on a public repo.
+
+Cron is UTC-only with no daylight-saving support, so every time above shifts
+an hour in local terms when Finland leaves EEST at the end of October. With
+three spread-out runs that no longer matters much.
 
 Note that the workflow does **not** need the repository's "Workflow
 permissions" set to read/write: `update.yml` declares `permissions: contents:
