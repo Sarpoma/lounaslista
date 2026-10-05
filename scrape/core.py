@@ -112,15 +112,37 @@ def _headings(lines: list[str]) -> list[tuple[int, int]]:
     return found
 
 
-def _best_run(found: list[tuple[int, int]]) -> list[tuple[int, int]]:
-    """Pick the Mon->Fri sequence that looks like the real menu.
+# "Menu 5.-9.10.2026" above a block of weekdays - the week those days belong
+# to, when the days themselves carry no dates.
+_WEEK_RANGE = re.compile(
+    r"(\d{1,2})\s*\.\s*[-\u2013\u2014]\s*\d{1,2}\s*\.\s*(\d{1,2})\s*\.\s*(\d{4})")
 
-    Pages often name weekdays more than once (navigation, opening hours,
-    a second week). Split the headings wherever the weekday stops advancing,
-    then keep the longest resulting run.
+
+def _run_week(lines: list[str], start: int) -> date | None:
+    """The week heading immediately above a run of weekdays, if there is one."""
+    for i in range(max(0, start - 4), start):
+        m = _WEEK_RANGE.search(lines[i])
+        if m:
+            d, mo, y = (int(g) for g in m.groups())
+            try:
+                return date(y, mo, d)
+            except ValueError:
+                pass
+    return None
+
+
+def _choose_run(lines: list[str],
+                found: list[tuple[int, int]]) -> tuple[list[tuple[int, int]], date | None]:
+    """Pick the Mon->Fri sequence that is actually this week's menu.
+
+    Pages name weekdays more than once - navigation, opening hours, and
+    sometimes a whole stale menu left above the current one. Split the
+    headings wherever the weekday stops advancing, then choose between the
+    runs: a dated week heading beats everything, because length alone once
+    picked a nine-month-old menu that happened to come first in the markup.
     """
     if not found:
-        return []
+        return [], None
     runs, current = [], [found[0]]
     for prev, item in zip(found, found[1:]):
         if item[1] > prev[1]:
@@ -129,7 +151,12 @@ def _best_run(found: list[tuple[int, int]]) -> list[tuple[int, int]]:
             runs.append(current)
             current = [item]
     runs.append(current)
-    return max(runs, key=len)
+
+    dated = [(r, w) for r in runs if (w := _run_week(lines, r[0][0]))]
+    if dated:
+        today = date.today()
+        return min(dated, key=lambda rw: abs((rw[1] - today).days))
+    return max(runs, key=len), None
 
 
 @dataclass
@@ -211,7 +238,7 @@ def extract_week(
     prints "Maanantai" above Monday's food.
     """
     lines = html_to_lines(markup)
-    run = _best_run(_headings(lines))
+    run, run_week = _choose_run(lines, _headings(lines))
     if not run:
         return []
 
@@ -249,6 +276,9 @@ def extract_week(
                         best = c
                 if best:
                     day.date = best.isoformat()
+
+        if day.date is None and run_week is not None:
+            day.date = (run_week + timedelta(days=weekday)).isoformat()
 
         day.items = _clean_items(tail, max_items, max_len)
         days.append(day)

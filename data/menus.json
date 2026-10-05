@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-05T18:12:16+03:00",
+ "generatedAt": "2026-10-05T18:23:25+03:00",
  "weekStart": "2026-10-05",
  "restaurants": [
   {
@@ -306,12 +306,12 @@
    "hours": "ma-pe",
    "status": "ok",
    "error": null,
-   "week": null,
+   "week": "2026-10-12",
    "days": [
     {
      "weekday": 0,
      "label": "Maanantai",
-     "date": null,
+     "date": "2026-10-10",
      "items": [
       "Jauhelihalasagnea L",
       "Hunajaista mandariinibroileria G, M",
@@ -322,7 +322,7 @@
     {
      "weekday": 1,
      "label": "Tiistai",
-     "date": null,
+     "date": "2026-10-11",
      "items": [
       "Lohta smetana-tillikastikkeessa L, G",
       "Ylikypsää omenapossua L, G",
@@ -333,7 +333,7 @@
     {
      "weekday": 2,
      "label": "Keskiviikko",
-     "date": null,
+     "date": "2026-10-12",
      "items": [
       "Maustettuja lihapullia L, G",
       "Kana-tacovuokaa L",
@@ -344,7 +344,7 @@
     {
      "weekday": 3,
      "label": "Torstai",
-     "date": null,
+     "date": "2026-10-13",
      "items": [
       "Uunipossua kermakastikkeessa L, G",
       "Paholaisen broileria & riisiä L, G",
@@ -355,7 +355,7 @@
     {
      "weekday": 4,
      "label": "Perjantai",
-     "date": null,
+     "date": "2026-10-14",
      "items": [
       "Tortillabuffet",
       "Broilerin siipiä Texas Pete -kastikkeessa & valkosipulidippiä",
