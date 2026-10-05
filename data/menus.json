@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-05T10:10:43+03:00",
+ "generatedAt": "2026-10-05T10:18:30+03:00",
  "weekStart": "2026-10-05",
  "restaurants": [
   {
@@ -10,6 +10,7 @@
    "hours": "ma-pe 10:30-13:30",
    "status": "ok",
    "error": null,
+   "week": "2026-10-05",
    "days": [
     {
      "weekday": 0,
@@ -88,6 +89,7 @@
    "hours": "ma-pe 10:30-14:00",
    "status": "ok",
    "error": null,
+   "week": null,
    "days": [
     {
      "weekday": 0,
@@ -166,6 +168,7 @@
    "hours": "ma-pe 10:30-14:00",
    "status": "ok",
    "error": null,
+   "week": null,
    "days": [
     {
      "weekday": 0,
@@ -230,6 +233,7 @@
    "hours": "ma-pe 10:30-14:00",
    "status": "ok",
    "error": null,
+   "week": "2026-10-05",
    "days": [
     {
      "weekday": 0,
@@ -302,6 +306,7 @@
    "hours": "ma-pe",
    "status": "ok",
    "error": null,
+   "week": null,
    "days": [
     {
      "weekday": 0,
@@ -367,6 +372,7 @@
    "hours": "ma-pe 10:30-14:00",
    "status": "ok",
    "error": null,
+   "week": "2026-10-05",
    "days": [
     {
      "weekday": 0,

@@ -15,7 +15,7 @@ import time
 
 from dataclasses import asdict
 
-from .core import Day, Result, dump, extract_week, fetch
+from .core import Day, Result, dump, extract_week, fetch, week_of
 from .restaurants import RESTAURANTS
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -97,6 +97,7 @@ def main(argv: list[str] | None = None) -> int:
                 result.status = "stale"
                 result.error = "could not re-read the site; showing the last menu we got"
 
+        result.week = week_of(result.days)
         results.append(result)
         count = sum(len(d.items) for d in result.days)
         mark = {"ok": "✓", "stale": "~", "empty": "!", "error": "✗"}[result.status]

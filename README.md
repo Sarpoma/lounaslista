@@ -79,11 +79,28 @@ the file stays byte-identical and produces no commit — otherwise the moving
 timestamp alone would mean two empty commits a day, every day.
 
 That makes the timestamp mean "when the food last changed" rather than "when
-we last looked", so the page does not use it to judge staleness. It compares
-`weekStart` against the current week instead: menus sitting unchanged for days
-is normal, whereas a `weekStart` from a week already gone means this week's
-list was never collected. That is the case worth warning about, and the page
-says so.
+we last looked", so the page does not use it to judge staleness. Two narrower
+signals do that instead, and they catch different failures.
+
+**`weekStart` — has anything run this week?** It is the Monday of the day the
+scraper ran. If the page sees a `weekStart` from a week already gone, no run
+has written the file this week and *everything* on display is old. The page
+says so in a banner.
+
+**`week` (per restaurant) — is this restaurant's food actually from this
+week?** Derived from the dates the restaurant itself prints, so it is real
+evidence rather than the runner's clock. A restaurant whose `week` disagrees
+with `weekStart` is still serving an older menu, and gets a banner plus a
+badge on its own card.
+
+The second check matters because `weekStart` comes from the clock. A run that
+fires before a restaurant has published the new week will happily stamp the
+file "this week" over last week's food — and without `week` nothing would
+notice. That risk grew when the schedule moved earlier, which is why the check
+exists. It also makes a latched stale fallback visible instead of silent.
+
+Only three of the six sites print dates. For the other three `week` is `null`
+and there is nothing to check against; the page does not guess.
 
 To investigate, save the page and iterate offline:
 

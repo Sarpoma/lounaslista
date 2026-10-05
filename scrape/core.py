@@ -136,6 +136,19 @@ class Day:
     items: list[str] = field(default_factory=list)
 
 
+def monday_of(day: date) -> date:
+    return day - timedelta(days=day.weekday())
+
+
+def week_of(days: list[Day]) -> str | None:
+    """The Monday the scraped dates point at, or None when the site prints
+    no dates and there is nothing to check against."""
+    mondays = [monday_of(date.fromisoformat(d.date)) for d in days if d.date]
+    if not mondays:
+        return None
+    return max(set(mondays), key=mondays.count).isoformat()
+
+
 @dataclass
 class Result:
     id: str
@@ -145,6 +158,7 @@ class Result:
     hours: str = ""
     status: str = "ok"           # ok | empty | error
     error: str | None = None
+    week: str | None = None      # Monday the scraped dates say; None if undated
     days: list[Day] = field(default_factory=list)
 
 
@@ -212,11 +226,25 @@ def extract_week(
                 tail = tail[1:]
         if m:
             d, mo, y = int(m.group(1)), int(m.group(2)), m.group(3)
-            year = int(y) if y else date.today().year
-            try:
-                day.date = date(year, mo, d).isoformat()
-            except ValueError:
-                pass
+            if y:
+                try:
+                    day.date = date(int(y), mo, d).isoformat()
+                except ValueError:
+                    pass
+            else:
+                # Most sites print "5.10." with no year. Pick the year that
+                # puts the date nearest today, so the turn of the year does
+                # not read January's menu as eleven months stale.
+                today, best = date.today(), None
+                for cand in (today.year - 1, today.year, today.year + 1):
+                    try:
+                        c = date(cand, mo, d)
+                    except ValueError:
+                        continue
+                    if best is None or abs((c - today).days) < abs((best - today).days):
+                        best = c
+                if best:
+                    day.date = best.isoformat()
 
         day.items = _clean_items(tail, max_items, max_len)
         days.append(day)
@@ -236,10 +264,6 @@ def _trim_last(days: list[Day]) -> list[Day]:
         if len(days[-1].items) > ref:
             days[-1].items = days[-1].items[:ref]
     return days
-
-
-def monday_of(day: date) -> date:
-    return day - timedelta(days=day.weekday())
 
 
 def dump(results: list[Result], path: str, generated_at: str | None = None) -> dict:

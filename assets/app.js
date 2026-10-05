@@ -38,7 +38,7 @@
     return li;
   }
 
-  function card(r, weekday) {
+  function card(r, weekday, weekStart) {
     const c = el("article", "card");
 
     const h = el("h2");
@@ -54,7 +54,10 @@
     });
     c.appendChild(meta);
 
-    if (r.status === "stale") c.appendChild(el("span", "badge stale", "Vanha tieto"));
+    // A dated site that disagrees with the week we are showing is the most
+    // specific thing we can say, so it wins over the generic stale badge.
+    if (behind(r, weekStart)) c.appendChild(el("span", "badge week", "Edellisen viikon lista"));
+    else if (r.status === "stale") c.appendChild(el("span", "badge stale", "Vanha tieto"));
     if (r.status === "error" || r.status === "empty") c.appendChild(el("span", "badge error", "Ei saatavilla"));
 
     const day = (r.days || []).find(d => d.weekday === weekday);
@@ -72,7 +75,7 @@
   function render(data, weekday) {
     const grid = document.getElementById("grid");
     grid.textContent = "";
-    data.restaurants.forEach(r => grid.appendChild(card(r, weekday)));
+    data.restaurants.forEach(r => grid.appendChild(card(r, weekday, data.weekStart)));
     grid.hidden = false;
     document.getElementById("loading").hidden = true;
   }
@@ -110,13 +113,42 @@
     });
     const p = document.getElementById("updated");
     p.textContent = `Listat muuttuivat viimeksi ${when}.`;
+  }
 
-    // Staleness is a question about the week, not the clock. Menus sit
-    // unchanged for days quite legitimately; what actually means trouble is
-    // a weekStart from a week that has already been and gone.
+  /** A restaurant whose own dates disagree with the week being displayed. */
+  const behind = (r, weekStart) => Boolean(r.week) && r.week !== weekStart;
+
+  const fiDate = iso => {
+    const d = new Date(iso + "T00:00:00");
+    return `${d.getDate()}.${d.getMonth() + 1}.`;
+  };
+
+  /** Two different failures, in order of how badly they mislead. */
+  function banner(data) {
+    const box = document.getElementById("banner");
+    box.textContent = "";
+
+    // 1. Nothing has run this week, so the whole page is a week behind.
     if (new Date(data.weekStart + "T00:00:00") < mondayOf(new Date())) {
-      p.appendChild(el("strong", "warn-text", " Tämä on edellisen viikon lista."));
+      box.appendChild(el("strong", null, "Listat eivät ole tältä viikolta. "));
+      box.appendChild(document.createTextNode(
+        `Alla on viikon ${fiDate(data.weekStart)} lista — tämän viikon listoja ei ole haettu.`));
+      box.hidden = false;
+      return;
     }
+
+    // 2. The page is current, but a restaurant is still serving an old week.
+    const old = data.restaurants.filter(r => behind(r, data.weekStart));
+    if (old.length) {
+      box.appendChild(el("strong", null,
+        old.length === 1 ? "Yksi lista on vanha. " : "Osa listoista on vanhoja. "));
+      box.appendChild(document.createTextNode(
+        `${old.map(r => r.name).join(", ")} näyttää yhä edellisen viikon listaa.`));
+      box.hidden = false;
+      return;
+    }
+
+    box.hidden = true;
   }
 
   async function init() {
@@ -138,6 +170,7 @@
     const show = i => { active = i; buildTabs(data, active, show); render(data, active); };
     show(active);
     stamp(data);
+    banner(data);
   }
 
   init();

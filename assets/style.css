@@ -107,6 +107,21 @@ ul.dishes li::before {
 .badge.stale { background: color-mix(in srgb, var(--warn) 15%, transparent); color: var(--warn); }
 .badge.error { background: color-mix(in srgb, var(--err) 14%, transparent); color: var(--err); }
 
+.banner {
+  background: color-mix(in srgb, var(--warn) 13%, var(--card));
+  border: 1px solid color-mix(in srgb, var(--warn) 38%, transparent);
+  border-left: 4px solid var(--warn);
+  border-radius: 10px;
+  padding: 13px 16px;
+  margin-bottom: 20px;
+  font-size: .92rem;
+  line-height: 1.5;
+}
+.banner strong { color: var(--warn); }
+.banner[hidden] { display: none; }
+
+.badge.week { background: color-mix(in srgb, var(--warn) 15%, transparent); color: var(--warn); }
+
 .loading { color: var(--muted); padding: 2rem 0; }
 .foot { margin-top: 2.5rem; font-size: .78rem; color: var(--muted); }
 .foot p { margin: .3rem 0; }
