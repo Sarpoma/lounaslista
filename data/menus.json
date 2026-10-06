@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-06T10:00:57+03:00",
+ "generatedAt": "2026-10-06T13:55:51+03:00",
  "weekStart": "2026-10-05",
  "locations": [
   {
@@ -97,11 +97,11 @@
    "id": "tiina",
    "name": "Tiinan Kotiruoka",
    "url": "https://tiinankotiruoka.fi/lounas-linnakallio/",
-   "location": "linnakallio",
+   "location": "",
    "area": "Linnakallio",
    "hours": "ma-pe 10:30-14:00",
-   "status": "ok",
-   "error": null,
+   "status": "stale",
+   "error": "could not re-read the site; showing the last menu we got",
    "week": null,
    "image": null,
    "days": [
@@ -487,7 +487,7 @@
       "Texmex-jauhelihakeitto (M, G)",
       "Uunilohi, remouladekastike (L, G), kerma-valkosipuliperunat (L, G)",
       "Herkullinen Cloven tandoori butter chicken (L, G), riisi",
-      "Paistettu mustamakkara (L), karamellisoitua sipulia (M, G)",
+      "Paistettua mustamakkaraa ja HK Sinistä lenkkiä (L), karamellisoitua sipulia (M, G)",
       "Savustettu Jalotofu-parsakaalivuoka (VE, G)",
       "Paahdettu tuore kasvis (M, G, VE)",
       "Puolukkrahka(L, G)"
@@ -501,7 +501,7 @@
       "Tom Yam -katkarapukeitto (M, G)",
       "Grillattu porsaan niska BBQ-kastikkeella (M, G), rosmariinipaahdetut perunat (M, G)",
       "Aura-juusto-katajanmarjahärkä (L, G)",
-      "Cajun-maustetut paahdetut broilerin koivet (L, G)",
+      "Cajun-maustetut paahdetut broilerin siivet (L, G)",
       "Lehtikaaliohukaiset (L), puolukkahillo (M, G)",
       "Hunajalla paahdetut porkkanalohkot (M, G)",
       "Talon mango-ananaspiirakka (L), vaniljakastike (L)"
@@ -532,7 +532,7 @@
       "Paahdettu puna-ahven voin ja valkoviinin kastikkeessa (L, G)",
       "Kurpitsaveneet, papu-soijarouhetäyte (VE, G)",
       "Paahdettu tuore kasvis (M, G, VE)",
-      "Kinuski–valkosuklaa–vadelmamousse (L)"
+      "Kinuski–valkosuklaa–vadelmamousse (G)"
      ]
     }
    ]
