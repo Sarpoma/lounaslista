@@ -23,6 +23,17 @@ per visitor.
 All six serve their menus in server-rendered HTML, and all six allow this in
 `robots.txt`.
 
+The eight restaurants around the Juhanilantie office in Vantaa are less
+uniform. Most publish weekday-headed HTML like the Linnakallio six; La Maria
+is read from a JSON API its own bundle pointed at; Pegasus Fajo publishes the
+week as a single image, shown inline and enlarged on tap; and Maggadu renders
+only in the browser and is carried by no aggregator we may use, so it gets a
+card that says so and links out.
+
+Not every page is UTF-8. Fuudii is served as ISO-8859-1 with no declared
+charset at all, so `core.decode` tries strict UTF-8 first and falls back to
+cp1252 rather than quietly replacing every umlaut.
+
 ## Running it locally
 
 No dependencies — Python 3.11+ standard library only.

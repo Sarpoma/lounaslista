@@ -99,21 +99,24 @@ RESTAURANTS = [
         "area": "Suokallionkuja 2", "hours": "ma-pe 10:30-14:00",
         "handler": "fajo_image",
     },
-    # Both render their menus in the browser and are carried by no aggregator
-    # we may use (lounasnyt.fi has an API but disallows /api/ in robots.txt,
-    # and does not list either of them anyway). A link beats a blank card.
     {
+        # showall=true serves the whole week as plain text. The page is
+        # ISO-8859-1 with no declared charset, which core.decode handles;
+        # the flavour text lives in its own class and is dropped.
+        "id": "fuudii", "location": "juhanilantie",
+        "name": "Lounasravintola Fuudii",
+        "url": "https://www.fuudii.fi/ravintola.html?listtype=lunch&ci=0&showall=true",
+        "area": "Vantaa", "hours": "ma-pe",
+        "opts": {"max_items": 10, "strip_classes": ("restaurant_menuitemdescription",)},
+    },
+    {
+        # Renders in the browser and is carried by no aggregator we may use
+        # (lounasnyt.fi has an API but disallows /api/ in robots.txt, and
+        # does not list it anyway). A link beats a blank card.
         "id": "maggadu", "location": "juhanilantie",
         "name": "Ravintola Maggadu",
         "url": "https://foodzone.fi/vantaa/ravintolamaggadu/lunch",
         "area": "Tulkintie 29", "hours": "ma-pe 10:30-14:00",
-        "handler": "link_only",
-    },
-    {
-        "id": "fuudii", "location": "juhanilantie",
-        "name": "Lounasravintola Fuudii",
-        "url": "https://fuudii.fi",
-        "area": "Vantaa", "hours": "ma-pe",
         "handler": "link_only",
     },
 ]

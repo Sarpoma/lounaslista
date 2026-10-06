@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-05T19:04:17+03:00",
+ "generatedAt": "2026-10-06T07:48:29+03:00",
  "weekStart": "2026-10-05",
  "locations": [
   {
@@ -854,25 +854,91 @@
    "days": []
   },
   {
+   "id": "fuudii",
+   "name": "Lounasravintola Fuudii",
+   "url": "https://www.fuudii.fi/ravintola.html?listtype=lunch&ci=0&showall=true",
+   "location": "juhanilantie",
+   "area": "Vantaa",
+   "hours": "ma-pe",
+   "status": "ok",
+   "error": null,
+   "week": null,
+   "image": null,
+   "days": [
+    {
+     "weekday": 0,
+     "label": "Maanantai",
+     "date": null,
+     "items": [
+      "Rubenin leipä ja Bbq \"Gravy\"",
+      "Panko kuorrutettua kananrintafilettä ja choron kastiketta",
+      "Cheddar Omeletti",
+      "Paahdetut tuoreet kasvikset",
+      "Ranskalaiset ja Curry dippi"
+     ]
+    },
+    {
+     "weekday": 1,
+     "label": "Tiistai",
+     "date": null,
+     "items": [
+      "Porsaan lankkufileetä ja herkkusienimuhennosta",
+      "Fuudiin jauhelihamakaronilaatikko",
+      "Aurajuusto-punajuuritäytetyt paprikat",
+      "Paahdetut tuoreet kasvikset ja riisi",
+      "Hedelmä Palvova kakkua"
+     ]
+    },
+    {
+     "weekday": 2,
+     "label": "Keskiviikko",
+     "date": null,
+     "items": [
+      "Lihapullat kahdella kastike vaihtoehdolla.",
+      "Pinaattiletut ja puolukkaa",
+      "Uuniperunaa ja palvikinkku täyte.",
+      "Savulohi lasagne",
+      "Paahdetut tuoreet kasvikset",
+      "Jasmin riisiä"
+     ]
+    },
+    {
+     "weekday": 3,
+     "label": "Torstai",
+     "date": null,
+     "items": [
+      "Broilerin rintaa ja Savujuusto Bbqkastiketta",
+      "Nakkis &Pekkis , Mango-Jalopeno Dippi",
+      "Salami-Njuda Pasta",
+      "Parsakaali-emmentalpihvit",
+      "Jasmin Riisiä",
+      "Paahdetut tuoreet kasvikset",
+      "Pannukakkua , kermavaahtoa ja kotihilloa"
+     ]
+    },
+    {
+     "weekday": 4,
+     "label": "Perjantai",
+     "date": null,
+     "items": [
+      "Hawaijinleikkeitä ananaksella ja Quagamoledippiä",
+      "Kanatacoja ja tuoretomaattisalsaa",
+      "Savulohi Jambalayaa",
+      "Paahdettuja perunoita",
+      "Cheddarjuusto-jalopenokastiketta",
+      "Paahdetut tuoreet kasvikset",
+      "Mangopehmistä"
+     ]
+    }
+   ]
+  },
+  {
    "id": "maggadu",
    "name": "Ravintola Maggadu",
    "url": "https://foodzone.fi/vantaa/ravintolamaggadu/lunch",
    "location": "juhanilantie",
    "area": "Tulkintie 29",
    "hours": "ma-pe 10:30-14:00",
-   "status": "link",
-   "error": null,
-   "week": null,
-   "image": null,
-   "days": []
-  },
-  {
-   "id": "fuudii",
-   "name": "Lounasravintola Fuudii",
-   "url": "https://fuudii.fi",
-   "location": "juhanilantie",
-   "area": "Vantaa",
-   "hours": "ma-pe",
    "status": "link",
    "error": null,
    "week": null,

@@ -30,8 +30,10 @@ _NOISE = re.compile(
     r"eväste|evästeit|cookie|tietosuoja|yhteystied|copyright|©|all rights|"
     r"seuraa meitä|facebook|instagram|lue lisää|katso lisää|siirry|"
     r"varaa pöytä|tilaa uutiskirje|hyväksy|asetukset|valikko|etusivu|"
-    r"^\s*(ma|ti|ke|to|pe)\s*$|^\s*lounas\s*$|^\s*€?\s*[\d,.\s]+€?\s*$|"
+    r"^\s*(ma|ti|ke|to|pe)\s*$|^\s*lounas(lista)?\s*$|^\s*€?\s*[\d,.\s]+€?\s*$|"
     r"katso p\u00e4iv\u00e4n lounaslista|lounaslista puuttuu|^~?\s*sis\.|"
+    r"^(?:(?:gluteeniton|laktoositon|maidoton|vegaaninen|"
+    r"v\u00e4h\u00e4laktoosinen|kananmunaton)(?:\s*,\s*)?)+$|"
     r"^\s*sis\u00e4lt\u00e4\u00e4 |salaattip\u00f6yd\u00e4n, juomat|"
     r"^\s*(avoinna|aukiolo)",
     re.IGNORECASE,
@@ -57,6 +59,22 @@ _BULLET = re.compile(r"^[\s •·*\-–—•\t]+")
 _WS = re.compile(r"[\s ]+")
 
 
+def decode(raw: bytes, charset: str | None = None) -> str:
+    """Bytes to text, without trusting a page to declare its own encoding.
+
+    Some Finnish sites are still served as ISO-8859-1 with no charset at all.
+    Decoding those as UTF-8 does not fail loudly - it quietly turns every a
+    and o umlaut into a replacement character - so try strict UTF-8 first and
+    fall back to cp1252 only when the bytes genuinely are not UTF-8.
+    """
+    for enc in ([charset] if charset else []) + ["utf-8", "cp1252"]:
+        try:
+            return raw.decode(enc)
+        except (UnicodeDecodeError, LookupError):
+            continue
+    return raw.decode("utf-8", errors="replace")
+
+
 def fetch(url: str, *, timeout: int = 25, retries: int = 3) -> str:
     """GET a page as text, retrying transient failures with backoff."""
     last: Exception | None = None
@@ -75,8 +93,8 @@ def fetch(url: str, *, timeout: int = 25, retries: int = 3) -> str:
                 charset = resp.headers.get_content_charset()
             if not charset:
                 m = re.search(rb'charset=["\']?([\w-]+)', raw[:4096], re.I)
-                charset = m.group(1).decode("ascii", "ignore") if m else "utf-8"
-            return raw.decode(charset, errors="replace")
+                charset = m.group(1).decode("ascii", "ignore") if m else None
+            return decode(raw, charset)
         except (urllib.error.URLError, urllib.error.HTTPError, OSError) as exc:
             last = exc
             if attempt < retries - 1:
@@ -242,6 +260,7 @@ def extract_week(
     max_len: int = 180,
     gap: int = 25,
     max_weekday: int = 4,
+    strip_classes: tuple[str, ...] = (),
 ) -> list[Day]:
     """Pull one Mon-Fri menu out of a page.
 
@@ -249,6 +268,13 @@ def extract_week(
     restyling its markup does not break the parser as long as it still
     prints "Maanantai" above Monday's food.
     """
+    # Some sites mark the flavour text up separately from the dish name, and
+    # when they do it is better to drop it by class than to guess by length.
+    for cls in strip_classes:
+        markup = re.sub(
+            r"(?is)<(\w+)[^>]*class=\"[^\"]*\b%s\b[^\"]*\"[^>]*>.*?</\1>" % re.escape(cls),
+            " ", markup)
+
     lines = html_to_lines(markup)
     run, run_week = _choose_run(lines, _headings(lines))
     if not run:
