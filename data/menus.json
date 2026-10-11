@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09T09:57:34+03:00",
+ "generatedAt": "2026-10-11T13:43:49+03:00",
  "weekStart": "2026-10-05",
  "locations": [
   {
@@ -110,12 +110,12 @@
      "label": "Maanantai",
      "date": null,
      "items": [
-      "Paahdetulla sipulilla kuorrutettu juustoinen uunimakkarapelti G, L",
-      "Butter Chicken eli voivoikanaa tomaattikastikkeessa & basmatiriisi G, L",
-      "Pasta Carbonara L",
-      "Lihapullat kastikkeessa & perunamuusi G, L",
-      "Paahdetut timjamijuurekset talon tapaan G, M",
-      "Kermaisen lapinukon riistakeitto G, L"
+      "TexMex-uunimakkaraa (nachoja, salsaa, jalapenoa) & keitetyt tilliperunat G, L",
+      "Paahdettua broileria kermaisessa Hollandaise-kastikkeessa & basmatiriisi G",
+      "Käristettyä riistabraatvurstia & puolukkahilloa G, L",
+      "Lihapullat kastikkeessa ja perunamuusi G, L",
+      "Hunajalla marinoidut & paahdetut kukkakaalit G, M",
+      "Jauhelihallinen-kaalikeitto G, M"
      ]
     },
     {
@@ -123,12 +123,12 @@
      "label": "Tiistai",
      "date": null,
      "items": [
-      "Uuniin unohdettua ylikypsää possua Lehmipoikavoikastikkeessa G, L",
-      "Broilerin Cordon Bleu, eli rapsakka kanaleike juustolla ja kinkulla & Sweet- chilidippi L",
-      "Lämpöisen oloiset lämpimät voileivät makkaralla & juustolla, ainakin L",
-      "Lihapullat kastikkeessa & perunamuusi G, L",
-      "Välimeren kasvisgratiini parmesaanijuustolla höystettynä G, L",
-      "Kirkkaan veden parempi nakkikeitto G, M"
+      "Yöhön unohdettua possua kermaisessa kolmenpippurin kastikkeessa & lohkoperunat G, L",
+      "Oikeassa voissa paistettua & paneroitua puna-ahventa L + tillitartardippi G, L",
+      "Marinoidut & grillatut broilerin tosi nuijjat + currydippi G, L",
+      "Lihapullat kastikkeessa ja perunamuusi G, L",
+      "Paprika-kesäkurpitsa-sipulipaistos makuliemellä & halloumijuustolla G, L",
+      "Kermainen riistakeitto G, L"
      ]
     },
     {
@@ -136,12 +136,12 @@
      "label": "Keskiviikko",
      "date": null,
      "items": [
-      "Ihan oikeesti oman käden jauhelihapihvit Rub-pippurimixillä & ruskeahko kastike G, L",
-      "Liika voissa paistetut & paneroidut muikkuset & valkosipulidippi G, L",
+      "Tuhdimman nakkitehtailijan perinteisempi nakkikastike & keitetyt tilliperunat G, L",
+      "Pitkään tikkuun ahdettua kanaa ”Satay”-kastikkeessa & paistettu riisi G, L",
       "Köökin omavalintainen pizza L",
-      "Lihapullat kastikkeessa & perunamuusi G, L",
-      "Höyrytettyjä maalaisporkkanoita keventäjän suolalla G, M",
-      "Kermainen lohikeitto fileestä G, L"
+      "Lihapullat kastikkeessa ja perunamuusi G, L",
+      "Äkämän rrapee reunaset pinaattiplättyset & puolukkahillo G, L",
+      "Mausteisempi kookoskanakeitto G, L"
      ]
     },
     {
@@ -149,13 +149,12 @@
      "label": "Torstai",
      "date": null,
      "items": [
-      "Fish ´n Chips, eli paneroitua & rapeaksi paistettua kalaa, ranskalaisia & tartardippi L",
-      "Köökissä väärässä järjestyksessä kasattua jauhelihalasagnea L",
-      "Paahdetut broilerin sisäfileet tummassa Teriyaki- kastikkeessa G, M",
-      "Lihapullat kastikkeessa & perunamuusi G, L",
-      "Grillatut & marinoidut maissiribsit G, L",
-      "Hernekeittoa G, M",
-      "Oman leipurin pannukakku & marjahillo L, saa glut."
+      "Ikeniä kolisuttavat porsaan suussa sulavat ribsit tummassa Cola-kastikkeessa G, L",
+      "Oman keittiön jauhelihapihvit paahdetulla sipulilla & Monterey Jack-- juustolla G, L",
+      "Paistettua maksaa kermaisessa sipulimuhennoksessa G, L",
+      "Lihapullat kastikkeessa ja perunamuusi G, L",
+      "Hunajaisen rouskuttajan maalaistyyliset rakuunaporkkanat G, M",
+      "Hernekeitto G, M (saa kasvis) ja pannari L, saa glut."
      ]
     },
     {
@@ -163,13 +162,12 @@
      "label": "Perjantai",
      "date": null,
      "items": [
-      "Paneroitua broilerin leikettä kuumalta pannulta & erilaisia dippejä lusikoitavaksi L",
-      "Suussa sulavaksi grillattua porsaan kylkeä BBQ-Cola-kastikkeessa G, L",
-      "Epäviralliset maksalaatikkopäiväetkot!",
-      "Broilerin siivet SIIPIWEIKKOJEN sooseilla & ranskikset & auradippi G, L",
-      "Lihapullat kastikkeessa & perunamuusi G, L",
-      "Pestolla voidellut grillitomaatit & ison käden juustokuorrute G, L",
-      "Samettisen pehmeä bataattikookoskeitto & paahdetut kurpitsansiemenet G, L"
+      "LINNAKALLION 7v. SYNTYMÄPÄIVÄ",
+      "Kakkukahvit, tuplaleimat ja muuta mukavaa!",
+      "Naudan Keep on Chuck Rolling",
+      "Oman pannun rapsakka porsaan leike & tuhdimpi BBQ-dippi G, L",
+      "Lihapullat kastikkeessa ja perunamuusi G, L",
+      "Broilerin siivet a´la SIIPIWEIKKOJEN soosi ja ranskikset G, M"
      ]
     }
    ]
@@ -191,8 +189,8 @@
      "label": "Maanantai",
      "date": null,
      "items": [
-      "Kermaista pasta Carbonaraa pekonista L 12,50€",
-      "Rosmariini-hunajakanaa M,G 12,50€",
+      "Hartaasti haudutettua Pasta Bolognesea ja parmesanjuustoa L 12,50€",
+      "Rapeita kanapaloja ja mangomajoneesia M,G 12,50€",
       "Riisiä M,G"
      ]
     },
@@ -201,8 +199,8 @@
      "label": "Tiistai",
      "date": null,
      "items": [
-      "Paistettuja porsaanpihvejä salvia-voikastikkeessa L,G 12,50€",
-      "Paahdettua broileria aromaattisessa vuohenjuusto-pestokastikkeessa G12,50€",
+      "Jauhelihapihvejä raikkaalla tomaatti paprika-sipulipaistoksella L,G 12,50€",
+      "Paahdettua broileria bearnaisekastikkeessa VL, G 12,50€",
       "Kermaista lohikeittoa L,G 9,40€",
       "Yrttiperunoita M,G"
      ]
@@ -212,9 +210,9 @@
      "label": "Keskiviikko",
      "date": null,
      "items": [
-      "Sitruunabroileria L,G 12,50€",
-      "Jauheliha-nachovuokaa L,G 12,50€",
-      "Haudutettua riisiä M,G"
+      "Talossa savustettua lohta ja sweet cremefraichea L,G 12,50€",
+      "Grillattua kanaa appelsiini-soijakastikkeessa M,G 12,50€",
+      "Talon perunoita M,G"
      ]
     },
     {
@@ -224,8 +222,8 @@
      "items": [
       "Hernekeittoa M,G 9,40€",
       "Pannukakkua kera mansikkahillon ja kermavaahdon",
-      "Cajunmaustettua kanaa kasviksilla M,G 12,50€",
-      "Pyttipannua L ,G 12,50€",
+      "Mango harissa glaseerattua broilerin fileetä M,G 12,50€",
+      "Possua tummassa timjamikastikkeessa L ,G 12,50€",
       "Riisiä M,G"
      ]
     },
@@ -234,9 +232,8 @@
      "label": "Perjantai",
      "date": null,
      "items": [
-      "Porsaan leikkeitä M ja Sweet chili-majoneesia M,G",
-      "Pestokanaa L,G sis.pähkinää L,G 12,50",
-      "Talon perunoita L,G"
+      "Talon rehtiä lihapizzaa L 12,50€",
+      "Meksikon kana-nachopeltiä, salsaa ja pikkelöityä punasipulia L,G 12,50"
      ]
     }
    ]
@@ -325,60 +322,61 @@
    "hours": "ma-pe",
    "status": "ok",
    "error": null,
-   "week": "2026-10-05",
+   "week": "2026-10-12",
    "image": null,
    "days": [
     {
      "weekday": 0,
      "label": "Maanantai",
-     "date": "2026-10-05",
+     "date": "2026-10-12",
      "items": [
-      "Jauhelihalasagnea L",
-      "Hunajaista mandariinibroileria G, M",
-      "Höyrytettyjä nakkeja L, G",
+      "Broilerinpaistia chili-cheddarkastikkeessa L, G",
+      "BBQ-seesamipossua L, G",
+      "Mausteista kebab-pastavuokaa L",
       "Jälkiruoka & kahvi"
      ]
     },
     {
      "weekday": 1,
      "label": "Tiistai",
-     "date": "2026-10-06",
+     "date": "2026-10-13",
      "items": [
-      "Lohta smetana-tillikastikkeessa L, G",
-      "Ylikypsää omenapossua L, G",
-      "Kinkku-pekonikiusausta L, G",
+      "Jauhelihapannupihvejä & pippurikastiketta L, G",
+      "Makkaramix & valkosipulikermaperunoita L, G",
+      "Talon kalaa & remouladekastiketta L",
       "Jälkiruoka & kahvi"
      ]
     },
     {
      "weekday": 2,
      "label": "Keskiviikko",
-     "date": "2026-10-07",
+     "date": "2026-10-14",
      "items": [
-      "Maustettuja lihapullia L, G",
-      "Kana-tacovuokaa L",
-      "Makkarakastiketta L, G",
+      "Lentävä jaakoppi (kanaa, pekonia, pähkinää…) L, G",
+      "Lamminpään mureaa uunipossua L, G",
+      "Jauhemaksapihvejä, paistettua sipulia & puolukkahilloa G, M",
       "Jälkiruoka & kahvi"
      ]
     },
     {
      "weekday": 3,
      "label": "Torstai",
-     "date": "2026-10-08",
+     "date": "2026-10-15",
      "items": [
-      "Uunipossua kermakastikkeessa L, G",
-      "Paholaisen broileria & riisiä L, G",
-      "Paneroitua puna-ahventa & limekastiketta L",
+      "Yön yli hautunutta karjalanpaistia G, M",
+      "Crispy chicken & tandoorijugurttikastiketta L",
+      "Jauhelihamoussakaa L, G",
       "Pannukakkua hillolla ja kermavaahdolla & kahvi"
      ]
     },
     {
      "weekday": 4,
      "label": "Perjantai",
-     "date": "2026-10-09",
+     "date": "2026-10-16",
      "items": [
-      "Tortillabuffet",
-      "Broilerin siipiä Texas Pete -kastikkeessa & valkosipulidippiä",
+      "Possunleikkeitä & hunaja-sinappikastiketta L (glut. pyytämällä)",
+      "Mozzarellapizzaa L (glut. pyytämällä)",
+      "Broilerin siipiä Texas Pete -kastikkeessa & auradippiä L, G",
       "Jälkiruoka & kahvi"
      ]
     }
@@ -546,64 +544,62 @@
    "hours": "ma-pe 10:00-13:30",
    "status": "ok",
    "error": null,
-   "week": "2026-10-05",
+   "week": "2026-10-12",
    "image": null,
    "days": [
     {
      "weekday": 0,
      "label": "Maanantai",
-     "date": "2026-10-05",
+     "date": "2026-10-12",
      "items": [
-      "lasagne L",
-      "karjalanpaisti M,G",
-      "porkkanalaatikko L,G",
-      "pinaattilettuja L",
+      "lihamureke, dijonkermakastike L,G",
+      "pyttipannu L,G ja paistettu muna",
+      "chili-bearnaisbroileria L,G",
       "kermainen lohikeitto L,G"
      ]
     },
     {
      "weekday": 1,
      "label": "Tiistai",
-     "date": "2026-10-06",
+     "date": "2026-10-13",
      "items": [
-      "possun uunifilee pippurikastikkeella L,G",
-      "suppilovahvero-kanttarellipasta L",
-      "marry me kana L,G",
-      "paahdettu fenkoli-parsakaalisosekeitto L,G"
+      "pad thai chicken L",
+      "lihapullat choronkastikeella L,G",
+      "perinteinen makkarakastike L",
+      "maa-artisokkasosekeitto L,G"
      ]
     },
     {
      "weekday": 2,
      "label": "Keskiviikko",
-     "date": "2026-10-07",
+     "date": "2026-10-14",
      "items": [
-      "porsaan kassleria timjamikastikkeessa L,G",
-      "paprikainen broilerikastike L,G",
-      "jauhemaksapihvit L,G puolukkahillo",
-      "makkarakeitto L,G"
+      "nyhtöpossuhodarit jalapenosalsalla ja cheddarjuustolla (pyydäG)",
+      "salvia-voikanaa L,G",
+      "lohipasta L",
+      "minestronekeitto L"
      ]
     },
     {
      "weekday": 3,
      "label": "Torstai",
-     "date": "2026-10-08",
+     "date": "2026-10-15",
      "items": [
-      "porsaan paneroitu leike L (pyydä G) chilimajoneesi",
-      "jauhelihakiusaus L,G",
-      "mantelikala L",
+      "porsaan paneroitu leike L (pyydä G) bbq-majoneesi L,G",
+      "korealaistyylinen jauhelihakastike L,G ja basmatiriisi",
+      "kinkkukiusaus L,G",
       "hernekeitto M,G ja pannari L (pyydä G)"
      ]
     },
     {
      "weekday": 4,
      "label": "Perjantai",
-     "date": "2026-10-09",
+     "date": "2026-10-16",
      "items": [
       "uunilohifilee L,G",
-      "rapeat kananpaistipalat L ja currymajoneesi",
-      "kanansiivet siipiweikkojen kastikkeella M,G",
-      "sipulirenkaat ja jalapenopoppersseja L",
-      "perjantaisin jäätelöä ja karkkibuffa"
+      "tacojauhelihatortillat L (pyydä G)",
+      "naudan palapaisti L,G",
+      "aurakermaperunat L,G"
      ]
     }
    ]
@@ -689,8 +685,8 @@
    "location": "juhanilantie",
    "area": "Vantaankoskentie 14",
    "hours": "ma-pe 10:30-13:00",
-   "status": "ok",
-   "error": null,
+   "status": "stale",
+   "error": "could not re-read the site; showing the last menu we got",
    "week": "2026-10-05",
    "image": null,
    "days": [
@@ -850,8 +846,8 @@
    "hours": "ma-pe 10:30-14:00",
    "status": "ok",
    "error": null,
-   "week": "2026-10-05",
-   "image": "https://cdn.prod.website-files.com/6a5757dd1c62f83f7a16d6c2/6ac28034d0e787cc84fa87c8_fajo%20ig%20vko%2041.png",
+   "week": "2026-10-12",
+   "image": "https://cdn.prod.website-files.com/6a5757dd1c62f83f7a16d6c2/6ac904aa5ce24d2a093e3ad5_fajo%20ig%20vko%2042.png",
    "days": []
   },
   {
