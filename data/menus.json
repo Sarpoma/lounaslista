@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-12T09:45:42+03:00",
+ "generatedAt": "2026-10-12T14:28:42+03:00",
  "weekStart": "2026-10-12",
  "locations": [
   {
@@ -97,11 +97,11 @@
    "id": "tiina",
    "name": "Tiinan Kotiruoka",
    "url": "https://tiinankotiruoka.fi/lounas-linnakallio/",
-   "location": "",
+   "location": "linnakallio",
    "area": "Linnakallio",
    "hours": "ma-pe 10:30-14:00",
-   "status": "stale",
-   "error": "could not re-read the site; showing the last menu we got",
+   "status": "ok",
+   "error": null,
    "week": null,
    "image": null,
    "days": [
@@ -255,7 +255,7 @@
      "label": "Maanantai",
      "date": "2026-10-12",
      "items": [
-      "Possunleike L ja Kermainen BBQ-kastike G",
+      "Possunleike L ja Kermainen BBQ-kastike L, G, MU",
       "Pesto Broileri L,G,MU",
       "Lihapyörykät pippurikermakastike ja muusi L,G,MU",
       "Päivän kasvisruoka keittiöstä: Oumph! BBQ pulled chunks & kermainen BBQ kastike L,G,MU"
@@ -678,75 +678,75 @@
    "location": "juhanilantie",
    "area": "Vantaankoskentie 14",
    "hours": "ma-pe 10:30-13:00",
-   "status": "stale",
-   "error": "could not re-read the site; showing the last menu we got",
-   "week": "2026-10-05",
+   "status": "ok",
+   "error": null,
+   "week": "2026-10-12",
    "image": null,
    "days": [
     {
      "weekday": 0,
      "label": "Maanantai",
-     "date": "2026-10-05",
+     "date": "2026-10-12",
      "items": []
     },
     {
      "weekday": 1,
      "label": "Tiistai",
-     "date": "2026-10-06",
+     "date": "2026-10-13",
      "items": [
-      "Butter chicken - kanaa intialaisittain",
-      "Ylikypsää possua ramenliemessä",
-      "Herkkutatti-hasselpähkinärisottoa",
-      "Basmatiriisiä",
-      "Chilipaahdettua bataattia",
-      "Maitokahvivanukasta",
+      "Dijon-bearnaisekalaa",
+      "Antellin lasagnea",
+      "Peruna-kikhernepyöryköitä",
+      "Sinappisia perunoita",
+      "Grillitomaatteja",
+      "Romescokastiketta",
+      "Punaherukkavispipuuroa",
       "Kahvi"
      ]
     },
     {
      "weekday": 2,
      "label": "Keskiviikko",
-     "date": "2026-10-07",
+     "date": "2026-10-14",
      "items": [
-      "Perinteistä liha-kaalilaatikkoa",
-      "Teriyakilohta",
-      "Itte tehtyjä yrtti-porkkanaohukaisia",
-      "Kermaperunoita",
-      "Grillattua fenkolia",
-      "Puolukkasurvosta",
-      "Omena-kaurahiutalepaistosta",
-      "Vaniljakastiketta",
+      "Itte tehtyjä jauhelihapihvejä",
+      "Teriyaki-kanaa",
+      "Pinaatti-ricottacanneloneja",
+      "Basmatiriisiä",
+      "Paahdettua ruusukaalia",
+      "Maalaislohkoperunoita",
+      "Kermaista sinappikastiketta",
+      "Vadelmakiisseliä",
       "Kahvi"
      ]
     },
     {
      "weekday": 3,
      "label": "Torstai",
-     "date": "2026-10-08",
+     "date": "2026-10-15",
      "items": [
-      "Tonnikalapizzaa",
-      "Jauhelihamureketta",
-      "Itte tehtyä metsäsienilasagnea",
-      "Paahdettua porkkanaa",
-      "Valkosipuliperunamuusia",
-      "Kermaista viherpippurikastiketta",
-      "Suklaamoussea",
+      "Misokastikkeella glaseerattua possunniskaa",
+      "Katkarapu-sahramirisottoa",
+      "Itte tehdyt bataatti-tahinipihvit",
+      "Green beans morning glory - vihreäpapuja thaimaalaisittain",
+      "Seesamipaahdettuja perunoita",
+      "Basmatiriisiä",
+      "Marjarahkaa",
       "Kahvi"
      ]
     },
     {
      "weekday": 4,
      "label": "Perjantai",
-     "date": "2026-10-09",
+     "date": "2026-10-16",
      "items": [
-      "Hawaijinleikkeitä",
-      "Tikka masala -kanaa",
-      "Espanjalaista kasvismunakasta",
-      "Maalaisranskalaisia",
-      "Mausteista riisiä",
-      "Intialaista inkiväärikaalia",
-      "Aurajuustomajoneesia",
-      "Puolukkaherkkua",
+      "Itte tehtyjä porsaanleikkeitä",
+      "Mausteisia kanansiipiä",
+      "Itte tehtyjä kukkakaaliwingsejä",
+      "Yrttiperunaa",
+      "Paahdettuja juureksia",
+      "Chipotlemaustettua ranskankermaa",
+      "Ohukaisia, kermavaahtoa ja hilloa",
       "Kahvi"
      ]
     }
@@ -915,7 +915,13 @@
      "label": "Perjantai",
      "date": null,
      "items": [
-      "Ei lounastarjoilua."
+      "Savulohta ja Holladaisekastiketta",
+      "Sloppy Joe'n Lihaisa Hotdog (Herkkunakki,Jauhelihaa,juustoa)",
+      "Butter Chickeniä ala Fuudii",
+      "Balsamico Paahdettua Parsakaali ja Saksanpähkinää",
+      "Jasmin Riisiä",
+      "Paahdetut tuoreet kasvikset",
+      "Suklaa pehmis"
      ]
     }
    ]
