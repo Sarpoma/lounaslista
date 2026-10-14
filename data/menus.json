@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-14T04:07:30+03:00",
+ "generatedAt": "2026-10-14T08:37:16+03:00",
  "weekStart": "2026-10-12",
  "locations": [
   {
@@ -448,11 +448,11 @@
    "id": "clove",
    "name": "Clove",
    "url": "https://clove.fi/lounas",
-   "location": "",
+   "location": "juhanilantie",
    "area": "Vantaa",
    "hours": "ma-pe",
-   "status": "stale",
-   "error": "could not re-read the site; showing the last menu we got",
+   "status": "ok",
+   "error": null,
    "week": null,
    "image": null,
    "days": [
@@ -890,10 +890,10 @@
      "items": [
       "Härän Briskettiä Bbq",
       "Broilerburritos",
-      "Valkosipulikermaperunoita",
+      "Prinssiputkifileetä ja sipulirenkaita",
       "Halloumi-Kasvismoussakkaa",
       "Vihreitä papuja ja pekonia",
-      "Jasminriisiä"
+      "Valkosipulikermaperunoita"
      ]
     },
     {
