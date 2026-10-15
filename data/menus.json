@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15T08:24:20+03:00",
+ "generatedAt": "2026-10-15T11:42:23+03:00",
  "weekStart": "2026-10-12",
  "locations": [
   {
@@ -289,7 +289,7 @@
      "date": "2026-10-15",
      "items": [
       "Kermassa haudutetut kaalikääryleet ja puolukkahillo L,G,MU",
-      "Teriyaki kanavartaat",
+      "Teriyaki kanavartaat L, MU",
       "Lihapyörykät, pippurikermakastike ja muusi L,G,MU",
       "Hernekeitto M, G, MU",
       "Päivän kasvisruoka keittiöstä: Kermassa haudutetut kasviskaalikääryleet L,G",
@@ -741,8 +741,8 @@
      "date": "2026-10-16",
      "items": [
       "Itte tehtyjä porsaanleikkeitä",
-      "Mausteisia kanansiipiä",
       "Itte tehtyjä kukkakaaliwingsejä",
+      "Sticky chili wings - chilimaustettuja tahmeita kanansiipiä",
       "Yrttiperunaa",
       "Paahdettuja juureksia",
       "Chipotlemaustettua ranskankermaa",
@@ -902,13 +902,14 @@
      "date": null,
      "items": [
       "Jauheliha chiliä ja tomaatti-ananas salsaa",
-      "Salami -Tuore tomaatti Pasta",
-      "kanaa poppamiehen paprika paistoksessa. Creme fraiche dippiä",
+      "Salami -tomaatti yrtti pasta",
+      "Kanaa poppamiehen paprika paistoksessa. Creme fraiche dippiä",
       "Pekoni, juusto nachopelti.",
       "Paahdettua yrtti porkkanaa",
       "Tortilla letut",
       "Jasmin riisiä",
-      "Pannukakkua , kermavaahtoa ja kotihilloa"
+      "Pannukakkua , kermavaahtoa ja kotihilloa",
+      "Ceasar salaattia naturell"
      ]
     },
     {
