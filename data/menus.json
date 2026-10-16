@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15T11:42:23+03:00",
+ "generatedAt": "2026-10-16T08:16:58+03:00",
  "weekStart": "2026-10-12",
  "locations": [
   {
@@ -448,11 +448,11 @@
    "id": "clove",
    "name": "Clove",
    "url": "https://clove.fi/lounas",
-   "location": "juhanilantie",
+   "location": "",
    "area": "Vantaa",
    "hours": "ma-pe",
-   "status": "ok",
-   "error": null,
+   "status": "stale",
+   "error": "could not re-read the site; showing the last menu we got",
    "week": null,
    "image": null,
    "days": [
