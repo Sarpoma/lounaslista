@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T08:16:58+03:00",
+ "generatedAt": "2026-10-16T11:37:22+03:00",
  "weekStart": "2026-10-12",
  "locations": [
   {
@@ -302,7 +302,8 @@
      "date": "2026-10-16",
      "items": [
       "Burgerbuffet, Kokoa mieleisesi burger-annos",
-      "Rapea pinaatti-juustokalarulla Sitrus-kermaviilikastike L,G,MU",
+      "Rapea pinaatti-juustokalarulla.",
+      "Sitrus-kermaviilikastike L,G,MU",
       "Lihapyörykät pippurikermakastike ja muusi L,G,MU",
       "Burgeriin saatavilla kasvispihvi keittiöstä"
      ]
@@ -448,11 +449,11 @@
    "id": "clove",
    "name": "Clove",
    "url": "https://clove.fi/lounas",
-   "location": "",
+   "location": "juhanilantie",
    "area": "Vantaa",
    "hours": "ma-pe",
-   "status": "stale",
-   "error": "could not re-read the site; showing the last menu we got",
+   "status": "ok",
+   "error": null,
    "week": null,
    "image": null,
    "days": [
