@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-18T16:01:57+03:00",
- "weekStart": "2026-10-12",
+ "generatedAt": "2026-10-18T20:12:51+03:00",
+ "weekStart": "2026-10-19",
  "locations": [
   {
    "id": "linnakallio",
@@ -246,13 +246,13 @@
    "hours": "ma-pe 10:30-14:00",
    "status": "ok",
    "error": null,
-   "week": "2026-10-12",
+   "week": "2026-10-19",
    "image": null,
    "days": [
     {
      "weekday": 0,
      "label": "Maanantai",
-     "date": "2026-10-12",
+     "date": "2026-10-19",
      "items": [
       "Possunleike L ja Kermainen BBQ-kastike L, G, MU",
       "Pesto Broileri L,G,MU",
@@ -263,7 +263,7 @@
     {
      "weekday": 1,
      "label": "Tiistai",
-     "date": "2026-10-13",
+     "date": "2026-10-20",
      "items": [
       "Uunilohta ja Limejogurtti L,G,MU",
       "Tomaattinen chorizopasta MU",
@@ -274,7 +274,7 @@
     {
      "weekday": 2,
      "label": "Keskiviikko",
-     "date": "2026-10-14",
+     "date": "2026-10-21",
      "items": [
       "Pannupihvit, paistettua sipulia ja ranchmajoneesia L, G, MU",
       "Paholaisen broileri vuohenjuustolla VL, G, MU",
@@ -285,7 +285,7 @@
     {
      "weekday": 3,
      "label": "Torstai",
-     "date": "2026-10-15",
+     "date": "2026-10-22",
      "items": [
       "Kermassa haudutetut kaalikääryleet ja puolukkahillo L,G,MU",
       "Teriyaki kanavartaat L, MU",
@@ -298,7 +298,7 @@
     {
      "weekday": 4,
      "label": "Perjantai",
-     "date": "2026-10-16",
+     "date": "2026-10-23",
      "items": [
       "Burgerbuffet, Kokoa mieleisesi burger-annos",
       "Rapea pinaatti-juustokalarulla.",
@@ -387,59 +387,61 @@
    "hours": "ma-pe 10:30-14:00",
    "status": "ok",
    "error": null,
-   "week": "2026-10-12",
+   "week": "2026-10-19",
    "image": null,
    "days": [
     {
      "weekday": 0,
      "label": "Maanantai",
-     "date": "2026-10-12",
+     "date": "2026-10-19",
      "items": [
-      "Perinteisiä lihapullia, Ruskeaa kastiketta, Perunamuusia & Puolukkahilloa L",
-      "Nakkikeittoa L,G",
-      "Kasvispyöryköitä, Timjamijogurttia & Perunamuusia L,G"
+      "Buffalo Chicken, Bataattiranskalaisia & Paahteista valkosipuli-chilidippiä L,G",
+      "Kookos-bataattikeittoa, Marinoitua tofua & Korianteria L,G",
+      "Porkkanaa & varsiselleriä L,G",
+      "Sitruunaposset & Valkosuklaata L,G"
      ]
     },
     {
      "weekday": 1,
      "label": "Tiistai",
-     "date": "2026-10-13",
+     "date": "2026-10-20",
      "items": [
-      "Green Curry kanaa & Basmatiriisiä L,G",
-      "Kurpitsa-briejuustokeittoa, Rucolafraichea & Kurpitsansiementä L,G",
-      "Wokkikasviksia & Sweet Chiliä L,G",
-      "Mango-suklaamoussea L,G"
+      "Bufferin leike, Bearnaisekastiketta, Paistettua ananasta, Paahdettua blue cheese perunaa L",
+      "Fetajuusto-kurpitsakeittoa, Lehtikaalia & kurpitsansiementä L,G",
+      "Tomaattista paprika-",
+      "kesäkurpitsapaistosta L,G",
+      "Kääretorttua L"
      ]
     },
     {
      "weekday": 2,
      "label": "Keskiviikko",
-     "date": "2026-10-14",
+     "date": "2026-10-21",
      "items": [
-      "Uunimakkaraa, Kermaperunaa, Suolakurkkua & Punajuurta L,G",
-      "Hernekeittoa, Sipulia & Sinappia L,G",
-      "Paahdettua porkkanaa & rakuunaa L,G",
-      "Pannukakkua, Kermavaahtoa & Mansikkahilloa L"
+      "Sitruunaista savulohipastaa, Parmesaania & Limeä L",
+      "Tex-Mex keittoa, Maissia, Nachoja, Ranskankermaa, Korianteria & Paholaisen hilloa L,G",
+      "Hernettä, Pinaattia & Voisulaa L,G",
+      "Appelsiini-suklaapannacottaa & Mantelia L,G"
      ]
     },
     {
      "weekday": 3,
      "label": "Torstai",
-     "date": "2026-10-15",
+     "date": "2026-10-22",
      "items": [
-      "Lindströmin pihvejä, Omena-portviinikastiketta, Hillottua sipulia & Timjamiperunaa L,G",
-      "Lohikeittoa L,G, Ruisleipää & Suolattua voita L",
-      "Punajuuripihviä, Hillottua sipulia & Timjamiperunaa L,G",
-      "Pumpkin spice pannacottaa, Omenaa & Kauraa L,G"
+      "Riistakäristystä, Perunamuusia & Hillottua puolukkaa L,G",
+      "Maa-artisokkakeittoa, Pekonia & Rosmariinifraichea L,G",
+      "Säräjuureksia L,G",
+      "Omena-kaurapaistosta & Vaniljakastiketta L,G"
      ]
     },
     {
      "weekday": 4,
      "label": "Perjantai",
-     "date": "2026-10-16",
+     "date": "2026-10-23",
      "items": [
-      "Kana Gyros, Pitaleipää, Piklattua kurkkua & valkosipulia, Marinoitua kaalia, Savupaprikajogurttia & Paahdettua lohkoperunaa L",
-      "Savuporo-koskenlaskijakeittoa L,G, Perunarieskaa & Rosmariinituorejuustoa L"
+      "Crispy Chicken Burger = Fritattua kanaa, Mango-currymajoneesia, Jääsalaattia, Jalopenoa, Ananasta & chipotlea, Cheddarjuustoa, Paahdettua perunaa & pepperonia L",
+      "Kasvis-sosekeittoa, Goudaa & Persiljaa L,G"
      ]
     }
    ]
