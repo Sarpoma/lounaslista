@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-18T20:12:51+03:00",
+ "generatedAt": "2026-10-19T03:06:18+03:00",
  "weekStart": "2026-10-19",
  "locations": [
   {
@@ -21,72 +21,74 @@
    "hours": "ma-pe 10:30-13:30",
    "status": "ok",
    "error": null,
-   "week": "2026-10-12",
+   "week": "2026-10-19",
    "image": null,
    "days": [
     {
      "weekday": 0,
      "label": "Maanantai",
-     "date": "2026-10-12",
+     "date": "2026-10-19",
      "items": [
-      "Paneroitua possunleikettä L sekä jalapenomajoneesia",
-      "Kanan sisäfilettä sahrami-valkoviinikastikkeessa L, G, MU",
-      "Punajuuri-halloumpihvejä ja hernepestoa VL, G",
-      "Kermaperunaa L, G, MU",
-      "Yrttiriisiä V, G",
-      "Paahdettua parsakaalia ja paprikaa V, G",
+      "Talon parmesaanipaneroitua kanan sisäfilettä L, G, MU sekä tsatsikia",
+      "Perinteisiä kermassa haudutettuja kaalikääryleitä L, G sekä puolukkaa",
+      "Falafelpyöryköitä V, G ja ananasaiolia M, G",
+      "Perunamuusia L, G, MU",
+      "Villiriisiä V, G",
+      "Satokauden kasviksia paahdettuna V, G",
       "Jälkiruokakeksiä"
      ]
     },
     {
      "weekday": 1,
      "label": "Tiistai",
-     "date": "2026-10-13",
+     "date": "2026-10-20",
      "items": [
-      "Kanan sisäfilettä kermaisessa pestokastikkeessa ja mozzarellaa L, G, MU",
-      "Pyttipannua ja paistettua kananmunaa M, G",
-      "Kasviksilla ja juustolla täytettyä kesäkurpitsaa L, G",
-      "Fenkolilla ja sitruunalla höystettyä riisiä V, G",
-      "Paahdettuja satokauden kasviksia V, G",
-      "Pullavanukasta L"
+      "Paahdettua kanaa mojo rojo-kastikkeessa M, G, MU",
+      "Cappelli-tonnikala-pastavuokaa L",
+      "Chili sin carne V, G",
+      "Riisiä V, G ja paistettua perunaa V, G",
+      "Balsamicopaahdettua punajuurta ja siemeniä V, G",
+      "Kuningatarrahkaa L, G"
      ]
     },
     {
      "weekday": 2,
      "label": "Keskiviikko",
-     "date": "2026-10-14",
+     "date": "2026-10-21",
      "items": [
-      "Yön yli haudutettua possun niskaa ja pippurikermakastiketta L, G, MU",
-      "Sticky sesame-kanaa M, G, MU",
-      "Tofua ja parsakaalia teriyakikastikkeessa V, G",
-      "Basmatiriisiä V, G",
-      "Parmesaanilla ja persiljalla maustetut lohkoperunat L, G",
-      "Glaseerattuja syysjuureksia V, G",
+      "Linkosuon klassikko: Pilvenpiirtäjän kanaa – pekonilla ja ranskankermalla kuorrutettuna L, G, MU",
+      "Häränmurekepihvejä metsäsienikastikkeella L, G",
+      "Tomaattiravioleja basilikaöljyssä L",
+      "Yrttiriisiä V, G",
+      "Juuresmuusia L, G",
+      "Höyrytettyä kukkakaalia V, G",
       "Jälkiruokakeksiä"
      ]
     },
     {
      "weekday": 3,
      "label": "Torstai",
-     "date": "2026-10-15",
+     "date": "2026-10-22",
      "items": [
-      "Kanaa béarnaisekastikkeessa VL, G",
-      "Kebab-punasipuli enchilladat L",
-      "Kesäkurpitsa-kasvislasagnea L",
-      "Villiriisiä V, G",
-      "Punajuurta, sinihomejuustoa ja maapähkinää L, G",
-      "Omena-kaurapaistosta ja vaniljakastiketta L"
+      "Fish & Chips – paneroitua kalaa M sekä tartar-kastiketta",
+      "Kookoksella ja maapähkinällä maustettuja possun ribsejä M, G, MU",
+      "Maissipihvejä V, G ja rucolacremeä L, G",
+      "Ranskalaisia V, G",
+      "Kermaperunaa L, G",
+      "Syysjuureksia V, G",
+      "Vispipuuroa V"
      ]
     },
     {
      "weekday": 4,
      "label": "Perjantai",
-     "date": "2026-10-16",
+     "date": "2026-10-23",
      "items": [
-      "Burgerbuffet: Pariloituja naudanlihapihvejä, cheddaria sekä raikkaita lisukkeita",
-      "Paneng red curry – thaimaalaista currykanaa M, G, MU",
-      "Kasvispihvejä V, G",
-      "Ranskalaisia V, G ja Basmatiriisiä V, G",
+      "Beef nacho supreme – nachopeltiä naudanlihasta L, G",
+      "Pico de galloa V, G sekä Crema Mexicanaa L, G",
+      "Kalkkunaa cordon bleu VL sekä timjami-hunajajogurttia",
+      "TexMex-lasagnea soijarouheella L",
+      "Cheddarjuustoperunat L, G, MU",
       "Satokauden kasviksia V, G",
       "Jälkiruokakeksiä"
      ]
@@ -464,12 +466,12 @@
      "date": null,
      "items": [
       "Kermainen lohikeitto tuoreella tillillä (L, G)",
-      "Paahdettu broilerinpaistileike voi- tomaattikermakastikkeessa (Butter Chicken) (L, G) basmatiriisi",
-      "Grillatut lihapullat yrtti-sipulikastikkeella (L, G) paistetut perunat (M, G)",
-      "Jättikatkarapu-tonnikala-paprikapizza (L)",
-      "Soijarouhe-kidneypapuchili sin carne (VE, G)",
-      "Höyrytetyt tuoreet vihannekset (M, G, VE)",
-      "Tuore granaattiomena-rahka (L, G)"
+      "Paneroitu broilerin sisäfilee (sis. vehnää), mango-jalapeñodippi (L, G) yrttiperunat (M, G)",
+      "Naudan kebablastuja oregano-tomaattikastikkeessa (L, G)",
+      "Paahdettua kalaa béarnaisekastikkeessa (L, G)",
+      "Shahi paneer – tomaatti-, voi-, inkivääri- ja kermakastikkeessa (G), basmatiriisiä",
+      "Paahdettua Halloween-kurpitsaa ja parsakaalia (M, G)",
+      "Kinuski-mansikkamousse (G)"
      ]
     },
     {
@@ -477,13 +479,13 @@
      "label": "Tiistai",
      "date": null,
      "items": [
-      "Makkarakeitto (M, G)",
-      "Ruohosipuli-smetana lohta (L, G) perunamuusi (L, G)",
-      "Kalkkunan cordon bleu (L) piparjuuridippi (L, G)",
-      "Naudanlihawokki riisinuudeleilla ja cashewpähkinöillä (M, G)",
-      "Voipapu-härkäpapu-bambupata tuoreilla yrteillä (M, G) riisi",
-      "Paahdetut tuoreet kasvikset (M, G, VE)",
-      "Talon mokkapala (L)"
+      "Porkkana-pähkinäsosekeitto (L, G)",
+      "Uunilohta tilli-kermakastikkeessa (L, G), Cajun-paistettuja perunoita (M, G)",
+      "Herkullinen karahi-kana – keskitulinen, paahdettua broilerin paistileike (L, G), basmatiriisiä",
+      "Grillattua HK Sinistä cheddarilla (L, G)",
+      "Ratatouillea, savutofua ja kikherneitä tuoreella rucolalla (VE, G)",
+      "Tuorekasvispaistos (M, G, VE)",
+      "Talon raparperi-omenapiirakka (L), vaniljakastiketta (L, G)"
      ]
     },
     {
@@ -491,13 +493,7 @@
      "label": "Keskiviikko",
      "date": null,
      "items": [
-      "Purjo-perunasosekeitto (L, G)",
-      "Rapeaksi paneroitu porsaanleike (L), persiljadippi (L) paahdetut perunat (M, G)",
-      "Keskivahvasti maustettu kashmirilainen Rogan Josh -kanapata (M, G) ja kurkkuriisi",
-      "Kermainen savuporokiusaus (L, G)",
-      "Ratatouille tuorejuustolla, oliiviöljyllä ja tuoreella rucolalla (G)",
-      "Yrteillä paahdettu kukkakaali ja bataatti (M, G)",
-      "Mansikkakiisseli (M, G) vaniljavaahto (L)"
+      "Ei lounasta"
      ]
     },
     {
@@ -506,11 +502,11 @@
      "date": null,
      "items": [
       "Perinteinen savupotka-hernekeitto (M, G), hienonnettua sipulia ja sinappia (VE, G)",
-      "Itse tehty jauhelihamurekepihvi sinappikermakastikkeella (L, G) ja basilikaperunamuusi (L, G)",
-      "Voissa paistetut muikut (L) tillikermaviili (L, G)",
-      "Tandoori Chicken Tikka Masala (L, G) basmatiriisi",
-      "Kasvispihvi parmesaanigratinoinnilla (L, G)",
-      "Paahdetut tuoreet kasvikset (M, G)",
+      "Itse tehtyjä XL-lihapullia paahdetussa tomaatti-basilikakastikkeessa (LG)perunamuusia (L, G)",
+      "Sahrami-juustoinen broileria (L, G)",
+      "Uunikalaa chimichurri-kastikkeella (M, G)",
+      "Soijakaalilaatikkoa (M, G), puolukkasurvosta (M, G)",
+      "Yrteillä paahdettuja tuorekasviksia (M, G, VE)",
       "Cloven letut (L), mansikkahilloa (M, G) & kermavaahtoa (L)(G tön-vaihtoehto erillisestäkeittiöstä)"
      ]
     },
@@ -519,13 +515,13 @@
      "label": "Perjantai",
      "date": null,
      "items": [
-      "Värikäs leipäjuustosalaatti saksanpähkinöillä (L)",
-      "Porsaan lehtipihvi (L, G), maustevoi (L, G) ranskanperunat",
-      "Timjami-Koskenlaskija-broileri (L, G)",
-      "Paneroitu kampela (L) Thai sweet chili -kuorrutuksella",
-      "Nepalilainen palak paneer (G) ja basmatiriisi",
-      "Tuorekasvispaistos (M, G, VE)",
-      "Kuningatarsmoothie (L)"
+      "Tomaatti-mozzarellasalaattia talon vihreällä pestolla",
+      "Tempurakuorrutettua turskaa (L), tartarkastiketta (L, G) tilliperunoita (M, G)",
+      "Cloven Butter Chicken (L, G), basmatiriisiä",
+      "Dijon-sinapilla ja yrteillä maustettua liha-pataa (nautaa ja possua) (M, G)",
+      "Ruusukaali-parsakaaligratiinia kasvisnakilla (VE, G)",
+      "Paahdettuja bataattilohkoja (M, G, VE)",
+      "Mango-passionrahka (L, G)"
      ]
     }
    ]
@@ -863,12 +859,11 @@
      "label": "Maanantai",
      "date": null,
      "items": [
-      "Savulohta ja suppilovahvero muhennosta.",
-      "Lihapiirakka BBQ-nyhtöpossulla.",
-      "Broileri pasta limonello",
-      "Mozzarella gratinoidut tomaatit",
-      "Paahdetut tuoreet kasvikset",
-      "Peruna muusia"
+      "Kanaa Gyros",
+      "Detroit Style pannupizza",
+      "Makkis pekkis",
+      "Suppilovahvero Lasagne",
+      "Paahdetut tuoreet kasvikset"
      ]
     },
     {
@@ -876,13 +871,13 @@
      "label": "Tiistai",
      "date": null,
      "items": [
-      "Porsaan Grilli pihvi ja Viherpippurikastike",
-      "Blackned Kanan koipinuija,Kurpitsa salsaa ja Paahdettu Jalopeno dippi",
-      "\"El Classico\" Premiun Rapu Toast Skagen",
-      "Cheddar-Jalopeno Gratinoitua Kukkakaalia",
-      "Tuoreet uuni kasvikset",
-      "TexMex paahdetut perunat",
-      "Tiramisua kakkua"
+      "Porsaan ulkofile pihvit ja suppilovahvero muhennosta.",
+      "Makkara Porilainen",
+      "Lohi-juustopiirakka",
+      "Katkarapu avocado pasta",
+      "Paahdetut tuoreet kasvikset",
+      "Kermaperunat",
+      "Omena kaurapaistos ja kinuskia."
      ]
     },
     {
@@ -890,12 +885,7 @@
      "label": "Keskiviikko",
      "date": null,
      "items": [
-      "Naudan paahtopaistia Bbq",
-      "Broilerburritos",
-      "Prinssiputkifileetä ja sipulirenkaita",
-      "Halloumi-Kasvismoussakkaa",
-      "Vihreitä papuja ja pekonia",
-      "Valkosipulikermaperunoita"
+      "Ei lounastarjoilua."
      ]
     },
     {
@@ -903,15 +893,7 @@
      "label": "Torstai",
      "date": null,
      "items": [
-      "Jauheliha chiliä ja tomaatti-ananas salsaa",
-      "Salami -tomaatti yrtti pasta",
-      "Kanaa poppamiehen paprika paistoksessa. Creme fraiche dippiä",
-      "Pekoni, juusto nachopelti.",
-      "Paahdettua yrtti porkkanaa",
-      "Tortilla letut",
-      "Jasmin riisiä",
-      "Pannukakkua , kermavaahtoa ja kotihilloa",
-      "Ceasar salaattia naturell"
+      "Ei lounastarjoilua."
      ]
     },
     {
@@ -919,13 +901,7 @@
      "label": "Perjantai",
      "date": null,
      "items": [
-      "Savulohta ja Holladaisekastiketta",
-      "Sloppy Joe'n Lihaisa Hotdog (Herkkunakki,Jauhelihaa,juustoa)",
-      "Butter Chickeniä ala Fuudii",
-      "Balsamico Paahdettua Parsakaali ja Saksanpähkinää",
-      "Jasmin Riisiä",
-      "Paahdetut tuoreet kasvikset",
-      "Suklaa pehmis"
+      "Ei lounastarjoilua."
      ]
     }
    ]
