@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-19T08:28:50+03:00",
+ "generatedAt": "2026-10-19T12:27:04+03:00",
  "weekStart": "2026-10-19",
  "locations": [
   {
@@ -190,8 +190,8 @@
      "label": "Maanantai",
      "date": null,
      "items": [
-      "Hartaasti haudutettua Pasta Bolognesea ja parmesanjuustoa L 12,50€",
-      "Rapeita kanapaloja ja mangomajoneesia M,G 12,50€",
+      "Chorizopyörykät (itse) paprikaisessa tomaattikastikkeessa M,G 12,50 €",
+      "Rapeaa kievin kanaa VL (itse) ja sitrusmajoneesia L,G 12,50€",
       "Riisiä M,G"
      ]
     },
@@ -211,9 +211,8 @@
      "label": "Keskiviikko",
      "date": null,
      "items": [
-      "Talossa savustettua lohta ja sweet cremefraichea L,G 12,50€",
-      "Grillattua kanaa appelsiini-soijakastikkeessa M,G 12,50€",
-      "Talon perunoita M,G"
+      "Savustettua lohta M,G, kermainen piparjuuridippi L,G ja keitetyt perunat 12,50€",
+      "Kermainen aurajuusto-kinkkukiusaus L,G ja suolakurkut Veg,G 12,50 €"
      ]
     },
     {
@@ -223,9 +222,9 @@
      "items": [
       "Hernekeittoa M,G 9,40€",
       "Pannukakkua kera mansikkahillon ja kermavaahdon",
-      "Mango harissa glaseerattua broilerin fileetä M,G 12,50€",
-      "Possua tummassa timjamikastikkeessa L ,G 12,50€",
-      "Riisiä M,G"
+      "Jauhelihapihvejä raikkaalla tomaatti paprika-sipulipaistoksella L,G 12,50€",
+      "Possua kermakastikkeessa L ,G 12,50€",
+      "Uuniperunat M,G"
      ]
     },
     {
@@ -233,8 +232,8 @@
      "label": "Perjantai",
      "date": null,
      "items": [
-      "Talon rehtiä lihapizzaa L 12,50€",
-      "Meksikon kana-nachopeltiä, salsaa ja pikkelöityä punasipulia L,G 12,50"
+      "Pizzaperjantai L 12,50€",
+      "Mehevää hapanimeläpossua M,G ja höyrytetty riisi Veg,G 12,50 €"
      ]
     }
    ]
@@ -677,76 +676,75 @@
    "location": "juhanilantie",
    "area": "Vantaankoskentie 14",
    "hours": "ma-pe 10:30-13:00",
-   "status": "stale",
-   "error": "could not re-read the site; showing the last menu we got",
-   "week": "2026-10-12",
+   "status": "ok",
+   "error": null,
+   "week": "2026-10-19",
    "image": null,
    "days": [
     {
      "weekday": 0,
      "label": "Maanantai",
-     "date": "2026-10-12",
+     "date": "2026-10-19",
      "items": []
     },
     {
      "weekday": 1,
      "label": "Tiistai",
-     "date": "2026-10-13",
+     "date": "2026-10-20",
      "items": [
-      "Dijon-bearnaisekalaa",
-      "Antellin lasagnea",
-      "Peruna-kikhernepyöryköitä",
-      "Sinappisia perunoita",
-      "Grillitomaatteja",
-      "Romescokastiketta",
-      "Punaherukkavispipuuroa",
+      "Maissipaneroitua kanaa",
+      "Riistakiusausta",
+      "Melanzane - munakoiso-tomaattivuokaa",
+      "Kurkumariisiä",
+      "Kesäkurpitsa-punasipulipaistosta",
+      "Harissa-jogurttikastiketta",
+      "Kirsikkarahkaa",
       "Kahvi"
      ]
     },
     {
      "weekday": 2,
      "label": "Keskiviikko",
-     "date": "2026-10-14",
+     "date": "2026-10-21",
      "items": [
-      "Itte tehtyjä jauhelihapihvejä",
-      "Teriyaki-kanaa",
-      "Pinaatti-ricottacanneloneja",
-      "Basmatiriisiä",
-      "Paahdettua ruusukaalia",
+      "Karamellisoitua possunkylkeä",
+      "Itte tehtyjä haukiräiskäleitä",
+      "Ricotta-myskikurpitsarisottoa",
       "Maalaislohkoperunoita",
-      "Kermaista sinappikastiketta",
-      "Vadelmakiisseliä",
+      "Kukkakaali-vihreäpapu-savoijinkaalipaistosta",
+      "Sitruuna-jogurttikastiketta",
+      "Kookos-jogurttihyytelöä ja mansikkakastiketta",
       "Kahvi"
      ]
     },
     {
      "weekday": 3,
      "label": "Torstai",
-     "date": "2026-10-15",
+     "date": "2026-10-22",
      "items": [
-      "Misokastikkeella glaseerattua possunniskaa",
-      "Katkarapu-sahramirisottoa",
-      "Itte tehty porkkana-tahinipihvi",
-      "Green beans morning glory - vihreäpapuja thaimaalaisittain",
-      "Seesamipaahdettuja perunoita",
-      "Basmatiriisiä",
-      "Marjarahkaa",
+      "Yrttivoissa paahdettua rapeaa kanaa",
+      "Itte tehtyjä nduja maustettuja jauhelihapihvejä",
+      "Kasviskormaa",
+      "Currymaustettua riisiä",
+      "Tandoorikasviksia",
+      "Tomaattikastiketta",
+      "Pappilan hätävaraa",
       "Kahvi"
      ]
     },
     {
      "weekday": 4,
      "label": "Perjantai",
-     "date": "2026-10-16",
+     "date": "2026-10-23",
      "items": [
       "Itte tehtyjä porsaanleikkeitä",
-      "Itte tehtyjä kukkakaaliwingsejä",
-      "Sticky chili wings - chilimaustettuja tahmeita kanansiipiä",
-      "Yrttiperunaa",
-      "Paahdettuja juureksia",
-      "Chipotlemaustettua ranskankermaa",
-      "Ohukaisia, kermavaahtoa ja hilloa",
-      "Kahvi"
+      "Cheddar-kuorrutettua kanaa",
+      "Grillattua tofua",
+      "Ranskalaisia perunoita",
+      "Chilipaahdettua bataattia",
+      "Aiolia",
+      "Antellin pannukakkua",
+      "Kermavaahtoa"
      ]
     }
    ]
@@ -887,11 +885,11 @@
      "date": null,
      "items": [
       "Lihapullat ja Jallukermakastiketta",
-      "Chicken-Curry Baquette",
+      "Chicken-Curry Baquette ja \"on the top\" cheddarjuustokastiketta.",
       "Putanesca pasta ja Savustettua lohta",
       "Paahdettuja kasviksia ja tofua manteli-currykastikkeessa",
       "Paahdetut tuoreet kasvikset",
-      "Peruna Muusia"
+      "Annabellan \"Paahdetut Rytty perunat\""
      ]
     },
     {
@@ -910,8 +908,12 @@
      "date": null,
      "items": [
       "Pasta carponara ala fuudii",
-      "Jauheliha mureketta ja jaloviina kastiketta",
-      "Savulohi risottoa"
+      "Jauheliha mureketta ja Sinappikermakastiketta",
+      "Paahdettua Kanan koipireittä ja valkosipuli voita",
+      "Linssi-tuorejuusto täytetyt paprikat",
+      "Paahdetut tuoreet kasvikset",
+      "Peruna muusia",
+      "Apelsiini \"tiikeri\" pehmis"
      ]
     }
    ]
