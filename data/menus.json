@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-19T12:27:04+03:00",
+ "generatedAt": "2026-10-20T04:01:44+03:00",
  "weekStart": "2026-10-19",
  "locations": [
   {
@@ -99,11 +99,11 @@
    "id": "tiina",
    "name": "Tiinan Kotiruoka",
    "url": "https://tiinankotiruoka.fi/lounas-linnakallio/",
-   "location": "linnakallio",
+   "location": "",
    "area": "Linnakallio",
    "hours": "ma-pe 10:30-14:00",
-   "status": "ok",
-   "error": null,
+   "status": "stale",
+   "error": "could not re-read the site; showing the last menu we got",
    "week": null,
    "image": null,
    "days": [
@@ -211,7 +211,7 @@
      "label": "Keskiviikko",
      "date": null,
      "items": [
-      "Savustettua lohta M,G, kermainen piparjuuridippi L,G ja keitetyt perunat 12,50€",
+      "Lohta sitruunakermakastikkeessa L,G ja keitetyt perunat 12,50€",
       "Kermainen aurajuusto-kinkkukiusaus L,G ja suolakurkut Veg,G 12,50 €"
      ]
     },
@@ -876,7 +876,7 @@
       "Katkarapu avocado pasta",
       "Paahdetut tuoreet kasvikset",
       "Kermaperunat",
-      "Omena kaurapaistos ja kinuskia."
+      "Omena kaurapaistos ja kinuski kermavaahtoa."
      ]
     },
     {
@@ -908,12 +908,12 @@
      "date": null,
      "items": [
       "Pasta carponara ala fuudii",
-      "Jauheliha mureketta ja Sinappikermakastiketta",
-      "Paahdettua Kanan koipireittä ja valkosipuli voita",
+      "Jauheliha mureketta ja paistin kermakastiketta",
+      "Paahdettua Kanan koipireittä valkosipuli-texaspete voilla.",
       "Linssi-tuorejuusto täytetyt paprikat",
       "Paahdetut tuoreet kasvikset",
       "Peruna muusia",
-      "Apelsiini \"tiikeri\" pehmis"
+      "Appelsiini \"tiikeri\" pehmis"
      ]
     }
    ]
