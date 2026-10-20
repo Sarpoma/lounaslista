@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T04:01:44+03:00",
+ "generatedAt": "2026-10-20T08:32:04+03:00",
  "weekStart": "2026-10-19",
  "locations": [
   {
@@ -266,7 +266,8 @@
      "label": "Tiistai",
      "date": "2026-10-20",
      "items": [
-      "Uunilohi & tilli-pestomajoneesi L, G, MU",
+      "Uunilohi M, G, MU",
+      "Tilli-pestomajoneesi L, G",
       "Syksyinen Härkäruukku L, G, MU",
       "Lihapyörykät pippurikermakastike ja muusi L, G, MU",
       "Päivän kasvisruoka keittiöstä: Syksyinen kasvispata L, G, MU"
@@ -625,7 +626,7 @@
      "date": null,
      "items": [
       "Kaalikääryleet & Puolukkahillo ( L G )",
-      "Korean BBQ Possua ( L G M )",
+      "Korean BBQ Possua ( L M )",
       "Cornflakes paneroitua kananrintaa & Aioli ( L G M )",
       "Puolukka-kinuskirahka ( L G )",
       "Päivän kasvis"
@@ -899,7 +900,11 @@
      "items": [
       "Kanakebab ala mättömestari",
       "Jauheliha tacoja",
-      "Lohi-rapumähnää ja uuniperunaa"
+      "Lohi-rapumähnää ja uuniperunaa",
+      "Aluokan Nakkimuki ala Kivikylä",
+      "Jasmin riisiä",
+      "Paahdetut tuoreet kasvikset",
+      "Pannukakkua , kermavaahtoa ja kotihilloa"
      ]
     },
     {
