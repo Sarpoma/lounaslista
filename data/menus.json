@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25T11:04:04+02:00",
+ "generatedAt": "2026-10-25T15:36:38+02:00",
  "weekStart": "2026-10-19",
  "locations": [
   {
@@ -536,62 +536,62 @@
    "hours": "ma-pe 10:00-13:30",
    "status": "ok",
    "error": null,
-   "week": "2026-10-19",
+   "week": "2026-10-26",
    "image": null,
    "days": [
     {
      "weekday": 0,
      "label": "Maanantai",
-     "date": "2026-10-19",
+     "date": "2026-10-26",
      "items": [
-      "Tapolan mustamakkara L ja puolukkahilloa",
-      "teriyakipossua L,G",
-      "chili-kookosbroileria L,G",
+      "grillimakkaraa L,G",
+      "pyttipannu L,G ja paistettu muna",
+      "Igorin kanaa L,G",
       "kermainen lohikeitto L,G"
      ]
     },
     {
      "weekday": 1,
      "label": "Tiistai",
-     "date": "2026-10-20",
+     "date": "2026-10-27",
      "items": [
-      "jauhelihapihvit mustapippurikastikkeella L,G",
-      "makaroonilaatikko L",
-      "voissa paistetut ruispaneroidut muikut L",
-      "pinaattikeitto L"
+      "possun uunifilee, dijon-kermakastike L,G",
+      "jauheliha-pepperonipizza L (pyydä G)",
+      "aurakanakastike L,G",
+      "kookos-bataattisosekeitto L,G"
      ]
     },
     {
      "weekday": 2,
      "label": "Keskiviikko",
-     "date": "2026-10-21",
+     "date": "2026-10-28",
      "items": [
-      "lasagne L",
-      "kebab talon mausteisella kastikkeella L,G ja turkk.jugurtti",
-      "paistettua maksaa ja sipulia L,G",
-      "siskonmakkarakeitto L,G"
+      "perinteinen ruskea lihapullakastike L (pyydä G)",
+      "chipotlemausteiset broilerin koipipalaset M,G",
+      "possunposkipata L,G",
+      "texmex-jauhelihakeitto L,G"
      ]
     },
     {
      "weekday": 3,
      "label": "Torstai",
-     "date": "2026-10-22",
+     "date": "2026-10-29",
      "items": [
-      "possun lehtipihvi M,G ja yrttinen bearnaiskastike L,G",
-      "valkosipulibroileria L,G",
-      "kaalilaatikko M,G",
+      "porsaan paneroitu leike L (pyydä G) valkosipulimajoneesi",
+      "pekoni-nduja-pasta L (pyydä G)",
+      "lohikiusaus L,G",
       "hernekeitto M,G ja pannari L (pyydä G)"
      ]
     },
     {
      "weekday": 4,
      "label": "Perjantai",
-     "date": "2026-10-23",
+     "date": "2026-10-30",
      "items": [
-      "mausteiset broilerin jauhelihapihvit L ja talon currymajoneesi",
-      "moskovanpata naudasta L,G",
-      "valkosipuliperunat L,G",
-      "uuniperuna ja savulohitäyte L,G"
+      "uunilohifilee L,G",
+      "crispy chicken L, sinihomedippi",
+      "tacojauheliha nachovuoka L,G cheddarkastike",
+      "perjantaisin jäätelöä ja karkkibuffa"
      ]
     }
    ]
