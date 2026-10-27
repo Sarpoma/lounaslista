@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T07:48:31+02:00",
+ "generatedAt": "2026-10-27T11:28:05+02:00",
  "weekStart": "2026-10-26",
  "locations": [
   {
@@ -98,11 +98,11 @@
    "id": "tiina",
    "name": "Tiinan Kotiruoka",
    "url": "https://tiinankotiruoka.fi/lounas-linnakallio/",
-   "location": "linnakallio",
+   "location": "",
    "area": "Linnakallio",
    "hours": "ma-pe 10:30-14:00",
-   "status": "ok",
-   "error": null,
+   "status": "stale",
+   "error": "could not re-read the site; showing the last menu we got",
    "week": null,
    "image": null,
    "days": [
@@ -266,7 +266,8 @@
      "label": "Tiistai",
      "date": "2026-10-27",
      "items": [
-      "Uunilohi M, G, MU ja Tilli-smetanakastike L, G, MU",
+      "Uunilohi M, G, MU ja Tilli-Crème fraîche",
+      "kastike L, G, MU",
       "Aasialainen possupata L, G, MU",
       "Lihapullat pippurikermakastike ja muusi L, G, MU",
       "Päivittäin vaihtuva jälkiruoka",
@@ -698,7 +699,7 @@
      "date": "2026-10-27",
      "items": [
       "Itte tehtyjä ahven-silakkafileepihvejä",
-      "Bratwursteja, mustamakkaraa ja prinssinakkeja",
+      "Cheddar-uunimakkaraa",
       "Papu-kasvis-nachopeltiä",
       "Perunamuusia",
       "Paahdettua myskikurpitsaa",
@@ -711,9 +712,9 @@
      "label": "Keskiviikko",
      "date": "2026-10-28",
      "items": [
-      "Cheddar-uunimakkaraa",
       "Kanaa korealaiseen tapaan",
       "Shakshuka - tomaattista kasvispannua kananmunilla",
+      "Bratwursteja, mustamakkaraa ja prinssinakkeja",
       "Currymaustettua riisiä",
       "Yrttiperunaa",
       "Grillitomaatteja",
@@ -888,7 +889,7 @@
      "label": "Keskiviikko",
      "date": null,
      "items": [
-      "Porsaan lankkufilettä ja jalopeno-juustokastiketta",
+      "Porsaan lankkufilettä ja juustokastiketta",
       "Broilerin reisipalaa \"blackend\" ja ranch dippiä",
       "Big Mac pastaa",
       "Punajuuri-aurajuusto vuoka",
@@ -901,11 +902,12 @@
      "label": "Torstai",
      "date": null,
      "items": [
-      "Kanan rintaa ja Sitrus-hollandaise kastiketta",
+      "Kanan rintaa ja choron kastiketta",
       "Hickory Bbq pulledpork Slider burger",
-      "Kasvis pihvit Ranch aioli",
+      "Cajun jauheliha kastiketta",
+      "Parsakaali-Mozzarellapihvit",
       "Paahdetut tuoreet kasvikset",
-      "Jasmin Riisiä",
+      "Jasmin riisiä",
       "Pannukakkua , kermavaahtoa ja kotihilloa"
      ]
     },
