@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T12:10:11+02:00",
+ "generatedAt": "2026-10-29T12:35:40+02:00",
  "weekStart": "2026-10-26",
  "locations": [
   {
@@ -98,11 +98,11 @@
    "id": "tiina",
    "name": "Tiinan Kotiruoka",
    "url": "https://tiinankotiruoka.fi/lounas-linnakallio/",
-   "location": "linnakallio",
+   "location": "",
    "area": "Linnakallio",
    "hours": "ma-pe 10:30-14:00",
-   "status": "ok",
-   "error": null,
+   "status": "stale",
+   "error": "could not re-read the site; showing the last menu we got",
    "week": null,
    "image": null,
    "days": [
@@ -290,7 +290,7 @@
      "label": "Torstai",
      "date": "2026-10-29",
      "items": [
-      "Fish & Chips L ja Remoulade L, G",
+      "Fish & Chips ja Remoulade L, G",
       "Koskenlaskija Broileri L, G, MU",
       "Lihapullat pippurikermakastike ja muusi L, G, MU",
       "Pannari, Hillo ja kermavaahto L (Gluteeniton pyydettäessä)",
