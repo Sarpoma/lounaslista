@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-02T08:58:48+02:00",
+ "generatedAt": "2026-11-02T13:51:18+02:00",
  "weekStart": "2026-11-02",
  "locations": [
   {
@@ -906,7 +906,12 @@
      "label": "Keskiviikko",
      "date": null,
      "items": [
-      "Työnalla"
+      "Nokilohta ja sitrusaiolia",
+      "Yrttimarinoitua Broilerinsisäfileetä ja Bearnaisekastiketta",
+      "HerKullista Ilotytönpastaa siskonmakkaralla tuunattuna",
+      "Juustoperunoita",
+      "Paahdetut tuoreetkasvikset",
+      "Aurajuusto-punajuurivuokaa"
      ]
     },
     {
@@ -914,7 +919,12 @@
      "label": "Torstai",
      "date": null,
      "items": [
-      "työnalla"
+      "Fuudiin avoburgerit",
+      "Southern Fried Chicken ja Ranch Dippi",
+      "Mac & Cheese ja paahdettua sipulia ja pekonia",
+      "Valkosipuli papuja",
+      "Paahdetut tuoreet kasvikset",
+      "Pannukakkua , kermavaahtoa ja kotihilloa"
      ]
     },
     {
@@ -922,7 +932,13 @@
      "label": "Perjantai",
      "date": null,
      "items": [
-      "työnalla"
+      "Jauheliha Lasagne",
+      "Valkosipulipesto maustettua Kanaa ja Limocello kastiketta",
+      "Uuniperunaa ja savulohimousse täyte",
+      "Mozzarella gratinoidut Kuukkakaalit",
+      "Paahdetut tuoreet kasvikset",
+      "Jasmin riisiä",
+      "Espresso-Suklaa Pehmis"
      ]
     }
    ]
