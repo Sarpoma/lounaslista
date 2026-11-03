@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T05:25:54+02:00",
+ "generatedAt": "2026-11-03T13:29:34+02:00",
  "weekStart": "2026-11-02",
  "locations": [
   {
@@ -279,7 +279,7 @@
       "Broileri kermainen pekoni-sipulikastike L,G,MU",
       "Lihapyörykät pippurikermakastike ja muusi L,G,MU",
       "Päivittäin vaihtuva jälkiruoka",
-      "Päivän kasvisruoka keittiöstä: Soijapalat ja pekoni-sipulikastike L,G,MU"
+      "Päivän kasvisruoka keittiöstä: kasvispihvi ja sitruuna-valkosipulijogurtti L,G,MU"
      ]
     },
     {
@@ -478,7 +478,7 @@
      "items": [
       "Kermainen lohikeitto, tuoretta tilliä (L, G)",
       "Kievin kana (sis. vehnää), perunamuusi (L, G), valkosipulidippi (L, G)",
-      "Mehevä porsaan kassler kermakastikkeessa, kantarelleilla (L, G)",
+      "Mehevä porsaan kassler kantarelli kermakastikkeessa (L, G)",
       "Uunikala chimichurri-glaseerauksella (M, G)",
       "Intialainen Shahi Paneer (tuorejuusto-voi-tomaattikermakastike) (G), basmatiriisi (M, G)",
       "Paahdetut tuoreet kasvikset (M, G, VE)",
@@ -491,7 +491,7 @@
      "date": null,
      "items": [
       "Pinaattikeitto ja keitetty kananmuna (L, G)",
-      "Teriyaki-uunilohi (M, G), jasmiiniriisi (M, G, VE)",
+      "Teriyaki-uunilohi (M), jasmiiniriisi (M, G, VE)",
       "Tandoori Butter Chicken (L, G), paahdetut perunat (M, G, VE)",
       "Naudan kebablastut grillatulla sipulilla (L, G)",
       "Kasvis-soijarouhelasagne (L)",
@@ -506,7 +506,7 @@
      "items": [
       "Herkkusienikeitto (L, G)",
       "Itse tehdyt lihapullat kermaisessa ruskeassa kastikkeessa (L, G), uunilohkoperunat (M, G)",
-      "Valkosipuli-Sriracha-paahdetut broilerin koivet (M, G)",
+      "Valkosipuli-Sriracha-paahdetut broilerin suikale (M, G)",
       "Tonnikala-katkarapu-ananas-pizza (L)",
       "Jalotofu-kolmen pavun vuoka tuoreilla yrteillä (VE, G), risottoriisi",
       "Paahdettu tuore kukkakaali ja parsakaali (M, G, VE)",
@@ -532,13 +532,13 @@
      "label": "Perjantai",
      "date": null,
      "items": [
-      "HAMPURILAISPÄIVÄ – TEE SE ITSE!",
-      "Briossisämpylä saa Gluteeniton sämpylä",
-      "Naudan jauhelihapihvi (L, G), Paneroitu broilerinpihvi (L),Lohimurekepihvi (L, G)",
-      "Talon jalotofu-linssirouhepihvi (VE, G)",
-      "Ranskalaiset (L, G), Paahdetut tuoreet kasvikset (M, G, VE)",
-      "Marinoitu punasipuli, Cheddarjuustoviipale,Paprika-aioli,Ruukkusalaatti,Suolakurkkuviipaleet,Tomaattiviipaleet",
-      "Mango lassi (L, G)"
+      "Värikäs leipä juustolla, salaatilla ja saksanpähkinöillä (L)",
+      "Porsaan lehtipihvi (L, G), maustevoi (L, G), ranskanperunat (L, G)",
+      "Rapeaksi paneroitu porsaanleike (L)",
+      "Herkullinen Tandoori Chicken Tikka Masala (L, G), basmati-riisiä (M, G)",
+      "Paneroitua kampelaa (L), remouladekastike",
+      "Kikherneillä, jalotofulla ja parsakaalilla täytetyt paprikat (VE, G)",
+      "Paahdetut tuoreet kasvikset (M, G, VE)"
      ]
     }
    ]
