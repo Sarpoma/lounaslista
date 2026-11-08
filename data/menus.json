@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T17:49:50+02:00",
+ "generatedAt": "2026-11-08T20:44:57+02:00",
  "weekStart": "2026-11-02",
  "locations": [
   {
@@ -254,13 +254,13 @@
    "hours": "ma-pe 10:30-14:00",
    "status": "ok",
    "error": null,
-   "week": "2026-11-02",
+   "week": "2026-11-09",
    "image": null,
    "days": [
     {
      "weekday": 0,
      "label": "Maanantai",
-     "date": "2026-11-02",
+     "date": "2026-11-09",
      "items": [
       "Kievin kana",
       "Mango-currymajoneesi L, G",
@@ -273,7 +273,7 @@
     {
      "weekday": 1,
      "label": "Tiistai",
-     "date": "2026-11-03",
+     "date": "2026-11-10",
      "items": [
       "Uunilohi ja sitruuna-valkosipulijogurtti L,G,MU",
       "Broileri kermainen pekoni-sipulikastike L,G,MU",
@@ -285,7 +285,7 @@
     {
      "weekday": 2,
      "label": "Keskiviikko",
-     "date": "2026-11-04",
+     "date": "2026-11-11",
      "items": [
       "Lasagne (saa myös glut) L.",
       "Sweet chili broileri L, G, MU",
@@ -297,7 +297,7 @@
     {
      "weekday": 3,
      "label": "Torstai",
-     "date": "2026-11-05",
+     "date": "2026-11-12",
      "items": [
       "Silakkapihvi ja lime-valkosipulikermaviili",
       "Valkoviini-sitrusbroileri L, G, MU",
@@ -310,7 +310,7 @@
     {
      "weekday": 4,
      "label": "Perjantai",
-     "date": "2026-11-06",
+     "date": "2026-11-13",
      "items": [
       "Pulled Pork- lihaa, Bbq-kastikkeessa M,G,MU",
       "Pitaleipiä L ja valkosipulikermaviilikastiketta L,G,MU",
@@ -476,13 +476,13 @@
      "label": "Maanantai",
      "date": null,
      "items": [
-      "Kermainen lohikeitto, tuoretta tilliä (L, G)",
-      "Kievin kana (sis. vehnää), perunamuusi (L, G), valkosipulidippi (L, G)",
-      "Mehevä porsaan kassler kantarelli kermakastikkeessa (L, G)",
-      "Uunikala chimichurri-glaseerauksella (M, G)",
-      "Intialainen Shahi Paneer (tuorejuusto-voi-tomaattikermakastike) (G), basmatiriisi (M, G)",
-      "Paahdetut tuoreet kasvikset (M, G, VE)",
-      "Suklaamousse (L, G)"
+      "Kermainen lohikeitto tuoreella tillillä (L, G)",
+      "Cloven tandoori butter chicken paahdettu broilerin paistileikeesta (L, G), basmatiriisi",
+      "Liha-kaalikääryleet (L, G) puolukkahillo (M, G), kokonaiset perunat (M, G, VE)",
+      "Uunikala punasipuli-yrtti-sitruunavinegretillä (M, G), piparjuuridippi (L, G)",
+      "Ratatouille leipäjuuston kera (L, G)",
+      "Tuore kasvispaistos (M, G, VE)",
+      "Raparperi-omenakiisseli (M, G), vaniljavaahto (L)"
      ]
     },
     {
@@ -490,13 +490,13 @@
      "label": "Tiistai",
      "date": null,
      "items": [
-      "Pinaattikeitto ja keitetty kananmuna (L, G)",
-      "Teriyaki-uunilohi (M), jasmiiniriisi (M, G, VE)",
-      "Tandoori Butter Chicken (L, G), paahdetut perunat (M, G, VE)",
-      "Naudan kebablastut grillatulla sipulilla (L, G)",
-      "Kasvis-soijarouhelasagne (L)",
-      "Tuore kasvispaistos (M, G, VE)",
-      "Talon piirakka (L), vaniljakastike (L, G)"
+      "Maukas nakkikeitto (M, G)",
+      "Uunilohi béarnaisekastikkeella (L, G), perunamuusi (L, G)",
+      "Yön yli haudutettu naudan sisäpaisti punaviinikastikkeessa (M, G)",
+      "Paahdetut broilerin koivet (L, G), Thai Sweet Chili -glaseerauksella (M, G, VE)",
+      "Tandoori-tuorejuusto Tikka Masala (G), kurkumariisi (M, G)",
+      "Paahdetut tuoreet kasvikset (M, G, VE)",
+      "Hedelmäcocktailrahka (L, G)"
      ]
     },
     {
@@ -504,13 +504,13 @@
      "label": "Keskiviikko",
      "date": null,
      "items": [
-      "Herkkusienikeitto (L, G)",
-      "Itse tehdyt lihapullat kermaisessa ruskeassa kastikkeessa (L, G), uunilohkoperunat (M, G)",
-      "Valkosipuli-Sriracha-paahdetut broilerin suikale (M, G)",
-      "Tonnikala-katkarapu-ananas-pizza (L)",
-      "Jalotofu-kolmen pavun vuoka tuoreilla yrteillä (VE, G), risottoriisi",
-      "Paahdettu tuore kukkakaali ja parsakaali (M, G, VE)",
-      "Mansikkakiisseli (M, G), kanelivaahto (L)"
+      "Aurajuusto-punajuurisosekeitto (L, G)",
+      "Grillattu porsaan ulkofileepihvi juustoisella pippurikastikkeella (L, G), paahdetut perunat (M, G)",
+      "Kookos-limebroileri (L, G), pitkäjyväinen riisi",
+      "Tillivoissa paahdettu kala (L, G)",
+      "Itsetehdyt pinaattiohukaiset (L), puolukkahillo (M, G, VE)",
+      "Paahdetut bataattilohkot (M, G, VE)",
+      "Talon mokkapala (L)"
      ]
     },
     {
@@ -519,11 +519,11 @@
      "date": null,
      "items": [
       "Perinteinen savupotka-hernekeitto (M, G), hienonnettua sipulia ja sinappia (VE, G)",
-      "Riistakäristys (L, G), perunamuusi (L, G), puolukkahillo",
-      "Kreikkalainen broileri, paahdettua broilerinpaistia kreikkalaisittain (L, G)",
-      "Grillattua pekonia ja nakkeja (L, G)",
-      "Kasvis thai puna-curry grillatulla jalotofulla, munakoisolla ja paprikalla (M, VE, G), jasmiiniriisi",
-      "Paahdetut tuoreet kasvikset (M, G, VE)",
+      "Metsästäjän jauhelihamureke (L, G), perunamuusi (L, G)",
+      "Herkullinen Chicken Tikka Masala korianterilla ja inkiväärillä (L, G), basmatiriisi (M, G)",
+      "Paneroitu kalaleike (L), kurkkuraita (L, G)",
+      "Parsakaaligratiini ruusukaalilla ja kidney-pavuilla (L, G)",
+      "Paahdettu kesäkurpitsa ja myskikurpitsa (M, G, VE)",
       "Cloven letut (L), mansikkahilloa (M, G) & kermavaahtoa (L)(G tön-vaihtoehto erillisestäkeittiöstä)"
      ]
     },
@@ -532,13 +532,13 @@
      "label": "Perjantai",
      "date": null,
      "items": [
-      "Värikäs leipä juustolla, salaatilla ja saksanpähkinöillä (L)",
-      "Porsaan lehtipihvi (L, G), maustevoi (L, G), ranskanperunat (L, G)",
-      "Rapeaksi paneroitu porsaanleike (L)",
-      "Herkullinen Tandoori Chicken Tikka Masala (L, G), basmati-riisiä (M, G)",
-      "Paneroitua kampelaa (L), remouladekastike",
-      "Kikherneillä, jalotofulla ja parsakaalilla täytetyt paprikat (VE, G)",
-      "Paahdetut tuoreet kasvikset (M, G, VE)"
+      "Tomaatti-mozzarellasalaatti punaisella pestolla",
+      "Kalkkuna Cordon Bleu, lohkoperunat (M, G, VE)",
+      "Lihapullat tomaatti-basilikakastikkeessa (L, G), riisi (M, G)",
+      "Paahdettu lohi kermaisella tillikastikkeella (L, G)",
+      "Grillattu jalotofu härkäpapu-kookos-pinaattikastikkeessa (VE, G)",
+      "Tuore kasvispaistos (M, G, VE)",
+      "Kinuski-vadelmamousse (L, G)"
      ]
     }
    ]
