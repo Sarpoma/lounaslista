@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T13:42:43+02:00",
+ "generatedAt": "2026-11-08T13:11:55+02:00",
  "weekStart": "2026-11-02",
  "locations": [
   {
@@ -99,11 +99,11 @@
    "id": "tiina",
    "name": "Tiinan Kotiruoka",
    "url": "https://tiinankotiruoka.fi/lounas-linnakallio/",
-   "location": "",
+   "location": "linnakallio",
    "area": "Linnakallio",
    "hours": "ma-pe 10:30-14:00",
-   "status": "stale",
-   "error": "could not re-read the site; showing the last menu we got",
+   "status": "ok",
+   "error": null,
    "week": null,
    "image": null,
    "days": [
@@ -331,62 +331,62 @@
    "hours": "ma-pe",
    "status": "ok",
    "error": null,
-   "week": "2026-11-02",
+   "week": "2026-11-09",
    "image": null,
    "days": [
     {
      "weekday": 0,
      "label": "Maanantai",
-     "date": "2026-11-02",
+     "date": "2026-11-09",
      "items": [
-      "Tapolan mustaamakkaraa & puolukkahilloa L",
-      "Makaronilaatikkoa L",
-      "Igorin kanaa & riisiä L, G",
+      "Gratinoituja makkarapihvejä L, G",
+      "Butter chicken & paistettua kasvisriisiä L, G",
+      "Paneroitua ruiskalaa & kylmää sitruskastiketta L",
       "Jälkiruoka & kahvi"
      ]
     },
     {
      "weekday": 1,
      "label": "Tiistai",
-     "date": "2026-11-03",
+     "date": "2026-11-10",
      "items": [
-      "Mureaa possua tummassa timjamikastikkeessa L, G",
-      "Paneroituja lohileikkeitä & tartar-kastiketta L",
-      "Broilerin jauhelihapihvejä currykastikkeessa L, G",
+      "Uunipossunfilettä sinappisessa kermakastikkeessa L, G",
+      "Tomaattista lihapullapastaa L",
+      "Rapeita kanapihvejä & mangorajakastiketta L (glut. pyytämällä)",
       "Jälkiruoka & kahvi"
      ]
     },
     {
      "weekday": 2,
      "label": "Keskiviikko",
-     "date": "2026-11-04",
+     "date": "2026-11-11",
      "items": [
-      "Välimeren lihapullia yrttisessä kermakastikkeessa L, G",
-      "Kanan paistileikkeitä satay-kastikkeessa (sis. pähkinää) L, G",
-      "Täytettyjä paprikoita L, G",
+      "Lindströminpihvejä sipuli-kermakastikkeessa L, G",
+      "Koskenlaskijan savuporomunakasta L",
+      "Kanaa mausteisessa red curry -kastikkeessa L, G",
       "Jälkiruoka & kahvi"
      ]
     },
     {
      "weekday": 3,
      "label": "Torstai",
-     "date": "2026-11-05",
+     "date": "2026-11-12",
      "items": [
-      "Bratwurst-pekonipannua L, G",
-      "Cordon bleu -kalkkunaleikkeitä & rakuunakastiketta",
-      "Mausteista jauheliharisottoa L, G",
+      "Mureaa smetanaista lihapataa L, G",
+      "Paistettua kalaa & hollandaisekastiketta L",
+      "Texmex-nachovuokaa L, G",
       "Pannukakkua hillolla ja kermavaahdolla & kahvi"
      ]
     },
     {
      "weekday": 4,
      "label": "Perjantai",
-     "date": "2026-11-06",
+     "date": "2026-11-13",
      "items": [
-      "Hampurilaisbuffet",
-      "jauheliha- & kanapihvejä",
-      "ranskalaisia, sipulirenkaita",
-      "nugetteja, dippejä"
+      "Possunleikkeitä & pippurikastiketta L (glut. pyytämällä)",
+      "Makkaraperunoita G, M",
+      "Broilerin siipiä, Texas Pete -kastiketta & dippiä L, G",
+      "Jälkiruoka & kahvi"
      ]
     }
    ]
@@ -709,12 +709,13 @@
      "label": "Tiistai",
      "date": "2026-11-03",
      "items": [
-      "Butter chicken - kanaa intialaisittain",
-      "Ylikypsää possua ramenliemessä",
-      "Herkkutatti-hasselpähkinärisottoa",
-      "Basmatiriisiä",
-      "Chilipaahdettua bataattia",
-      "Maitokahvivanukasta",
+      "Dijon-bearnaisekalaa",
+      "Antellin lasagnea",
+      "Peruna-kikhernepyöryköitä",
+      "Grillitomaatteja",
+      "Skånen perunoita",
+      "Romescokastiketta",
+      "Punaherukkavispipuuroa",
       "Kahvi"
      ]
     },
@@ -723,14 +724,14 @@
      "label": "Keskiviikko",
      "date": "2026-11-04",
      "items": [
-      "Perinteistä liha-kaalilaatikkoa",
-      "Teriyakilohta",
-      "Itte tehtyjä yrtti-porkkanaohukaisia",
-      "Kermaperunoita",
-      "Grillattua fenkolia",
-      "Puolukkasurvosta",
-      "Omena-kaurahiutalepaistosta",
-      "Vaniljakastiketta",
+      "Itte tehtyjä jauhelihapihvejä",
+      "Teriyaki-kanaa",
+      "Pinaatti-ricottalasagne",
+      "Basmatiriisiä",
+      "Paahdettua ruusukaalia",
+      "Maalaislohkoperunoita",
+      "Kermaista sinappikastiketta",
+      "Vadelmakiisseliä",
       "Kahvi"
      ]
     },
@@ -739,14 +740,13 @@
      "label": "Torstai",
      "date": "2026-11-05",
      "items": [
-      "Tonnikalapizzaa",
-      "Jauhelihamureketta",
-      "Kasviskaalikääryleitä",
-      "Perunamuusia",
-      "Paahdettua porkkanaa",
-      "Kermaista viherpippurikastiketta",
-      "Puolukkahilloa",
-      "Suklaamoussea",
+      "Misokastikkeella glaseerattua possunniskaa",
+      "Katkarapu-sahramirisottoa",
+      "Itte tehdyt bataatti-tahinipihvit",
+      "Green beans morning glory - vihreäpapuja thaimaalaisittain",
+      "Seesamipaahdettuja perunoita",
+      "Basmatiriisiä",
+      "Marjarahkaa",
       "Kahvi"
      ]
     },
@@ -755,14 +755,13 @@
      "label": "Perjantai",
      "date": "2026-11-06",
      "items": [
-      "Itte tehtyjä wieninleikkeitä",
-      "Tikka masala -kanaa",
-      "Espanjalaista kasvismunakasta",
-      "Maalaisranskalaisia",
-      "Mausteista riisiä",
-      "Intialaista inkiväärikaalia",
-      "Aurajuustomajoneesia",
-      "Puolukkaherkkua",
+      "Itte tehtyjä porsaanleikkeitä",
+      "Mausteisia kanansiipiä",
+      "Itte tehtyjä kukkakaaliwingsejä",
+      "Yrttiperunaa",
+      "Paahdettuja juureksia",
+      "Chipotlemaustettua ranskankermaa",
+      "Ohukaisia, kermavaahtoa ja hilloa",
       "Kahvi"
      ]
     }
@@ -856,8 +855,8 @@
    "hours": "ma-pe 10:30-14:00",
    "status": "ok",
    "error": null,
-   "week": "2026-11-02",
-   "image": "https://cdn.prod.website-files.com/6a5757dd1c62f83f7a16d6c2/6ae6efbc3d74b3f343e99948_fajo%20ig%20vko%2045.png",
+   "week": "2026-11-09",
+   "image": "https://cdn.prod.website-files.com/6a5757dd1c62f83f7a16d6c2/6aeddb1a5431e2c53388f136_fajo%20ig%20vko%2046.png",
    "days": []
   },
   {
