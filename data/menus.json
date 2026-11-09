@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T09:25:40+02:00",
+ "generatedAt": "2026-11-09T14:21:09+02:00",
  "weekStart": "2026-11-09",
  "locations": [
   {
@@ -111,11 +111,12 @@
      "label": "Maanantai",
      "date": null,
      "items": [
-      "Klassinen HK-Sinisen lenkkiä tomaattisipuli-juustokuorrutteella & Hölskyiset pottuset G, L",
-      "Paahdettua broilerin paistileikettä mausteisessa PiriPiripirisee- kastikkeessa G, L",
+      "Mausteäijjän mausteista Massaman-Currya paahdetun broilerin kera G, L",
+      "Naapurin muorin perinteisen parempi makkarakastike & tillivoiperunat L",
+      "Pasta Carbonara jossa hitoksee pekonia & parmesaania L",
       "Lihapullat kastikkeessa & perunamuusi G, L",
-      "Paahdetut maalaistyyliset porkkanat keventäjän suolalla G, M",
-      "Keväisen sorsastajan kermainen riistakeitto G, L"
+      "Paahdetut uunijuurekset hunajalla talon tapaan G, L",
+      "Kermaisempi oikeen lohen lohikeitto nokareella voita G, L"
      ]
     },
     {
@@ -123,12 +124,12 @@
      "label": "Tiistai",
      "date": null,
      "items": [
-      "Yön yli haudutettua sikamaista possua herrasmiesmäisessä CowBoy-kastikkeessa G, L",
-      "Grillattua broilerin sisäfilettä tulisemman pojan TexasPete- soosissa & ristikkoperunat + auradippi G, L",
-      "Köökin omavalintainen pizza L",
+      "Uuniin unohdettua kassleria tummassa Teriyakikastikkeessa & kermaiset perunat G, L",
+      "Paneroitu & paistettu puna-ahvenen palanen & tartardippi L",
+      "Köökin mielivaltainen pizza L",
       "Lihapullat kastikkeessa & perunamuusi G, L",
-      "Sweet chilillä marinoitua kukkakaalia G, M",
-      "Siskonmakkarasoppaa kirkkaassa liemessä G, M"
+      "Tuoreita herkkusieniä & kesäkurpitsaa timjamilla marinoituna G, L",
+      "Samettinen bataattikookossosekeitto & siemensekoitus G, M"
      ]
     },
     {
@@ -136,12 +137,12 @@
      "label": "Keskiviikko",
      "date": null,
      "items": [
-      "Omasta keittiöstä MurMurMureketta & mokkapalaa ja 3-pippurin kermainen kastike G, L",
-      "Paahdettua kebab-eläintä, tsatsikia, kebab-kastikkeita & muita höysteitä + paistettu riisi G, L",
-      "Köökinkin mielivaltainen pizza L",
+      "Vasemman käden tuhti jauhelihapihvi MontereyJack-viipaleella + kermakastike G, L",
+      "Sweet Chilissä & yrteissä pyöriteltyjä kanannuijapäitä ja mangoraja- dippi G, L",
+      "Pihlajakadun makkaravoileipä kaikilla mausteilla & osittaisilla höysteillä L",
       "Lihapullat kastikkeessa & perunamuusi G, L",
-      "Aurajuustolla gratinoidut punajuurilohkot G, L",
-      "Keltainen & kermainen kanakeitto G, L"
+      "Höyrytettyä parsakaalia & ruusukaalia G, L",
+      "Kermaisen sienestäjän metsäsienisoppa G, L"
      ]
     },
     {
@@ -149,11 +150,10 @@
      "label": "Torstai",
      "date": null,
      "items": [
-      "Löysemmän lenkkeilijän makkaramix & paahdettua sipulia + kermaiset perunat G, L",
-      "Paistettua & paneroitua broilerin leikettä + limevalkosipulidippi L",
-      "Äkämän rapee reunaset pinaattilättyset & puolukkahillo L",
+      "Mausteisemman mamman Chipotle Glace marinoitua & grillattua porsaan ribsiä G, M",
+      "Grillattua broilerin rintafilettä pippurimix-tuorejuustokastikkeen kera G, L",
       "Lihapullat kastikkeessa & perunamuusi G, L",
-      "Herkkusientä & tomaattia & kesäkurpitsaa G, M",
+      "Höyrytettyä kukkakaalia & herneitä keventäjän suolalla G, M",
       "Hernekeitto G, M (saa kasvis)",
       "Oman leipurin pannukakku & marjahillo L, saa glut."
      ]
@@ -163,13 +163,12 @@
      "label": "Perjantai",
      "date": null,
      "items": [
-      "HYVÄNTEKEVÄISYYSPÄIVÄ YHDESSÄ LASTENKLINIKAN TUKI RY:N KANSSA!",
-      "Lahjoitamme kaikista 6.11. myydyistä lounaista 2 € TAYS:n lapsipotilaiden Kivaa tekemistä- toiminnan tukemiseksi!",
-      "Oman keittiön mausteilla marinoitua & grillattua grillilohta G, L",
-      "Oikeinoikein mureeta possun kylkeä aateloidussa tummassa Cola-BBQ-kastikkeessa G, L",
+      "Liian kuumalla pannulla paistettua porsaan paneroitua leikettä & BBQ-dippi L",
+      "Viiksekkään keittäjän jauhelihanachoherkku smetanalla ja jalapenoilla G, L",
+      "Broilerin siivet Siipiweikkojen soosseilla, auradippi & ranskikset G, L",
       "Lihapullat kastikkeessa & perunamuusi G, L",
-      "Broilerin siivet SIIPIWEIKKOJEN soosseilla ja ranskikset G, L",
-      "Pestolla marinoidut tomaatit parmesan hunnulla G, L"
+      "Juustoisen perinteinen kasvisgratiini G, L",
+      "Smetanalla aateloitua borssikeittoa G, L"
      ]
     }
    ]
@@ -899,7 +898,7 @@
      "date": null,
      "items": [
       "Ylikypsää porsaan niskaa & kermainen BBQ-kastike",
-      "Kanan rintafilettä ja Jalopeno-juustokastiketta",
+      "Kanan paistileikettä ja Jalopeno-juustokastiketta",
       "\"Supreme Hotdog De Lux\" Hot dog lihaisalla nakilla",
       "Pinaatti letut ja Puolukkaa",
       "Paahdetut tuoreet kasvikset",
