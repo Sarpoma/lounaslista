@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T06:02:39+02:00",
+ "generatedAt": "2026-11-10T09:53:20+02:00",
  "weekStart": "2026-11-09",
  "locations": [
   {
@@ -180,8 +180,8 @@
    "location": "linnakallio",
    "area": "Linnakallio / Veho",
    "hours": "ma-pe 10:30-14:00",
-   "status": "stale",
-   "error": "could not re-read the site; showing the last menu we got",
+   "status": "ok",
+   "error": null,
    "week": null,
    "image": null,
    "days": [
@@ -250,8 +250,8 @@
    "location": "linnakallio",
    "area": "Jasperintie",
    "hours": "ma-pe 10:30-14:00",
-   "status": "stale",
-   "error": "could not re-read the site; showing the last menu we got",
+   "status": "ok",
+   "error": null,
    "week": "2026-11-09",
    "image": null,
    "days": [
@@ -272,7 +272,7 @@
      "label": "Tiistai",
      "date": "2026-11-10",
      "items": [
-      "Uunilohta ja Limejogurtti L,G,MU",
+      "Uunilohta M, G MU ja Limejogurtti L,G,MU",
       "Tomaattinen chorizopasta L, MU",
       "Lihapyörykät pippurikermakastike ja muusi L,G,MU",
       "Päivän kasvisruoka keittiöstä: Kukkakaaliwingsit ja limejogurtti L,G"
@@ -393,8 +393,8 @@
    "location": "linnakallio",
    "area": "Pirkkala",
    "hours": "ma-pe 10:30-14:00",
-   "status": "stale",
-   "error": "could not re-read the site; showing the last menu we got",
+   "status": "ok",
+   "error": null,
    "week": "2026-11-09",
    "image": null,
    "days": [
@@ -638,7 +638,7 @@
       "Kaalilaatikko (L,G) & Puolukkahillo ( L G M )",
       "Kermassa haudutettua kananpaistia ( L G )",
       "Paistettu lohi & Remoulade ( L G M )",
-      "Raparperipiirakka & Vanilijavaahto ( L G )",
+      "Raparperipiirakka & Vanilijavaahto ( L )",
       "Päivän kasvis"
      ]
     },
@@ -768,9 +768,9 @@
    "location": "juhanilantie",
    "area": "Kalustetie 1",
    "hours": "ma-pe 10:00-16:00",
-   "status": "stale",
-   "error": "could not re-read the site; showing the last menu we got",
-   "week": null,
+   "status": "ok",
+   "error": null,
+   "week": "2026-11-09",
    "image": null,
    "days": [
     {
@@ -886,7 +886,7 @@
       "Hawaijinleikkeitä Broilerin rintafileestä ja Texaspete dipillä.",
       "Pepperoni pastaa ja Kirsikkatomaatti kastiketta",
       "Jauheliha tacoja",
-      "Rakuuna porkkanat ja Feta-juustoa",
+      "Porkkanaa ja Feta-juustoa",
       "Paahdetut tuoreet kasvikset",
       "Jasmin riisiä",
       "Japanilainen jogurtti \"juustokakku\""
