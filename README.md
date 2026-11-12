@@ -135,19 +135,24 @@ up next week's lists as soon as they appear. It can also be run by hand from
 the Actions tab.
 
 The cron times look absurdly early on purpose. **GitHub does not run scheduled
-workflows on time.** Measured over three weeks on this repo, runs started
-**5 to 7.5 hours** after the requested time, and the lag grew week on week:
+workflows on time**, and by how much is not stable. Measured on this repo:
 
-| requested (UTC) | actually started (UTC) |
-|---|---|
-| 03:10 | 08:21 – 10:01 |
-| 07:00 | 12:13 – 14:43 |
+| period | median lag | range |
+|---|---|---|
+| Sep – early Oct 2026 | ~6 h | 5.2 – 7.7 h |
+| Oct – Nov 2026 (97 runs) | ~2.8 h | 0 – 10.1 h |
 
-A schedule asking for 06:10 and 10:00 Helsinki was therefore delivering menus
-at roughly 11:30 and 15:00 — during and after lunch. The fix is to ask for the
-small hours and let the queue deliver before lunch, and to ask several times,
-since a run that finds nothing new takes ~30s, commits nothing, and costs
-nothing on a public repo.
+The lag more than halved without anything changing here, so the schedule is
+deliberately not tuned tightly to it. Three spread-out runs a day cover a lag
+anywhere in that range; chasing the current median would only break the next
+time it moves. Landing earlier than needed costs nothing, because a run that
+finds no new menu commits nothing.
+
+The original schedule asked for 06:10 and 10:00 Helsinki and delivered menus
+at roughly 11:30 and 15:00 — during and after lunch. Asking for the small
+hours instead, several times over, has held up: in November the menus are
+typically refreshed by about 03:30, 09:00 and 13:45 local, so they are current
+well before anyone looks.
 
 Cron is UTC-only with no daylight-saving support, so every time above shifts
 an hour in local terms when Finland leaves EEST at the end of October. With
