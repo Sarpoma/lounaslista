@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T09:28:15+02:00",
+ "generatedAt": "2026-11-16T14:17:38+02:00",
  "weekStart": "2026-11-16",
  "locations": [
   {
@@ -474,7 +474,7 @@
      "date": null,
      "items": [
       "Kermainen lohikeitto tuoreella tillillä (L, G)",
-      "Rapeaksi paistettua broilerin sisifileetä (L), perunamuusia (L, G) piparjuuridippiä (L, G)",
+      "Rapeaksi paistettua broilerin sisifileetä , perunamuusia (L, G) piparjuuridippiä (L, G)",
       "Talon pannupihvi kermaisessa Dijon-kastikkeessa (L, G)",
       "Uunikalaa teriyaki-glaseerauksella (M, G) jasmiiniriisiä(M,G,VE)",
       "Nepalilaista palak paneeria: tuorejuustosta ja inkiväärillä (G)",
@@ -490,7 +490,7 @@
       "Kantarellikeittoa (L, G)",
       "Paahdettua lohta voi-valkoviinikastikkeella (L, G) tillillä maustettuja varhaisperunoita (L,G)",
       "Paahdettua broilerin rintafileetä paprika-tomaatti-yrttikastikkeessa (M, G)",
-      "Pasta carbonaraa (L, G)",
+      "Pasta carbonaraa (L)",
       "Kolmen pavun Jalotofu-vuokaa tuoreella babypinaatilla (VE, G) ja riisiä(M,G,VE)",
       "Tuorekasvispaistosta (M, G, VE)",
       "Gluteenitonta omena-kaurapaistosta (L,G) vaniljakastiketta (L)"
@@ -532,10 +532,10 @@
       "Lohi-Caesar-salaattia",
       "Hampurilaispäivä – tee se itse:",
       "Briossisämpylä, Saatavana gluteeniton sämpylä",
+      "naudanjauhelihapihvi (L, G), paneroitu broilerinfileepihvi, lohimurekepihvi (L, G) tai talon Jalotofu-linssipihvi (VE, G)",
+      "Ranskalaisia perunoita. Paahdettuja tuoreita kasviksia (M, G, VE)",
       "Marinoitua sipulia,Juustoviipaleita,Suolakurkkuviipaleita,Paprika-aiolia, Tomaattiviipaleita,Ruukkusalaattia",
-      "Cloven kardemumma-mangolassia (L, G)",
-      "L = Laktoositon, VL = Vähälaktoosinen, G =Gluteeniton, M =Maidoton,VE=Vegaaninen, VS = Sisältää valkosipulia. Runsas lounasbuffet 13,50 €, Salaatti & keitto lounas hintaan",
-      "12,50 €. Tilaa viikon lounaslista sähköpostiisi osoitteesta"
+      "Cloven kardemumma-mangolassia (L, G)"
      ]
     }
    ]
@@ -712,7 +712,7 @@
       "Kurkumariisiä",
       "Kesäkurpitsa-punasipulipaistosta",
       "Harissa-jogurttikastiketta",
-      "Mustaherukkavispipuuroa",
+      "Piparkakku trifle",
       "Kahvi"
      ]
     },
@@ -855,8 +855,8 @@
    "hours": "ma-pe 10:30-14:00",
    "status": "ok",
    "error": null,
-   "week": "2026-11-09",
-   "image": "https://cdn.prod.website-files.com/6a5757dd1c62f83f7a16d6c2/6aeddb1a5431e2c53388f136_fajo%20ig%20vko%2046.png",
+   "week": "2026-11-16",
+   "image": "https://cdn.prod.website-files.com/6a5757dd1c62f83f7a16d6c2/6af95aab5087645ebe747692_fajo%20ig%20vko%2047.png",
    "days": []
   },
   {
@@ -916,9 +916,9 @@
      "label": "Torstai",
      "date": null,
      "items": [
-      "Cajun Maustettua Naudanliha Ruukku",
+      "Kentucky fried Chicken ja Mango-habanero dippi",
       "Hk-Lenkkimakkara New Way",
-      "Kana Tortilla vuoka",
+      "Jauheliha-cheddar tortilla vuoka",
       "Täytetty Kesäkurpitsa",
       "Paahdetut tuoreet kasvikset",
       "Riisiä",
@@ -932,7 +932,7 @@
      "items": [
       "Porsaanleikkeet ja LimeAioliadippi",
       "Broileria ja paholaisenkastiketta",
-      "Savulohitartaria ja uuniperunaa",
+      "Savustettua Lohta",
       "Cheddarjuusto omelettia",
       "Paahdetut tuoreet kasvikset",
       "Tiramisupehmistä"
