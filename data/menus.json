@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T06:26:05+02:00",
+ "generatedAt": "2026-11-17T10:40:42+02:00",
  "weekStart": "2026-11-16",
  "locations": [
   {
@@ -488,7 +488,7 @@
      "date": null,
      "items": [
       "Kantarellikeittoa (L, G)",
-      "Paahdettua lohta voi-valkoviinikastikkeella (L, G) tillillä maustettuja varhaisperunoita (L,G)",
+      "Paahdettua lohta voi-valkoviinikastikkeella (L, G) tillillä maustettuja perunoita (L,G)",
       "Paahdettua broilerin rintafileetä paprika-tomaatti-yrttikastikkeessa (M, G)",
       "Pasta carbonaraa (L)",
       "Kolmen pavun Jalotofu-vuokaa tuoreella babypinaatilla (VE, G) ja riisiä(M,G,VE)",
@@ -905,7 +905,7 @@
      "items": [
       "Porsaan \"lankkufile\" bearnaise kastikkeella",
       "Naudanliha \"ragu\" pasta",
-      "Talon curry-broileri club sandwich",
+      "Talon Pepperoni-broileri club sandwich",
       "Kasvis pihvit",
       "Paahdettua Perunaa",
       "Paahdetut tuoreet kasvikset"
