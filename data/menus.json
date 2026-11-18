@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T10:40:42+02:00",
+ "generatedAt": "2026-11-18T05:35:28+02:00",
  "weekStart": "2026-11-16",
  "locations": [
   {
@@ -97,11 +97,11 @@
    "id": "tiina",
    "name": "Tiinan Kotiruoka",
    "url": "https://tiinankotiruoka.fi/lounas-linnakallio/",
-   "location": "",
+   "location": "linnakallio",
    "area": "Linnakallio",
    "hours": "ma-pe 10:30-14:00",
-   "status": "stale",
-   "error": "could not re-read the site; showing the last menu we got",
+   "status": "ok",
+   "error": null,
    "week": null,
    "image": null,
    "days": [
@@ -141,7 +141,7 @@
       "Äkämän rrapeee reunaset porkkanalätyt ja puolukkahillo L",
       "Lihapullat kastikkeessa & perunamuusi G, L",
       "Grillatut uunijuurekset hunajaisen silosäären tapaan G, M",
-      "Makkarakeittoa kirkkaassa liemessä G, L"
+      "NakkiMakkarakeittoa kirkkaassa liemessä G, L"
      ]
     },
     {
