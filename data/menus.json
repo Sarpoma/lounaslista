@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T04:58:26+02:00",
+ "generatedAt": "2026-11-20T09:56:43+02:00",
  "weekStart": "2026-11-16",
  "locations": [
   {
@@ -182,8 +182,8 @@
    "location": "linnakallio",
    "area": "Linnakallio / Veho",
    "hours": "ma-pe 10:30-14:00",
-   "status": "stale",
-   "error": "could not re-read the site; showing the last menu we got",
+   "status": "ok",
+   "error": null,
    "week": null,
    "image": null,
    "days": [
@@ -251,8 +251,8 @@
    "location": "linnakallio",
    "area": "Jasperintie",
    "hours": "ma-pe 10:30-14:00",
-   "status": "stale",
-   "error": "could not re-read the site; showing the last menu we got",
+   "status": "ok",
+   "error": null,
    "week": "2026-11-16",
    "image": null,
    "days": [
@@ -396,8 +396,8 @@
    "location": "linnakallio",
    "area": "Pirkkala",
    "hours": "ma-pe 10:30-14:00",
-   "status": "stale",
-   "error": "could not re-read the site; showing the last menu we got",
+   "status": "ok",
+   "error": null,
    "week": "2026-11-16",
    "image": null,
    "days": [
@@ -461,11 +461,11 @@
    "id": "clove",
    "name": "Clove",
    "url": "https://clove.fi/lounas",
-   "location": "juhanilantie",
+   "location": "",
    "area": "Vantaa",
    "hours": "ma-pe",
-   "status": "ok",
-   "error": null,
+   "status": "stale",
+   "error": "could not re-read the site; showing the last menu we got",
    "week": null,
    "image": null,
    "days": [
@@ -775,9 +775,9 @@
    "location": "juhanilantie",
    "area": "Kalustetie 1",
    "hours": "ma-pe 10:00-16:00",
-   "status": "stale",
-   "error": "could not re-read the site; showing the last menu we got",
-   "week": null,
+   "status": "ok",
+   "error": null,
+   "week": "2026-11-16",
    "image": null,
    "days": [
     {
