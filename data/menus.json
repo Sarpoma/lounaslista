@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T14:20:55+02:00",
+ "generatedAt": "2026-11-22T14:25:43+02:00",
  "weekStart": "2026-11-16",
  "locations": [
   {
@@ -327,61 +327,61 @@
    "hours": "ma-pe",
    "status": "ok",
    "error": null,
-   "week": "2026-11-16",
+   "week": "2026-11-23",
    "image": null,
    "days": [
     {
      "weekday": 0,
      "label": "Maanantai",
-     "date": "2026-11-16",
+     "date": "2026-11-23",
      "items": [
-      "Pekonista uunimakkaraa & paistettua sipulia L, G",
-      "Marry me -kanaa L, G & couscousia",
-      "Meksikolaista possuvuokaa L, G",
+      "Maissikuorrutettua kookoskanaa L, G",
+      "Chili con carne jauhelihasta G, M",
+      "Makkaramix-pannua & kasvispaistosta G, M",
       "Jälkiruoka & kahvi"
      ]
     },
     {
      "weekday": 1,
      "label": "Tiistai",
-     "date": "2026-11-17",
+     "date": "2026-11-24",
      "items": [
-      "Ylikypsää teriyaki-karamellikasleria L, G",
-      "Broileri-vuohenjuustolasagnea L",
-      "Rapeaksi paistettuja kalapuikkoja & tillikermaviilikastiketta L",
+      "Possun lankkupihvejä & tummaa rosmariinikastiketta L, G",
+      "Uunifeta-kanapastaa L",
+      "Kalaa talon tapaan & yrtti-jogurttikastiketta L",
       "Jälkiruoka & kahvi"
      ]
     },
     {
      "weekday": 2,
      "label": "Keskiviikko",
-     "date": "2026-11-18",
+     "date": "2026-11-25",
      "items": [
-      "Jauhelihamureketta & tomaattista savupaprikakastiketta L, G",
-      "Kermaista riistapataa & puolukkaa L, G",
-      "Paneroituja kanafileitä & ranch-dippiä L",
+      "Lihapullia mustapippuri-juustokastikkeessa L, G",
+      "Broilernuijia & paholaisen kastiketta L, G",
+      "Aasialaista liha-maapähkinäwokkia L",
       "Jälkiruoka & kahvi"
      ]
     },
     {
      "weekday": 3,
      "label": "Torstai",
-     "date": "2026-11-19",
+     "date": "2026-11-26",
      "items": [
-      "Possun paistettuja sisäfilepihvejä maustevoikastikkeessa L, G",
-      "Välimeren uunikalaa L, G",
-      "Sweet & sour -kanaa & riisiä L, G",
+      "Lapin emännän mureaa lihapataa L, G",
+      "Mausteista kebabkiusausta L, G",
+      "Aurajuustolla gratinoitua kanaa L, G & riisiä",
       "Pannukakkua hillolla ja kermavaahdolla & kahvi"
      ]
     },
     {
      "weekday": 4,
      "label": "Perjantai",
-     "date": "2026-11-20",
+     "date": "2026-11-27",
      "items": [
-      "BBQ possun grillikylkeä & valkosipuliperunoita L, G",
-      "Broilerin paneroituja siipiä & dippiä L, G",
-      "Hodareita L",
+      "Possunleikkeitä & dijon-kermakastiketta L (glut. saa pyytämällä)",
+      "Kinkku-salamipizzaa L (glut. saa pyytämällä)",
+      "Broilerin siipiä Texas Pete -kastikkeessa & dippiä",
       "Jälkiruoka & kahvi"
      ]
     }
@@ -548,62 +548,62 @@
    "hours": "ma-pe 10:00-13:30",
    "status": "ok",
    "error": null,
-   "week": "2026-11-16",
+   "week": "2026-11-23",
    "image": null,
    "days": [
     {
      "weekday": 0,
      "label": "Maanantai",
-     "date": "2026-11-16",
+     "date": "2026-11-23",
      "items": [
-      "lasagne L",
-      "Tapolan mustaa makkaraa L (pyydä G)",
-      "tikka masala L,G",
+      "pad thai chicken L paistettua nuudelia, kanaa",
+      "jauhelihapihvit kermaisessa kastikkeessa L,G",
+      "kookos-possukastike M,G",
       "kermainen lohikeitto L,G"
      ]
     },
     {
      "weekday": 1,
      "label": "Tiistai",
-     "date": "2026-11-17",
+     "date": "2026-11-24",
      "items": [
-      "lihapullat mustapippurikastikkeella L,G",
-      "makaronilaatikko L",
-      "koskenlaskijan lihapata L,G",
-      "pinaattikeitto L"
+      "pyttipannu L,G ja paistettu muna",
+      "jauhelihakastike L",
+      "naudan viipalemaksaa ja sipulia L,G",
+      "peruna-purjososekeitto L,G"
      ]
     },
     {
      "weekday": 2,
      "label": "Keskiviikko",
-     "date": "2026-11-18",
+     "date": "2026-11-25",
      "items": [
-      "makkaramix L,G ja cajunmaustetut lohkoperunat M,G sinappinen tartar-kastike L,G",
-      "kalapuikot L",
-      "BBQ-nyhtöpossu L,G",
-      "lohiseljanka L,G ja smetanaa"
+      "kinkku-ananas-aurajuusto pizzaa L",
+      "lohikiusaus L,G",
+      "sianlihakastike M,G",
+      "makkarakeitto M,G"
      ]
     },
     {
      "weekday": 3,
      "label": "Torstai",
-     "date": "2026-11-19",
+     "date": "2026-11-26",
      "items": [
-      "leivitetty possunleike M (pyydä G) ja chili-seesam-majoneesi",
-      "välimeren uunimakkara L,G",
-      "kaalilaatikko L,G",
+      "porsaan paneroitu leike L (pyydä G) talon aioli",
+      "butter chicken L,G basmatiriisi",
+      "chilinen pepperonipasta L parmesania",
       "hernekeitto M,G ja pannari L (pyydä G)"
      ]
     },
     {
      "weekday": 4,
      "label": "Perjantai",
-     "date": "2026-11-20",
+     "date": "2026-11-27",
      "items": [
-      "paneroidut broilerin paistipalat L (pyydä G) ja currymajoneesi",
-      "siipiweikkojen wingsit ja sinihomedippi L,G",
-      "texmex nakkihodarit L (pyydä G)",
-      "perjantaisin karkki- ja jäätelöbuffa"
+      "uunilohifilee L,G",
+      "naudan entrecote L,G punaviinikastike",
+      "tattirisotto L,G",
+      "perjantaisin jäätelöä ja karkkibuffa"
      ]
     }
    ]
@@ -705,13 +705,12 @@
      "label": "Tiistai",
      "date": "2026-11-17",
      "items": [
-      "Itte tehtyä rapeaa kanaa",
-      "Riistakiusausta",
-      "Melanzane - munakoiso-tomaattivuokaa",
-      "Kurkumariisiä",
-      "Kesäkurpitsa-punasipulipaistosta",
-      "Harissa-jogurttikastiketta",
-      "Piparkakku trifle",
+      "Itte tehtyjä ahven-silakkafileepihvejä",
+      "Bratwursteja, mustamakkaraa ja prinssinakkeja",
+      "Papu-kasvis-nachopeltiä",
+      "Perunamuusia",
+      "Paahdettua parsakaalia",
+      "Omenakiisseliä ja fariinikermaa",
       "Kahvi"
      ]
     },
@@ -720,15 +719,13 @@
      "label": "Keskiviikko",
      "date": "2026-11-18",
      "items": [
-      "Texmex candy pork niskasta",
-      "Chipotle-ananas-kanatacoja",
-      "Härkis-texmex-munakasta",
-      "Texmex dirty rice",
-      "Grillattuja maissintähkiä",
-      "Lime-korianteriranskankermaa",
-      "Avokado-kermaviilikastiketta",
-      "Cheddarmoussea",
-      "Chili-suklaavanukasta",
+      "Cheddar-uunimakkaraa",
+      "Kanaa korealaiseen tapaan",
+      "Shakshuka - tomaattista kasvispannua kananmunilla",
+      "Currymaustettua riisiä",
+      "Yrttiperunaa",
+      "Grillitomaatteja",
+      "Vadelma-suklaakääretorttu",
       "Kahvi"
      ]
     },
@@ -737,13 +734,13 @@
      "label": "Torstai",
      "date": "2026-11-19",
      "items": [
-      "Beef tamale pie - meksikolaista chilivuokaa",
-      "Maissipaneroitua kanaa",
-      "Chili con soya - mausteista papupataa soijarouheella",
-      "Texmex lohkoperunat",
-      "Chilipaahdettua bataattia",
-      "Mango-chilimajoneesia",
-      "Mintulla maustettua hedelmäsalaattia",
+      "Porsaanniskaa mausteisella kookoskastikkeella",
+      "Itte tehtyä metsäsienilasagnea",
+      "Kana-fetamurekepihvi",
+      "Basmatiriisiä",
+      "Currypaahdettua kukkakaalia",
+      "Kurkkuraitaa",
+      "Hedelmä-riisivaahtoa",
       "Kahvi"
      ]
     },
@@ -752,15 +749,13 @@
      "label": "Perjantai",
      "date": "2026-11-20",
      "items": [
-      "Itte tehtyjä porsaanleikkeitä",
-      "Cheddar-kuorrutettua kanaa",
-      "Grillattua tofua",
-      "Ranskalaisia perunoita",
-      "Paahdettuja curryjuureksia",
-      "Aiolia",
-      "Antellin pannukakkua",
-      "Kermavaahtoa",
-      "Marjahilloa",
+      "Itte tehtyjä wieninleikkeitä",
+      "Balsamico-paahdettua kanaa",
+      "Savutofu-ruusukaalipyttipannua",
+      "Paahdettua punajuurta",
+      "Yrttiperunaa",
+      "Wasabimajoneesia",
+      "Antellin pullavanukasta",
       "Kahvi"
      ]
     }
@@ -854,8 +849,8 @@
    "hours": "ma-pe 10:30-14:00",
    "status": "ok",
    "error": null,
-   "week": "2026-11-16",
-   "image": "https://cdn.prod.website-files.com/6a5757dd1c62f83f7a16d6c2/6af95aab5087645ebe747692_fajo%20ig%20vko%2047.png",
+   "week": "2026-11-23",
+   "image": "https://cdn.prod.website-files.com/6a5757dd1c62f83f7a16d6c2/6b00454461d6615d733b97e9_vko%2048%20fajo%20ig.png",
    "days": []
   },
   {
