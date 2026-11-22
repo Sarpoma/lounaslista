@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-22T18:56:09+02:00",
- "weekStart": "2026-11-16",
+ "generatedAt": "2026-11-22T22:38:55+02:00",
+ "weekStart": "2026-11-23",
  "locations": [
   {
    "id": "linnakallio",
@@ -251,13 +251,13 @@
    "hours": "ma-pe 10:30-14:00",
    "status": "ok",
    "error": null,
-   "week": "2026-11-16",
+   "week": "2026-11-23",
    "image": null,
    "days": [
     {
      "weekday": 0,
      "label": "Maanantai",
-     "date": "2026-11-16",
+     "date": "2026-11-23",
      "items": [
       "Ylikypsäpossu & kolmen pippurin kastike L,G,MU",
       "Tempura leivitetty Turska M, MU",
@@ -269,7 +269,7 @@
     {
      "weekday": 1,
      "label": "Tiistai",
-     "date": "2026-11-17",
+     "date": "2026-11-24",
      "items": [
       "Uunilohi M, G, MU",
       "tilli-pestomajoneesi L, G",
@@ -281,7 +281,7 @@
     {
      "weekday": 2,
      "label": "Keskiviikko",
-     "date": "2026-11-18",
+     "date": "2026-11-25",
      "items": [
       "Kebab kastikkeessa L, G, MU",
       "Kana-Pekoni Pasta L, MU",
@@ -292,7 +292,7 @@
     {
      "weekday": 3,
      "label": "Torstai",
-     "date": "2026-11-19",
+     "date": "2026-11-26",
      "items": [
       "Sweet & Sour kana M, G, MU",
       "Makkarapannu M, MU",
@@ -306,7 +306,7 @@
     {
      "weekday": 4,
      "label": "Perjantai",
-     "date": "2026-11-20",
+     "date": "2026-11-27",
      "items": [
       "Ylikypsää Porsaan ribsit ja savu-BBQ kastike L, G, MU",
       "Ranskalaisia ja aioli",
@@ -471,12 +471,12 @@
      "date": null,
      "items": [
       "Kermainen lohikeitto tuoreella tillillä (L, G)",
-      "Rapeaksi paistettua broilerin sisifileetä , perunamuusia (L, G) piparjuuridippiä (L, G)",
-      "Talon pannupihvi kermaisessa Dijon-kastikkeessa (L, G)",
-      "Uunikalaa teriyaki-glaseerauksella (M, G) jasmiiniriisiä(M,G,VE)",
-      "Nepalilaista palak paneeria: tuorejuustosta ja inkiväärillä (G)",
-      "Paahdettuja tuoreita kasviksia (M,G,VE)",
-      "Mango-passionrahkaa (L, G)"
+      "Paahdettua broilerin rintafileetä yrttimaustetulla tomaatti-juustokastikkeella (L, G), paahdetut perunat (M, G)",
+      "Pitkään haudutettua BBQ-naudan sisäpaistia (M, G)",
+      "Paneroitua kampelaleikettä, valkosipuli-paprikadippi (L, G)",
+      "Shahi paneer inkiväärillä (G), basmatiriisi (M, G)",
+      "Paahdettuja tuoreita kasviksia (M, G, VE)",
+      "Mansikka-omenakiisseli (M, G), vaniljavaahto (L)"
      ]
     },
     {
@@ -484,13 +484,13 @@
      "label": "Tiistai",
      "date": null,
      "items": [
-      "Kantarellikeittoa (L, G)",
-      "Paahdettua lohta voi-valkoviinikastikkeella (L, G) tillillä maustettuja perunoita (L,G)",
-      "Paahdettua broilerin rintafileetä paprika-tomaatti-yrttikastikkeessa (M, G)",
-      "Pasta carbonaraa (L)",
-      "Kolmen pavun Jalotofu-vuokaa tuoreella babypinaatilla (VE, G) ja riisiä(M,G,VE)",
-      "Tuorekasvispaistosta (M, G, VE)",
-      "Gluteenitonta omena-kaurapaistosta (L,G) vaniljakastiketta (L)"
+      "Tomaattikeitto kookoskermalla (M, G)",
+      "Uunilohta sitruunalla (M, G), katkarapu-tillidippi (L, G), perunamuusi (L, G)",
+      "Paistettua broileria kermaisella pestokastikkeella (L, G, P), riisi",
+      "Riista-pekonikiusaus (L, G)",
+      "Ratatouille jalotofulla (VE, G)",
+      "Tuorekasvispaistos (M, G, VE)",
+      "Vadelmarahka (L,G) ja munkkirinkeli"
      ]
     },
     {
@@ -498,13 +498,13 @@
      "label": "Keskiviikko",
      "date": null,
      "items": [
-      "Porkkana-pähkinäsosekeittoa (L, G)",
-      "Cloven butter chickenia (L, G) voi-basmatiriisiä (L)",
-      "Talon makkarapyttipannua runsaalla paistetulla kananmunalla (L, G)",
-      "Uunikalaa tuoreella tilli-sitruunavinaigretella (L, G)",
-      "Kasvis-tuorejuustopihviä (G) mangosalsaa (M, G, VE)",
-      "Paahdettua kukkakaalia ja parsakaalia (M, G, VE)",
-      "Kuningatarkiisseliä (M, G) ja kardemummavaahtoa (L)"
+      "Kermainen purjo-perunasosekeitto (L, G)",
+      "Rapeaksi paneroitua porsaanleikettä (L), maustevoi (L), yrttiperunat (M, G)",
+      "Butter chicken – paahdettua broilerin paistileikettä (L, G), basmatiriisi",
+      "Uunipaahdettua kalaa punasipuli-sitruunavinegretillä (M, G)",
+      "Talon kasvispihvi parmesaaniglasuurilla (G)",
+      "Paahdettua kukkakaalia ja vihreitä papuja (M, G, VE)",
+      "Talon tyrni-mangokakku (L)"
      ]
     },
     {
@@ -513,11 +513,11 @@
      "date": null,
      "items": [
       "Perinteinen savupotka-hernekeitto (M, G), hienonnettua sipulia ja sinappia (VE, G)",
-      "Talon lihapullia Koskenlaskija-pippurikastikkeessa (L, G) perunamuusia (L, G)",
-      "Tandoorikanaa: tandoori-masala-jogurtissa marinoitua, paahdettua broilerinpaistileikettä (L, G)",
-      "Ruispaneroituja paistettuja muikkuja (L) tillikermaviiliä (L, G)",
-      "Kaurakermaista kasvispataa Jalotofulla ja kikherneillä (VE, G) jasahramiriisiä(M,G,VE)",
-      "Paahdettua porkkanaa ja mustajuurta (M, G, VE)",
+      "Talon pannupihvit sipuli-pekonikastikkeella (L, G), basilikaperunamuusi (L, G)",
+      "Kalkkuna Cordon Bleu, Thai sweet chili -dippi (L, G), maissiriisi",
+      "Lohi-fenkolipataa tuoreilla yrteillä (M, G)",
+      "Kasvis-soijarouhelasagne (L)",
+      "Paahdettuja tuoreita kasviksia (M, G, VE)",
       "Cloven letut (L), mansikkahilloa (M, G) & kermavaahtoa (L)(G tön-vaihtoehto erillisestäkeittiöstä)"
      ]
     },
@@ -526,13 +526,13 @@
      "label": "Perjantai",
      "date": null,
      "items": [
-      "Lohi-Caesar-salaattia",
-      "Hampurilaispäivä – tee se itse:",
-      "Briossisämpylä, Saatavana gluteeniton sämpylä",
-      "naudanjauhelihapihvi (L, G), paneroitu broilerinfileepihvi, lohimurekepihvi (L, G) tai talon Jalotofu-linssipihvi (VE, G)",
-      "Ranskalaisia perunoita. Paahdettuja tuoreita kasviksia (M, G, VE)",
-      "Marinoitua sipulia,Juustoviipaleita,Suolakurkkuviipaleita,Paprika-aiolia, Tomaattiviipaleita,Ruukkusalaattia",
-      "Cloven kardemumma-mangolassia (L, G)"
+      "Värikäs leipäjuustosalaatti paahdetuilla kurpitsansiemenillä (G)",
+      "Porsaan lehtipihvi (L, G), kaprisvoi (L), valkosipulimaustetut ranskalaiset (L, G)",
+      "Paahdettua broilerin sisäfileetä hunaja-sinappikastikkeella (L, G), pitkäjyväinen riisi",
+      "Sloppy Joe -hodari cheddarjuustolla",
+      "Tandoorimaustettua kasvis-tikkaa (L, G)",
+      "Paahdettuja juureksia (M, G, VE)",
+      "Kinuski-mansikkamousse (L)"
      ]
     }
    ]
