@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-22T14:25:43+02:00",
+ "generatedAt": "2026-11-22T18:56:09+02:00",
  "weekStart": "2026-11-16",
  "locations": [
   {
@@ -396,61 +396,59 @@
    "hours": "ma-pe 10:30-14:00",
    "status": "ok",
    "error": null,
-   "week": "2026-11-16",
+   "week": "2026-11-23",
    "image": null,
    "days": [
     {
      "weekday": 0,
      "label": "Maanantai",
-     "date": "2026-11-16",
+     "date": "2026-11-23",
      "items": [
-      "Pekoni-cheddar-kanaa, Fritattua maalaislohkoperunaa & Paprika-jalopenodippiä L,G",
-      "Porkkana-briejuustokeittoa, Pinaattipestoa & Murustettua briejuustoa L,G",
-      "Kasvispyöryköitä, Fritattua maalaislohkoperunaa & Paprika-jalopenodippiä L,G",
-      "Vadelma-valkosuklaamoussea & Mansikkagranolaa L"
+      "Grillipihvi porsaan fileestä, Ranskalaisia & Chilimajoneesi L,G",
+      "Paahdettua kirsikkatomaattia L,G",
+      "Toscapiirakkaa & Kinuskikermaa L"
      ]
     },
     {
      "weekday": 1,
      "label": "Tiistai",
-     "date": "2026-11-17",
+     "date": "2026-11-24",
      "items": [
-      "Savulohi-pinaattilasagnea, Sitruunaa & Parmesaania L",
-      "Koskenlaskijan Savuporokeittoa & Juuressipsiä L,G",
-      "Ruusukaalia & Tillivoisulaa L,G",
-      "Mustikkashotti = Mustikkakiisseli & Vaniljakermaa L,G"
+      "Rapea kalaleike, Sitruuna-kermaviiliä & Perunamuusia L",
+      "Uuniporkkanaa & Sitrusvinegretteä L,G",
+      "Makkarakeitto L,G & Ruisleipää L"
      ]
     },
     {
      "weekday": 2,
      "label": "Keskiviikko",
-     "date": "2026-11-18",
+     "date": "2026-11-25",
      "items": [
-      "Perinteistä makaronilaatikkoa & Mustapippuriketsuppia L",
-      "Lohikeittoa L,G, Saaristolaisleipää & Suolattua voita L",
-      "Höyrytettyä parsakaalia & kukkakaalia L,G",
-      "Appelsiiniriisiä & Paahdettua mantelia L,G"
+      "Lindströminpihvejä, Omena-timjamikastiketta, Sipulihilloketta & Kermaperunat L",
+      "Vihreitä papuja & Linssejä L,G",
+      "Perinteistä Lohikeittoa L,G",
+      "Metsämarjamoussea & Kuivattua mansikkaa L,G"
      ]
     },
     {
      "weekday": 3,
      "label": "Torstai",
-     "date": "2026-11-19",
+     "date": "2026-11-26",
      "items": [
-      "Uunilohta, Remouladea, Uuniperunaa & Parmesaanivoita L,G",
-      "Siskonmakkarakeittoa & Persiljaa L,G",
-      "Paahdettua punajuurta, rucolaa & kurpitsansiementä L,G",
-      "Pistaasipähkinä-mascarponevanukasta, Kuivattua vadelmaa & Kauramurua L,G"
+      "Uunilohta, Porkkanatzatzikia & Paahdettua perunasalaattia L,G",
+      "Hunajaista palsternakkaa & Rucolaa L,G",
+      "Punajuuri-aurakeittoa & Rapeaa sipulia L,G"
      ]
     },
     {
      "weekday": 4,
      "label": "Perjantai",
-     "date": "2026-11-20",
+     "date": "2026-11-27",
      "items": [
-      "Pulled Pork Burger",
-      "Barbecue aiolia, Hillottua punasipulia, Marinoitua ananasta, Jääsalaattia, Tomaattia & Mac’n cheese L",
-      "Tomaattista vuohenjuustokeittoa, Pinjansiemeniä & Basilikaa L,G"
+      "Shanghai Tacot",
+      "Frittikanaa, Pikkelikaalia, Hoisinkastiketta & Avocadojogurttia L",
+      "Sipulikeittoa, Goudaa L,G & Valkosipulileipää L",
+      "Biscoff pannacotta & Marinoitua omenaa L"
      ]
     }
    ]
