@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T10:25:26+02:00",
+ "generatedAt": "2026-11-23T15:52:59+02:00",
  "weekStart": "2026-11-23",
  "locations": [
   {
@@ -191,9 +191,9 @@
      "label": "Maanantai",
      "date": null,
      "items": [
-      "Kermainen pasta Carbonara pekonista ja Rummo penne L 12,50 €",
-      "Paahdettua uunikanaa rosmariini-hunajakastikkeessa M, G, KM 12,50 €",
-      "Yrttiperunoita M, G, Veg"
+      "'Hartaasti haudutettua Pasta Bolognesea L 12,50 €",
+      "Rapeaa kanaa M,G ja sitrusmajoneesia L,G 12,50 €",
+      "Paahdetut perunat M,G,Veg"
      ]
     },
     {
@@ -201,10 +201,11 @@
      "label": "Tiistai",
      "date": null,
      "items": [
-      "Paistetut porsaan pihvit salviavoikastikkeessa L, G, KM 12,50 €",
-      "Paahdettua broileria aromaattisessa vuohenjuustokastikkeessa G, KM 12,50 €",
-      "Lohkoperunoita M, G, Veg",
-      "Kermainen lohikeitto L, G, KM ja ruisleipää M 9,4 0 €"
+      "Jauhelihapihvit raikkaalla tomaatti paprika-sipulipaistoksella L,G 12,50€",
+      "Paahdettua kanapoikaa bearnaisekastikkeessa VL,G 12,50 €",
+      "Keitettyä peruna M, G, Veg",
+      "Riisi M, G, Veg",
+      "Kermainen lohikeitto L, G, KM ja ruisleipää M 9,40 €"
      ]
     },
     {
@@ -212,10 +213,10 @@
      "label": "Keskiviikko",
      "date": null,
      "items": [
-      "Överi jauheliha nachovuoka cheddarkastikkeella L, G 12,50 €",
-      "Rapea kalaleike L ja yrttinen tartarkastike M, G, Veg 12,50 €",
-      "Chiliriisi M, G, Veg",
-      "Paahdettuja perunoita M, G, Veg"
+      "Rapeita kalapuikkoja ja remoulade kastike 12,50 €",
+      "Grillikanaa appelsiini-soijakastikkeessa M,G 12,50 €",
+      "Paistettua riisi M, G",
+      "Perunamuusi L, G"
      ]
     },
     {
@@ -223,9 +224,9 @@
      "label": "Torstai",
      "date": null,
      "items": [
-      "Perinteinen pyttipannu paistetuilla kananmunilla L, G ja suolakurkkua M, G, Veg 12,50 €",
-      "Cajun maustettua kanan paistileikettä ja grillattuja kasviksia M, G, Veg 12,50 €",
-      "Limeriisiä M, G, Veg",
+      "Possua tummassa timjamikastikkeessa L, G 12,50 €",
+      "Mango harissa glaseerattua broilerin fileetä M,G 12,50 €",
+      "Paistettua perunoita L, G",
       "Perinteistä hernekeittoa, kuutioitua sipulia ja sinappia M, G, KM 9,40 €",
       "Pannukakkua L, hilloa M, G, Veg. ja kermavaahtoa L, G, KM"
      ]
@@ -235,10 +236,9 @@
      "label": "Perjantai",
      "date": null,
      "items": [
-      "Grillattua kanaa raikkaan punaisessa pestokastikkeessa L, G, KM 12,50 €",
-      "Jauhelihapihvi sinappi-kermakastikkeessa L, G 12,50 €",
-      "Paahdetut valkosipuliperunat M, G, Veg",
-      "Riisiä M, G, Veg"
+      "Talon rehtiä lihapizzaa L ja dippejä 12,50 €",
+      "Meksikon kana-nachopeltiä, salsaa ja pikkelöityä punasipulia L, G 12,50 €",
+      "Riisi L, G"
      ]
     }
    ]
@@ -867,7 +867,7 @@
      "label": "Maanantai",
      "date": null,
      "items": [
-      "Kanan rintaa \"limonello\"",
+      "Sitruuna marinoitua kanan rintaa \"limonello\"",
       "Pulled pork pitataskut",
       "Pepperoni-pekoni pasta",
       "Uuniperunaa katkarapu täyte",
