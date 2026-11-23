@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T04:28:25+02:00",
+ "generatedAt": "2026-11-23T10:25:26+02:00",
  "weekStart": "2026-11-23",
  "locations": [
   {
@@ -260,11 +260,11 @@
      "label": "Maanantai",
      "date": "2026-11-23",
      "items": [
-      "Ylikypsäpossu & kolmen pippurin kastike L,G,MU",
-      "Tempura leivitetty Turska M, MU",
-      "Sitruuna ranskankerma L, G, MU",
-      "Lihapyörykät pippurikermakastike ja muusi L,G,MU",
-      "Päivän kasvisruoka keittiöstä: Kasviskroketit VE, G & Kylmä Sitrus-limekastike L, G, MU"
+      "Riistakäristys, Puolukkahillo M, G, MU",
+      "Cheddar-kuorrutettu kalagratiini MU & Tzatsiki G, L, MU",
+      "Lihapullat pippurikermakastike ja muusi L, G, MU",
+      "Päivittäin vaihtuva jälkiruoka",
+      "Päivän kasvisruoka keittiöstä: Mexican Kasvispihvi VE, G & Tzatsiki L, G, MU"
      ]
     },
     {
@@ -272,11 +272,11 @@
      "label": "Tiistai",
      "date": "2026-11-24",
      "items": [
-      "Uunilohi M, G, MU",
-      "tilli-pestomajoneesi L, G",
-      "Syksyinen Härkäruukku L, G, MU",
-      "Lihapyörykät pippurikermakastike ja muusi L, G, MU",
-      "Päivän kasvisruoka keittiöstä: Pesto Pasta L, MU"
+      "Uunilohi M, G, MU ja Tilli-smetanakastike L, G, MU",
+      "Aasialainen possupata L, G, MU",
+      "Lihapullat pippurikermakastike ja muusi L, G, MU",
+      "Päivittäin vaihtuva jälkiruoka",
+      "Päivän kasvisruoka keittiöstä: Aasialainen Soijapata L, G, MU"
      ]
     },
     {
@@ -284,10 +284,10 @@
      "label": "Keskiviikko",
      "date": "2026-11-25",
      "items": [
-      "Kebab kastikkeessa L, G, MU",
-      "Kana-Pekoni Pasta L, MU",
-      "Lihapyörykät pippurikermakastike ja muusi L, G, MU",
-      "Päivän kasvisruoka keittiöstä: Vebab kastikkeessa L, G, MU"
+      "Broileri chili-valkosipulikastikkeessa L,G,MU",
+      "Ylikypsää possua omena-sinappikastikkeessa L,G,MU",
+      "Lihapullat, pippurikermakastike ja muusi L, G, MU",
+      "Päivän kasvisruoka keittiöstä: Tofua chili-valkosipulikastikkeessa L, G, MU"
      ]
     },
     {
@@ -295,13 +295,12 @@
      "label": "Torstai",
      "date": "2026-11-26",
      "items": [
-      "Sweet & Sour kana M, G, MU",
-      "Makkarapannu M, MU",
-      "Mustamakkara, Ryynimakkara, Uunimakkara & Puolukkahillo",
-      "Lihapyörykät pippurikermakastike ja muusi L, G, MU",
-      "Pannukakku ja Hillo L",
+      "Fish & Chips L ja Remoulade L, G",
+      "Koskenlaskija Broileri L, G, MU",
+      "Lihapullat pippurikermakastike ja muusi L, G, MU",
+      "Pannari, Hillo ja kermavaahto L (Gluteeniton pyydettäessä)",
       "Hernekeitto M, G, MU",
-      "Päivän kasvisruoka keittiöstä: Sweet & Sour tofu L, G, MU"
+      "Päivän kasvisruoka keittiöstä: Kasvispihvit ja Remoulade L, G"
      ]
     },
     {
@@ -309,12 +308,11 @@
      "label": "Perjantai",
      "date": "2026-11-27",
      "items": [
-      "Ylikypsää Porsaan ribsit ja savu-BBQ kastike L, G, MU",
-      "Ranskalaisia ja aioli",
-      "Broileri & cheddar-jalapenokastike G, MU",
-      "Lihapullat pippurikermakastike ja muusi L, G, MU",
-      "Päivittäin vaihtuva jälkiruoka",
-      "Päivän kasvisannos keittiöstä: Pulled chunks ja savu-BBQ kastike L, G, MU"
+      "Siivet Texas Pete L,G,MU ja Auradippi L,G,MU",
+      "Ranskalaisia",
+      "Butter chicken L, G, MU",
+      "Lihapyörykät pippurikermakastike ja muusi L, G, MU",
+      "Kukkakaali wings M, MU"
      ]
     }
    ]
@@ -624,10 +622,10 @@
      "label": "Maanantai",
      "date": null,
      "items": [
-      "Jauheliha-pekoni makaroonilaatikko ( L )",
-      "Seesamkanaa ( L G M )",
-      "Pariloitu possu & Chiliaioli ( L G M )",
-      "Mansikkakiisseli & Kermavaahto ( L G )",
+      "Pyttipannu & Paistettu kananmuna ( L G )",
+      "Jauhelihamureke Kermakastikkeessa ( L G )",
+      "Smetanainen jallu-valkosipulikana ( L G )",
+      "Hedelmäsalaatti & Vanilijavaahto ( L G )",
       "Päivän kasvis"
      ]
     },
@@ -636,10 +634,10 @@
      "label": "Tiistai",
      "date": null,
      "items": [
-      "Kermainen kanapasta ( L )",
-      "Höyrynakit ( L G M )",
-      "Lihapullat savujuustokastikkeessa ( L G )",
-      "Omenapannacotta ( L G )",
+      "Talon yrttituorejuusto kanaa ( L G )",
+      "Pippuri-kerma suikalepossukastike ( L G )",
+      "Rapea kalaleike & Limedippi",
+      "Suklaapiirakka ( L )",
       "Päivän kasvis"
      ]
     },
@@ -648,10 +646,10 @@
      "label": "Keskiviikko",
      "date": null,
      "items": [
-      "Tapolan mustamakkara & Puolukkahillo ( L M )",
-      "Jauhelihakastike ( L G )",
-      "Nachopaneroitu kananrinta (L,G,M) & Dippi ( L G M )",
-      "Persikkarahka ( L G )",
+      "Jauhelihalasagne ( L )",
+      "Naudan kebab & Turkinjugurtti ( L G )",
+      "Broilerin koipipalat ( L G M )",
+      "Mustikkakiisseli & Kermavaahto ( L G )",
       "Päivän kasvis"
      ]
     },
@@ -660,9 +658,9 @@
      "label": "Torstai",
      "date": null,
      "items": [
-      "Porsaan sisäfilenoisetit Cheddarkastikkeessa ( L G )",
-      "Silakkapihvit & Tilli-munadippi ( L )",
-      "Kermainen curry kanan paistileike ( L G )",
+      "Naudanliha-nuudeliwok ( L M )",
+      "Chilijuusto-kasslerpata ( L G )",
+      "Kanan rintafile 3-pippurin kastikkeella ( L G )",
       "Pannari, Marjahillo & Kermavaahto ( L )",
       "Päivän kasvis"
      ]
@@ -672,9 +670,9 @@
      "label": "Perjantai",
      "date": null,
      "items": [
-      "Lohikiusaus ( L G )",
-      "Choochee kanaa ( L G M )",
-      "Porsaanleike (L,M) & Viherpippurikastike ( L G )",
+      "Makkaraperunat ranskalaisilla & Lisukkeet ( L G M )",
+      "Aurajuustokanaa ( L G )",
+      "Porsaanleike (L,M) & Chilimajoneesi ( L G M )",
       "Talon munkit ( L M )",
       "Päivän kasvis"
      ]
@@ -769,72 +767,72 @@
    "hours": "ma-pe 10:00-16:00",
    "status": "ok",
    "error": null,
-   "week": "2026-11-16",
+   "week": "2026-11-23",
    "image": null,
    "days": [
     {
      "weekday": 0,
      "label": "Maanantai",
-     "date": "2026-11-16",
+     "date": "2026-11-23",
      "items": [
-      "Kanakeitto (G, M)",
-      "Härkäpata & ruskeakastike (G, L)",
-      "Bearnaisebroileri (G, L)",
-      "Naudan jauhelihabolognese (L)",
-      "Hunajaiset uunijuurekset (G, M)",
-      "Talonkakku ja mansikkarahka (L)"
+      "Kasviskeitto (G, L)",
+      "Naudan paahtopaisti punaviinikastikkeessa (G, M)",
+      "Hollandaisebroileri (G, L)",
+      "Naudan jauheliha-makaronilaatikko (L)",
+      "Täytetyt kasvikset (G, L)",
+      "Talon kakku & vanilja-banaanirahka (L)"
      ]
     },
     {
      "weekday": 1,
      "label": "Tiistai",
-     "date": "2026-11-17",
+     "date": "2026-11-24",
      "items": [
-      "Porkkana-juustokeitto (G, L)",
-      "Lihamureke timjamikermakastikkeessa ja karamellisoidut sipulit (naudanlihaa) (G, L)",
-      "Italialainen broileri (G, L)",
-      "Pennepasta carbonara (L)",
-      "Kasvisratatouille (G, L)",
-      "Tiikerikakku ja vaniljakastike (L)"
+      "Aurajuustokeitto (G, L)",
+      "Paneroitu puna-ahven & tartarkastike (L)",
+      "Broileri pippurikastikkeessa (G, L)",
+      "Talon lasagne (naudanlihaa) (L)",
+      "Vuohenjuustoratatouille (G, L)",
+      "Tiramisu (L)"
      ]
     },
     {
      "weekday": 2,
      "label": "Keskiviikko",
-     "date": "2026-11-18",
+     "date": "2026-11-25",
      "items": [
-      "Vegaaninen kasvis-inkiväärikeitto (G, M)",
-      "Uunilohi tillikastikkeessa (G, L)",
-      "Mummon lihapullat ja talonkastike (G, L)",
-      "Pepperonipasta (L)",
-      "Kiinalainen kasviswokki (G, M)",
-      "Juustokakku (L)"
+      "Porkkana-juustokeitto (G, L)",
+      "Lindströmin pannupihvi & tummakastike (G, L)",
+      "Broileri tandoorikastikkeessa (G, L)",
+      "Ruis-silakkapihvit & tillikastike (G, L)",
+      "Kasvisgulassi (G, M)",
+      "Marjapiirakka & vaniljakastike (L)"
      ]
     },
     {
      "weekday": 3,
      "label": "Torstai",
-     "date": "2026-11-19",
+     "date": "2026-11-26",
      "items": [
       "Hernekeitto (G, VEG)",
-      "Naudan pannupihvi ja cheddarjuustokastike (G, L)",
-      "Fish and chips, tartarkastike (G, L)",
-      "Pippuribroileri (G, L)",
-      "Uunitofu ja marinoidut parsakaalit (G, L)",
-      "Pannukakku, hillo ja kermavaahto"
+      "Karjalanpaisti (G, M)",
+      "Oskarinbroileri (G, L)",
+      "Pasta bolognese & parmesaanijuusto (G, L)",
+      "Hunajaiset uunijuurekset (G, M)",
+      "* Pannukakku, hillo & kermavaahto (L)"
      ]
     },
     {
      "weekday": 4,
      "label": "Perjantai",
-     "date": "2026-11-20",
+     "date": "2026-11-27",
      "items": [
-      "Kalakeitto (G, L)",
-      "Naudan palapaisti katajanmarjakastikkeessa (G, L)",
-      "Aurajuustobroileri (G, L)",
-      "Kreikkalainen moussaka (naudanlihaa) (G, L)",
-      "Kasvisrisotto (G, L)",
-      "Vanilja-kinuskirahka ja munkit (L)"
+      "Lohikeitto (G, L)",
+      "Pannupihvi & tumma-valkosipulikastike (G, L)",
+      "Tex mex broileri fajitas, tacokastike & tortillaleipä (G, L)",
+      "Pekoni-pastacarbonara (L)",
+      "Kukkakaaligratiini (G, L)",
+      "Omenakiisseli & kerma-kanelikastike (G, L)"
      ]
     }
    ]
@@ -882,7 +880,7 @@
      "label": "Tiistai",
      "date": null,
      "items": [
-      "Lihapullat ja Viherpippuri kermakastiketta",
+      "Lihapullat ja Jallu-kermakastiketta",
       "Kananpaistileikettä ja Valkosipuli-yrttibutter",
       "Lihaisa Supreme Delux Hotdog Nakilla Ja Pekonilla",
       "Pinaattiletut ja puolukkaa",
@@ -896,7 +894,11 @@
      "label": "Keskiviikko",
      "date": null,
      "items": [
-      "Ei lounastarjoilua."
+      "Pepperino pannupizza Detroit Style",
+      "Paahdettua tuoretta lohta ja pestoa",
+      "Juustoisa jauhelihamakaronilaatikko",
+      "Feta-parsakaalipihvit",
+      "Paahdetut tuoreet kasvikset"
      ]
     },
     {
@@ -904,7 +906,13 @@
      "label": "Torstai",
      "date": null,
      "items": [
-      "Ei lounastarjoilua."
+      "Jauheliha Lasagne",
+      "Kanan paistileikettä yrtti-pesto kermakastikkeessa.",
+      "Kebab nachovuoka",
+      "Soija-tuorejuusto täytetyt paprikat",
+      "Paahdetut tuoreet kasvikset",
+      "Pitkäriisiä",
+      "Pannukakkua , kermavaahtoa ja kotihilloa"
      ]
     },
     {
@@ -912,7 +920,13 @@
      "label": "Perjantai",
      "date": null,
      "items": [
-      "Ei lounastarjoilua."
+      "Porsaan Grilli pihvi ja Hickory BBQ-kastiketta",
+      "Kana-Avocado Clubsandwich",
+      "Njuda-Salami pasta",
+      "Balsamico Paahdettua Parsakaali ja Saksanpähkinää",
+      "Paahdetut tuoreet kasvikset",
+      "Yrtti-Paahdetut Nappula perunat",
+      "Kuningatar Pehmis"
      ]
     }
    ]
