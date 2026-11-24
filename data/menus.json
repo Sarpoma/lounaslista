@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T07:53:00+02:00",
+ "generatedAt": "2026-11-24T12:33:30+02:00",
  "weekStart": "2026-11-23",
  "locations": [
   {
@@ -98,11 +98,11 @@
    "id": "tiina",
    "name": "Tiinan Kotiruoka",
    "url": "https://tiinankotiruoka.fi/lounas-linnakallio/",
-   "location": "",
+   "location": "linnakallio",
    "area": "Linnakallio",
    "hours": "ma-pe 10:30-14:00",
-   "status": "stale",
-   "error": "could not re-read the site; showing the last menu we got",
+   "status": "ok",
+   "error": null,
    "week": null,
    "image": null,
    "days": [
@@ -272,7 +272,8 @@
      "label": "Tiistai",
      "date": "2026-11-24",
      "items": [
-      "Uunilohi M, G, MU ja Tilli-smetanakastike L, G, MU",
+      "Uunilohi M, G, MU",
+      "Päivän kylmäkastike L, G",
       "Aasialainen possupata L, G, MU",
       "Lihapullat pippurikermakastike ja muusi L, G, MU",
       "Päivittäin vaihtuva jälkiruoka",
@@ -637,7 +638,7 @@
       "Talon yrttituorejuusto kanaa ( L G )",
       "Pippuri-kerma suikalepossukastike ( L G )",
       "Rapea kalaleike & Limedippi",
-      "Suklaapiirakka ( L )",
+      "Suklaapiirakka",
       "Päivän kasvis"
      ]
     },
@@ -906,12 +907,12 @@
      "label": "Torstai",
      "date": null,
      "items": [
-      "Jauheliha Lasagne",
-      "Kanan paistileikettä yrtti-pesto kermakastikkeessa.",
-      "Kebab nachovuoka",
+      "Pitkään haudutettua jauheliha chiliä ja creme fraiche dippiä.",
+      "Kanan paistileikettä BBQ-kastiketta.",
+      "Kebab tacoja",
       "Soija-tuorejuusto täytetyt paprikat",
       "Paahdetut tuoreet kasvikset",
-      "Pitkäriisiä",
+      "Pitkää riisiä ja tortilla lettuja.",
       "Pannukakkua , kermavaahtoa ja kotihilloa"
      ]
     },
