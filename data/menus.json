@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T11:16:21+02:00",
+ "generatedAt": "2026-11-27T15:19:51+02:00",
  "weekStart": "2026-11-23",
  "locations": [
   {
@@ -98,11 +98,11 @@
    "id": "tiina",
    "name": "Tiinan Kotiruoka",
    "url": "https://tiinankotiruoka.fi/lounas-linnakallio/",
-   "location": "",
+   "location": "linnakallio",
    "area": "Linnakallio",
    "hours": "ma-pe 10:30-14:00",
-   "status": "stale",
-   "error": "could not re-read the site; showing the last menu we got",
+   "status": "ok",
+   "error": null,
    "week": null,
    "image": null,
    "days": [
@@ -111,12 +111,12 @@
      "label": "Maanantai",
      "date": null,
      "items": [
-      "Mukavemman naapurin muorin perinteisempi jauhelihakastike & spagetti L",
-      "Paahdettua broilerin sisäfilettä tomaattibasilika kastikkeessa parmesaanilla aateloituna G, L",
-      "Eilen kalastettuja & pannulla paistettuja kalapuikkoja & tartardippi L",
-      "Lihapullat kastikkeessa & perunamuusi G, L",
-      "Paahdetut timjamijuurekset talon tapaan G, M",
-      "Kirkkaan veden parempi nakkikeitto G, M"
+      "TexMex-uunimakkaraa (nachoja, salsaa, jalapenoa) & kermaiset perunat G, L",
+      "Paahdettua broileria kermaisessa Hollandaise-kastikkeessa & basmatiriisi G",
+      "Pasta Carbonara hitokseen pekonilla & parmesaanilla L",
+      "Lihapullat kastikkeessa G, L",
+      "Hunajalla marinoidut & paahdetut kukkakaalit G, M",
+      "Jauhelihallinen-kaalikeitto G, M"
      ]
     },
     {
@@ -124,12 +124,12 @@
      "label": "Tiistai",
      "date": null,
      "items": [
-      "Uuniin unohdettua ylikypsää possua pippurisessa Bearnaise-kastikkeessa G, L",
-      "Liika voissa paistetut & paneroidut muikkuset & valkosipulidippi G, L",
-      "Lämpöisen oloiset lämpimät hampparivoileivät cheddarilla & muilla höysteillä L",
-      "Lihapullat kastikkeessa & perunamuusi G, L",
-      "Höyrytettyä kukkakaalia & vihreää papua suolalla marinoituna G, M",
-      "Kermainen lohikeitto fileestä G, L"
+      "Yöhön unohdettua possua kermaisessa kolmenpippurin kastikkeessa & lohkoperunat G, L",
+      "Oikeassa voissa paistettua & paneroitua puna-ahventa L + tillitartardippi G, L",
+      "Lämpöisen tuntuiset lämpimät voileivät jauhelihapihvillä & ananaksella & kirsikalla +currymajo",
+      "Lihapullat kastikkeessa G, L",
+      "Paahdettua punajuurta aurajuustolla aateloituna G, L",
+      "Kermainen riistakeitto G, L"
      ]
     },
     {
@@ -137,12 +137,12 @@
      "label": "Keskiviikko",
      "date": null,
      "items": [
-      "Vasemman käden jauhelihapihvit pekonijuustokuorrutteella & ruskeahko kastike G, L",
-      "Oikeessa järjestyksessä sekoitettua & paistettua pyttipannua + paistettu kananmuna L",
-      "Äkämän rrapee reunaset pinaattiplättyset & puolukkahillo L",
-      "Lihapullat kastikkeessa & perunamuusi G, L",
-      "Paistettua paprikaa & herkkusientä & sipulia mausteliemessä G, M",
-      "Mausteinen kana-kookoskeitto G, L"
+      "Oman keittiön jauhelihapihvit paahdetulla sipulilla & Monterey Jack-- juustolla G, L",
+      "Broilerin paahdetut sisäfileet Texas Pete HOT kastikkeessa & paistettu riisi G, L",
+      "Köökin omavalintainen pizza L",
+      "Lihapullat kastikkeessa G, L",
+      "Juustoinen kasvisgratiini isolla juustolla G, L",
+      "Mausteisempi katkarapukeitto G, L"
      ]
     },
     {
@@ -150,13 +150,12 @@
      "label": "Torstai",
      "date": null,
      "items": [
-      "Köökissä väärässä järjestyksessä kasattua jauhelihalasagnea L",
-      "Paremman viinitilan valkoviinissä haudutettua broilerin rintafilettä & basmatiriisi G, L",
+      "Ikeniä kolisuttavat porsaan suussa sulavat ribsit tummassa Cola-kastikkeessa G, L",
+      "Paremman makkaratehtaan makkarapihvit kaikilla mausteilla L & kermaiset perunat G, L",
       "Köökin omavalintainen pizza L",
-      "Lihapullat kastikkeessa & perunamuusi G, L",
-      "Pestolla voidellut grillitomaatit & ison käden juustokuorrute G, L",
-      "Hernekeittoa G, M",
-      "Oman leipurin pannukakku & marjahillo L, saa glut."
+      "Lihapullat kastikkeessa G, L",
+      "Hunajaisen rouskuttajan maalaistyyliset rakuunaporkkanat G, M",
+      "Hernekeitto G, M (saa kasvis) ja pannari L saa glut."
      ]
     },
     {
@@ -164,12 +163,12 @@
      "label": "Perjantai",
      "date": null,
      "items": [
-      "Paneroitua possun leikettä kuumalta pannulta & erilaisia dippejä lusikoitavaksi L",
-      "Sämpyläkebab jokaisen suulle sopivilla höysteillä L",
-      "Broilerin siivet SIIPIWEIKKOJEN sooseilla & ranskikset & auradippi G, L",
-      "Lihapullat kastikkeessa & perunamuusi G, L",
-      "Mitään sanomattomat ”kauden kasvikset” G, M",
-      "Samettisen pehmeä bataattikookoskeitto & paahdetut kurpitsansiemenet G, L"
+      "Pitkään tikkuun ahdettua kanaa ”Satay” thai paistoi-kastikkeessa G, L",
+      "Oman pannun rapsakka porsaan leike & tuhdimpi BBQ-dippi G, L",
+      "Lihapullat kastikkeessa G, L",
+      "Broilerin siivet a´la SIIPIWEIKKOJEN soosi ja ranskikset G, M",
+      "Voissa pyöritettyjä maissinpätkiä kevyellä suolalla G, L",
+      "Kireämmän kirjanpitäjän kermainen kate kasvissosekeitto nokareella voita G, L"
      ]
     }
    ]
@@ -847,8 +846,8 @@
    "hours": "ma-pe 10:30-14:00",
    "status": "ok",
    "error": null,
-   "week": "2026-11-23",
-   "image": "https://cdn.prod.website-files.com/6a5757dd1c62f83f7a16d6c2/6b00454461d6615d733b97e9_vko%2048%20fajo%20ig.png",
+   "week": "2026-11-30",
+   "image": "https://cdn.prod.website-files.com/6a5757dd1c62f83f7a16d6c2/6b097cb68d3b920a801a3074_vko%2049%20fajo%20ig.png",
    "days": []
   },
   {
