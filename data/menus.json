@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T11:00:51+02:00",
+ "generatedAt": "2026-11-27T11:16:21+02:00",
  "weekStart": "2026-11-23",
  "locations": [
   {
@@ -98,11 +98,11 @@
    "id": "tiina",
    "name": "Tiinan Kotiruoka",
    "url": "https://tiinankotiruoka.fi/lounas-linnakallio/",
-   "location": "linnakallio",
+   "location": "",
    "area": "Linnakallio",
    "hours": "ma-pe 10:30-14:00",
-   "status": "ok",
-   "error": null,
+   "status": "stale",
+   "error": "could not re-read the site; showing the last menu we got",
    "week": null,
    "image": null,
    "days": [
@@ -181,8 +181,8 @@
    "location": "linnakallio",
    "area": "Linnakallio / Veho",
    "hours": "ma-pe 10:30-14:00",
-   "status": "ok",
-   "error": null,
+   "status": "stale",
+   "error": "could not re-read the site; showing the last menu we got",
    "week": null,
    "image": null,
    "days": [
@@ -250,8 +250,8 @@
    "location": "linnakallio",
    "area": "Jasperintie",
    "hours": "ma-pe 10:30-14:00",
-   "status": "ok",
-   "error": null,
+   "status": "stale",
+   "error": "could not re-read the site; showing the last menu we got",
    "week": "2026-11-23",
    "image": null,
    "days": [
@@ -394,8 +394,8 @@
    "location": "linnakallio",
    "area": "Pirkkala",
    "hours": "ma-pe 10:30-14:00",
-   "status": "ok",
-   "error": null,
+   "status": "stale",
+   "error": "could not re-read the site; showing the last menu we got",
    "week": "2026-11-23",
    "image": null,
    "days": [
@@ -751,10 +751,10 @@
       "Balsamico-paahdettua kanaa",
       "Savutofu-ruusukaalipyttipannua",
       "Paahdettua punajuurta",
-      "Yrttiperunaa",
+      "Skånen perunoita",
+      "Ranskalaisia perunoita",
       "Wasabimajoneesia",
-      "Antellin pullavanukasta",
-      "Kahvi"
+      "Antellin pullavanukasta"
      ]
     }
    ]
@@ -766,9 +766,9 @@
    "location": "juhanilantie",
    "area": "Kalustetie 1",
    "hours": "ma-pe 10:00-16:00",
-   "status": "ok",
-   "error": null,
-   "week": "2026-11-23",
+   "status": "stale",
+   "error": "could not re-read the site; showing the last menu we got",
+   "week": null,
    "image": null,
    "days": [
     {
@@ -926,7 +926,7 @@
       "Porsaan Grilli pihvi ja Hickory BBQ-kastiketta",
       "Kana-Avocado Clubsandwich",
       "Njuda-Kirsikkatomaatti pasta",
-      "Balsamico Paahdettua Parsakaali ja Saksanpähkinää",
+      "Parmesan gratinoitua Parsakaalia ja Saksanpähkinää",
       "Paahdetut tuoreet kasvikset",
       "Yrtti-Paahdetut Nappula perunat",
       "Kuningatar Pehmis"
